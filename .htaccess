@@ -1,0 +1,2 @@
+# .html ファイルでも PHP を実行可能にする
+AddHandler application/x-httpd-php .html
