@@ -5,7 +5,8 @@
 <li id="menu-item-1716" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1716"><a href="/voice/">お客様の声・感想</a></li>
 <li id="menu-item-2380" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-2380"><a href="/menu/">メニュー・料金</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/dantai/">団体ランチ</a></li>
-<li id="menu-item-3358" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3358"><a href="/birthday/">誕生日お祝いプラン</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/izakaya/">宴会・貸切</a></li>
+
 <li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2132"><a href="/suridane/">お土産すりだね販売</a></li>
 <li id="menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1661"><a href="/gallery/">体験ギャラリー</a></li>
 <li id="menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2560"><a href="/photo-service/">写真撮影サービス</a></li>
@@ -29,7 +30,7 @@
 </ul>
 </li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/dantai/">団体ランチ</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3358"><a href="/birthday/">誕生日お祝いプラン</a></li>
+
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2132"><a href="/suridane/">お土産すりだね販売</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1661"><a href="/gallery/">体験ギャラリー</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2560"><a href="/photo-service/">写真撮影サービス</a></li>
