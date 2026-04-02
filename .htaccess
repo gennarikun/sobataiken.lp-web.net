@@ -1,2 +1,8 @@
-# .html ファイルでも PHP を実行可能にする
+DirectoryIndex index.php index.html
+# XSERVER向け: .html ファイルでも PHP を実行可能にする
+AddHandler x-httpd-php8.3 .html
+AddHandler x-httpd-php8.2 .html
+AddHandler x-httpd-php8.1 .html
+AddHandler x-httpd-php8.0 .html
+AddHandler x-httpd-php7.4 .html
 AddHandler application/x-httpd-php .html
