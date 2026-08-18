@@ -47,7 +47,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div style="position: absolute; inset: 0; background: rgba(192,57,43,.07); clip-path: polygon(0 30%,100% 0,100% 70%,0 100%); pointer-events: none;"></div>
 <p style="font-size: .62rem; letter-spacing: .5em; text-transform: uppercase; color: rgba(255,255,255,.35); margin: 0 0 14px; font-family: 'Noto Sans JP',sans-serif;">Group Lunch / Hoto</p>
 <h1 style="font-family: 'Noto Serif JP',serif; font-size: clamp(1.5rem,4vw,2.8rem); font-weight: 900; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none; line-height: 1.25; letter-spacing: .04em;"><span style="display: block; font-size: .42em; color: #f4a87a; font-weight: bold; margin-bottom: 10px; letter-spacing: .08em;">山梨県の郷土料理</span>
-週末はディナーも宴会も可
+週末は<!-- DINNER-HIDDEN 2026-08-17: ディナー一時取り下げ（後日復活予定）ディナーも /DINNER-HIDDEN -->宴会も可
 ほうとう・グループランチのご案内</h1>
 <div style="width: 36px; height: 2px; background: #c0392b; margin: 20px auto 16px;"></div>
 <p style="font-size: .82rem; color: rgba(255,255,255,.5); margin: 0; font-family: 'Noto Sans JP',sans-serif; font-weight: 300; line-height: 1.9;">予約制・最大80名様｜河口湖本店 ＋ 甲府店</p>
@@ -79,13 +79,16 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </div>
 
 <!-- 土日祝ディナー -->
+<!-- DINNER-HIDDEN 2026-08-17: ディナー一時取り下げ（後日復活予定）｜このセクション全体を非表示。内部の<!-- ラベル --＞コメントは入れ子にできないためチャンク分割で囲んでいる。復活時は全 DINNER-HIDDEN ラッパを外す
 <div class="ms-sec-s" style="background: var(--dark);">
 <div class="ms-w">
   <span class="ms-lbl ms-rv" style="color:#f4c875;">Weekend Dinner</span>
   <h2 class="ms-h2 ms-rv" style="color:#fff !important;">土日祝は団体ディナーも受付中</h2>
   <p class="ms-lead ms-rv" style="color:rgba(240,232,216,.6) !important;">平日ランチのほか、土曜・日曜・祝日はディナータイムも団体様のご予約を承っております。</p>
+/DINNER-HIDDEN -->
 
   <!-- 2択カード -->
+  <!-- DINNER-HIDDEN 2026-08-17: ディナー一時取り下げ（後日復活予定）
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-top:24px;" class="ms-rv">
     <div style="background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);padding:22px 24px;">
       <p style="font-size:.6rem;letter-spacing:.32em;color:rgba(244,200,117,.6);margin-bottom:8px;font-family:'Noto Sans JP',sans-serif;">Plan A</p>
@@ -98,8 +101,10 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
       <p style="font-size:.78rem;color:rgba(240,232,216,.6);line-height:1.9;">鍋・うな丼・馬刺しなど全10品＋2.5時間飲み放題込みの宴会プランもご用意。8名様から貸切対応可能です。</p>
     </div>
   </div>
+  /DINNER-HIDDEN -->
 
   <!-- 飲み放題 -->
+  <!-- DINNER-HIDDEN 2026-08-17: ディナー一時取り下げ（後日復活予定）
   <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:32px;">
     <div class="ms-rv d1" style="background:#fff;border:2px solid #f0e8d8;padding:28px;">
       <p style="font-size:.58rem;letter-spacing:.38em;text-transform:uppercase;color:#c0392b;font-weight:500;margin-bottom:10px;font-family:'Noto Sans JP',sans-serif;">Standard</p>
@@ -120,25 +125,32 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
       </div>
     </div>
   </div>
+  /DINNER-HIDDEN -->
 
   <!-- ドリンク単品案内 -->
+  <!-- DINNER-HIDDEN 2026-08-17: ディナー一時取り下げ（後日復活予定）
   <div class="ms-rv" style="margin-top:16px;padding:20px 24px;background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.07);">
     <p style="font-size:.62rem;letter-spacing:.3em;color:rgba(244,200,117,.5);margin-bottom:10px;font-family:'Noto Sans JP',sans-serif;">Drink Menu</p>
     <p style="font-size:.82rem;color:rgba(240,232,216,.65);line-height:2.1;">飲み放題なしの場合もドリンクは別途ご注文いただけます。<br>山梨ワイン / 瓶ビール / 自家製梅酒 / ウイスキー / ソフトドリンク各種</p>
   </div>
+  /DINNER-HIDDEN -->
 
   <!-- 注記 -->
+  <!-- DINNER-HIDDEN 2026-08-17: ディナー一時取り下げ（後日復活予定）
   <div class="ms-rv" style="margin-top:12px;padding:14px 20px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.06);">
     <p style="font-size:.74rem;color:rgba(240,232,216,.45);line-height:2;">土曜・日曜・祝日限定　／　要予約（前日までにLINEまたはお電話にて）　／　8名様〜貸切対応（最大80名様）</p>
   </div>
+  /DINNER-HIDDEN -->
 
   <!-- CTAボタン -->
+  <!-- DINNER-HIDDEN 2026-08-17: ディナー一時取り下げ（後日復活予定）
   <div class="ms-rv" style="text-align:center;margin-top:28px;">
     <p style="font-size:.82rem;color:rgba(240,232,216,.55);margin-bottom:16px;">宴会コースの内容・料金詳細はこちら</p>
     <a style="display:inline-flex;align-items:center;gap:10px;padding:14px 36px;background:#c0392b;color:#fff;font-family:'Noto Sans JP',sans-serif;font-size:.82rem;font-weight:500;letter-spacing:.12em;text-decoration:none;" href="../contact/">宴会コース・料金を見る　→</a>
   </div>
 </div>
 </div>
+/DINNER-HIDDEN -->
 
 <!-- ほうとうランチ詳細 -->
 <div class="ms-sec-s" style="background: var(--cream);">
