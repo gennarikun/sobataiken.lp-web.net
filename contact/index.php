@@ -5,6 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>お申込み・アクセス – そば打ち＆染物体験教室｜山梨県河口湖・山中湖・忍野八海の本格そば作り｜プライベート・家族連れに人気</title>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-775206818"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-775206818');
+</script>
 <meta name="robots" content="max-image-preview:large">
 <link rel="canonical" href="./">
 <style type="text/css" id="custom-background-css">
