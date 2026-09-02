@@ -563,52 +563,6 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </tbody>
 </table>
 <p><iframe loading="lazy" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12993.89572309672!2d138.75915296977539!3d35.4925577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6019674bbfeed92b%3A0xe1f4a8a8bebf3fb7!2z44G744GG44Go44GG5L2c44KK5L2T6aiT5pWZ5a6k5a-M5aOr5a62!5e0!3m2!1sja!2sjp!4v1620652675063!5m2!1sja!2sjp" allowfullscreen="allowfullscreen"></iframe></p>
-<h3>富士家 甲府店</h3>
-<p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-6551" src="../assets/unnamed-1024x771.png" alt="富士家 甲府店" width="1024" height="771"></p>
-<table style="margin-bottom: 20px;">
-<tbody>
-<tr>
-<td style="background-color: #eee; width: 20%;">住所</td>
-<td style="text-align: left;">〒400-0867<br>
-山梨県甲府市青沼３丁目５−４４　リッチダイヤモンド総合市民会館内</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">駐車場</td>
-<td style="text-align: left;">無料駐車場有</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">予約</td>
-<td style="text-align: left;">予約優先性</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">予約可能時間</td>
-<td style="text-align: left;">平日・・・AM 10:00~18:00</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">定休日</td>
-<td style="text-align: left;">毎週火曜・木曜</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">催行人数</td>
-<td style="text-align: left;">1名～</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">交通アクセス</td>
-<td style="text-align: left;">◆公共交通機関でお越しの方<br>
-○ＪＲ甲府駅バスターミナルより<br>
-5番のりば 富士見経由 奈良原行き（山梨交通）または玉諸小学校行き（富士急行便）総合市民会館で下車<br>
-3番のりば 伊勢町営業所行き（山梨交通）太田町見付で下車<br>
-○身延線南甲府駅から徒歩15分◆お車でお越しの方<br>
-中央自動車道 甲府南ICから甲府駅・山梨県庁方面へ約20分<br>
-中央自動車道 甲府昭和ICから東京・勝沼方面へ約15分</td>
-</tr>
-<tr>
-<td style="background-color: #eee; width: 20%;">電話番号</td>
-<td style="text-align: left;">050-6882-5580</td>
-</tr>
-</tbody>
-</table>
-<p><iframe loading="lazy" style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.9971410603234!2d138.57254497608224!3d35.65244207259652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601bf9ebb5cfa1cb%3A0x1b7dafda328d64dc!2z44Oq44OD44OB44OA44Kk44Ok44Oi44Oz44OJ57eP5ZCI5biC5rCR5Lya6aSo!5e0!3m2!1sja!2sjp!4v1746377353099!5m2!1sja!2sjp" allowfullscreen=""></iframe></p>
 </div>
 		</aside><aside class="widget widget_text" id="text-11"><h1 class="widget-title subSection-title">富士家　公式Instagram</h1>			<div class="textwidget"><p></p>
 </div>

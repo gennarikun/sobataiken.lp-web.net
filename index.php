@@ -1061,7 +1061,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 <div class="recruit-banner-content">
 <div class="recruit-banner-title">
       <span>高菜先生</span>と一緒に働きませんか？<br>
-      河口湖・甲府でスタッフ募集中！
+      河口湖でスタッフ募集中！
     </div>
 <div class="recruit-banner-text">
       未経験OK！絶品まかない無料。猫カフェやキッズアカデミーなど、楽しいお仕事がたくさんあります。

@@ -50,7 +50,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 週末は<!-- DINNER-HIDDEN 2026-08-17: ディナー一時取り下げ（後日復活予定）ディナーも /DINNER-HIDDEN -->宴会も可
 ほうとう・グループランチのご案内</h1>
 <div style="width: 36px; height: 2px; background: #c0392b; margin: 20px auto 16px;"></div>
-<p style="font-size: .82rem; color: rgba(255,255,255,.5); margin: 0; font-family: 'Noto Sans JP',sans-serif; font-weight: 300; line-height: 1.9;">予約制・最大80名様｜河口湖本店 ＋ 甲府店</p>
+<p style="font-size: .82rem; color: rgba(255,255,255,.5); margin: 0; font-family: 'Noto Sans JP',sans-serif; font-weight: 300; line-height: 1.9;">予約制・最大80名様｜河口湖本店</p>
 </div>
 
 <!-- イントロ -->
@@ -58,7 +58,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="ms-w">
 <img class="ms-rv" style="width: 100%; display: block; margin-bottom: 32px; box-shadow: 6px 6px 0 #f0e8d8;" src="../assets/yamanashi-special.png" alt="山梨名物ほうとう" />
 <p class="ms-rv" style="font-size: .88rem; color: #5a3e2b; line-height: 2.3; margin-bottom: 16px;">富士吉田市・山梨の名物ほうとうを知って食べていただきたいとの思いで、予約制でほうとうなどのランチ営業を行っております。旅行会社様、学校・部活動、企業様、インバウンド団体まで幅広いお客様にご利用いただけます。</p>
-<p class="ms-rv" style="font-size: .88rem; color: #5a3e2b; line-height: 2.3;">河口湖周辺では珍しい団体様受け入れも行っております。甲府店でも40名様まで受け入れております。</p>
+<p class="ms-rv" style="font-size: .88rem; color: #5a3e2b; line-height: 2.3;">河口湖周辺では珍しい団体様受け入れも行っております。</p>
 <div class="ms-rv" style="margin-top: 36px; padding: 24px 28px; background: var(--cream); border-left: 4px solid #c0392b;">
 <p style="font-family: 'Noto Serif JP',serif; font-size: .88rem; font-weight: bold; color: #2c1810; margin-bottom: 14px;">こんな方にオススメ</p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(200px,1fr)); gap: 8px;">
