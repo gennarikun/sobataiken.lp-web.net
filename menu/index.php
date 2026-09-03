@@ -251,7 +251,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="sbm-body">
 <div class="sbm-cards">
 <div class="sbm-card">
-<img src="../assets/soba_ajihen_suki_20260901.png" alt="ワインビーフすき焼きそば">
+<img src="../assets/soba_ajihen_suki_202609031730.png" alt="ワインビーフすき焼きそば">
 <div class="sbm-card-body">
 <div class="sbm-card-caption"><span class="sbm-card-name">ワインビーフすき焼きそば</span><span class="sbm-card-price">¥4,450<small>（税込）/ 1名</small></span></div>
 <div class="sbm-includes">
@@ -264,7 +264,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </div>
 </div>
 <div class="sbm-card">
-<img src="../assets/soba_ajihen_mala_20260901.png" alt="ジビエ麻辣そば">
+<img src="../assets/soba_ajihen_mala_202609031730.png" alt="ジビエ麻辣そば">
 <div class="sbm-card-body">
 <div class="sbm-card-caption"><span class="sbm-card-name">ジビエ麻辣そば</span><span class="sbm-card-price">¥4,300<small>（税込）/ 1名</small></span></div>
 <div class="sbm-includes">
@@ -277,7 +277,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </div>
 </div>
 <div class="sbm-card">
-<img src="../assets/soba_ajihen_shika_20260901.png" alt="鹿肉そば">
+<img src="../assets/soba_ajihen_shika_202609031730.png" alt="鹿肉そば">
 <div class="sbm-card-body">
 <div class="sbm-card-caption"><span class="sbm-card-name">鹿肉そば</span><span class="sbm-card-price">¥4,150<small>（税込）/ 1名</small></span></div>
 <div class="sbm-includes">
