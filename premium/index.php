@@ -4,7 +4,7 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>【山梨県プレミアムほうとう体験プラン】甲州ワインビーフ・釜飯・季節のデザート・甲州ワインの豪華なセット – そば打ち＆染物体験教室｜山梨県河口湖・山中湖・忍野八海の本格そば作り｜プライベート・家族連れに人気</title>
+<title>【山梨県プレミアム体験コース】甲州ワインビーフ・ジビエ鹿・あわびご飯・山梨ワインの豪華なコース – そば打ち＆染物体験教室｜山梨県河口湖・山中湖・忍野八海の本格そば作り｜プライベート・家族連れに人気</title>
 <meta name="robots" content="max-image-preview:large">
 <link rel="canonical" href="./">
 <style type="text/css" id="custom-background-css">
@@ -18,6 +18,11 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 		
 <link rel="stylesheet" href="../css/lib.min.css" type="text/css" media="all">
 <link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+<style>
+/* 9/1版コース画像は正方形・名称帯焼き込みのため、16/10クロップを解除して全体表示（このページのみ） */
+.lp-premium-wrapper .lp-grid-2col .lp-card-image { aspect-ratio: auto; }
+.lp-premium-wrapper .lp-grid-2col .lp-card-image img { height: auto; object-fit: contain; }
+</style>
 </head>
 <body class="wp-singular page-template-default page page-id-3338 custom-background wp-theme-lightning fa_v7_css bootstrap4 device-pc">
 <a class="skip-link screen-reader-text" href="#main">コンテンツへスキップ</a>
@@ -26,11 +31,11 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 
 <div class="section page-header"><div class="container"><div class="row"><div class="col-md-12">
 <h1 class="page-header_pageTitle">
-【山梨県プレミアムほうとう体験プラン】甲州ワインビーフ・釜飯・季節のデザート・甲州ワインの豪華なセット</h1>
+【山梨県プレミアム体験コース】甲州ワインビーフ・ジビエ鹿・あわびご飯・山梨ワインの豪華なコース</h1>
 </div></div></div></div><!-- [ /.page-header ] -->
 
 
-<!-- [ .breadSection ] --><div class="section breadSection"><div class="container"><div class="row"><ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><li id="panHome" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="../"><span itemprop="name"><i class="fa-solid fa-house"></i> HOME</span></a><meta itemprop="position" content="1"></li><li><span>【山梨県プレミアムほうとう体験プラン】甲州ワインビーフ・釜飯・季節のデザート・甲州ワインの豪華なセット</span><meta itemprop="position" content="2"></li></ol></div></div></div><!-- [ /.breadSection ] -->
+<!-- [ .breadSection ] --><div class="section breadSection"><div class="container"><div class="row"><ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><li id="panHome" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="../"><span itemprop="name"><i class="fa-solid fa-house"></i> HOME</span></a><meta itemprop="position" content="1"></li><li><span>【山梨県プレミアム体験コース】甲州ワインビーフ・ジビエ鹿・あわびご飯・山梨ワインの豪華なコース</span><meta itemprop="position" content="2"></li></ol></div></div></div><!-- [ /.breadSection ] -->
 
 <div class="section siteContent">
 <div class="container">
@@ -51,7 +56,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 										<h1 class="lp-hero-copy"><span class="lp-hero-sub-text">富士家の贅沢体験プラン。</span><span
 												class="lp-hero-main-text">山梨・日本の</span><span
 												class="lp-hero-main-text">美食を極める</span></h1>
-										<p class="lp-hero-desc">甲州ワインビーフ､あわびの煮貝、ジビエや海鮮｡<br>
+										<p class="lp-hero-desc">甲州ワインビーフ、ジビエ鹿、あわびご飯｡<br>
 											伝統の味に､最上級の彩りを｡</p>
 									</div>
 								</header>
@@ -75,234 +80,120 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 								</section>
 								<section class="lp-section lp-menu">
 									<div class="lp-container">
-										<h2 class="lp-section-title">至高のほうとう体験コース</h2>
+										<h2 class="lp-section-title">おすすめコース</h2>
 										<div class="lp-card lp-card-special">
-											<div class="lp-badge">人気No.1</div>
+											<div class="lp-badge">1番人気</div>
 											<div class="lp-card-image"><img fetchpriority="high" decoding="async"
 													class="aligncenter size-full"
-													src="../assets/premium_koshubeef_1.jpg" alt="甲州ワインビーフほうとう"
-													width="1024" height="768">
+													src="../assets/plan_yamanashi_gibier_kiwami_202608190610.png" alt="山梨×ジビエ 極みコース"
+													width="1024" height="1024">
 											</div>
 											<div class="lp-card-body">
-												<h3 class="lp-card-title">山梨堪能フルコース</h3>
-												<p>&nbsp;</p>
-												<p class="lp-price">5,500円<span class="lp-tax">（税込）</span></p>
+												<h3 class="lp-card-title">山梨×ジビエ 極みコース</h3>
+												<p class="lp-price">5,700円<span class="lp-tax">（税込）/ 1名</span></p>
 												<p class="lp-special-lead">山梨の味覚を一度に楽しめる、<br>
-													富士家最上級の贅沢セットです。</p>
+													富士家最上級の贅沢コースです。</p>
 												<div class="lp-special-content">
-													<div class="lp-special-row lp-main-row">
-														<p>メイン</p>
-														<div class="lp-main-content">
-															<div class="lp-main-top"><span
-																	class="lp-ingredient u-nowrap">甲州ワインビーフ</span><span
-																	class="lp-plus">＋</span><span
-																	class="lp-experience u-nowrap">選べる麺体験</span></div>
-															<div class="lp-noodle-choices"><span
-																	class="u-nowrap">ほうとう・うどん・そば</span></div>
-														</div>
-													</div>
-													<div class="lp-special-row">ご飯物<span class="u-nowrap">あわびの混ぜ飯</span>
-													</div>
-													<div class="lp-special-row">一品<span class="u-nowrap">馬刺し</span>
-													</div>
-													<div class="lp-special-row">甘　味<span
-															class="u-nowrap">こだわりのわらび餅</span></div>
-													<div class="lp-special-row">お飲物<span
-															class="u-nowrap">山梨産ぶどうジュースor赤ワイン</span></div>
+													<div class="lp-special-row">体　験<span class="u-nowrap">ほうとう作り体験</span></div>
+													<div class="lp-special-row">メイン<span class="u-nowrap">甲州ワインビーフ</span></div>
+													<div class="lp-special-row">メイン<span>鹿肉（お鍋で煮ても、ご希望で焼肉にしてもOK）</span></div>
+													<div class="lp-special-row">ご飯物<span class="u-nowrap">あわびご飯</span></div>
+													<div class="lp-special-row">甘　味<span class="u-nowrap">デザート（黒蜜きな粉餅）</span></div>
+													<div class="lp-special-row">お飲物<span class="u-nowrap">山梨ワイン or ぶどうジュース</span></div>
 												</div>
-												<p class="lp-note-special">※麺の種類（ほうとう・そば・うどん）は予約時にお選びください。</p>
 											</div>
 										</div>
 										<div class="lp-grid-2col">
 											<div class="lp-card">
 												<div class="lp-card-image"><img decoding="async"
 														class="aligncenter size-full"
-														src="../assets/IMG_9898-768x432-1.jpeg" alt="" width="768"
-														height="432"></div>
+														src="../assets/plan_yamanashi_course_premium_20260901.png" alt="山梨コース プレミアム"></div>
 												<div class="lp-card-body">
-													<h3 class="lp-card-title">極み海鮮ほうとう体験コース</h3>
-													<p class="lp-price">5,000円<span class="lp-tax">（税込）</span></p>
-													<p class="lp-card-lead">
-														特別な旅だからこそ選びたい、ワンランク上のご褒美体験。厳選した海の幸をプラスして、"記憶に残る一杯"へ。</p>
-													<div class="lp-plan-wrapper">
-														<p class="lp-plan-guide">ご予約時に、以下のプランから<br>
-															どちらかおひとつお選びください</p>
-														<div class="lp-plan-item">
-															<div class="lp-plan-head"><span class="lp-plan-badge">Plan
-																	A</span><br>
-																<img decoding="async" class="aligncenter size-full"
-																	src="../assets/admin-ajax.jpg" alt="海鮮ほうとう体験河口湖"
-																	width="600" height="338"><br>
-																<span class="lp-plan-name">海鮮全部のせほうとう体験<br>
-																	+わらび餅セット</span>
-															</div>
-															<div></div>
-															<p class="lp-plan-desc">
-																金目鯛、牡蠣、エビ、ホタテがセットのなった豪華海鮮ほうとうです。エビや牡蠣から濃厚な旨みと出汁が出てほうとうがが特別な料理に。是非旅の記念に。
-															</p>
-														</div>
-													</div>
-													<div class="lp-plan-item">
-														<div class="lp-plan-head"><span class="lp-plan-badge">Plan
-																B</span><br>
-															<img loading="lazy" decoding="async"
-																class="aligncenter size-full"
-																src="../assets/premium_Ni5g_3v2.jpg" alt="" width="1280"
-																height="855"><br>
-															<span class="lp-plan-name">北海道産 本ズワイガニ<br>
-																+わらび餅セット</span>
-														</div>
-														<p class="lp-plan-desc">
-															北海道産の新鮮な本ズワイガニを贅沢に使用。繊細で上品な甘みと、噛むほどに広がる濃厚な旨みが特長です。スープに溶け出すカニの出汁が、麺の味わいを一段引き上げます。
-														</p>
+													<h3 class="lp-card-title">山梨コース プレミアム</h3>
+													<p class="lp-price">5,200円<span class="lp-tax">（税込）/ 1名</span></p>
+													<div class="lp-special-content">
+														<div class="lp-special-row">体　験<span class="u-nowrap">ほうとう作り体験</span></div>
+														<div class="lp-special-row">メイン<span class="u-nowrap">甲州ワインビーフ</span></div>
+														<div class="lp-special-row">ご飯物<span class="u-nowrap">あわびご飯</span></div>
+														<div class="lp-special-row">甘　味<span class="u-nowrap">デザート（黒蜜きな粉餅）</span></div>
+														<div class="lp-special-row">お飲物<span class="u-nowrap">山梨ワイン or ぶどうジュース</span></div>
 													</div>
 												</div>
 											</div>
-											<!-- ▼ プレミアム体験コース -->
 											<div class="lp-card">
-												<div class="lp-card-image"><img decoding="async" src="../assets/premium_course_1.png"
-														alt="プレミアム体験コース"></div>
+												<div class="lp-card-image"><img decoding="async"
+														class="aligncenter size-full"
+														src="../assets/plan_yamanashi_course_20260901.png" alt="山梨コース"></div>
 												<div class="lp-card-body">
-													<h3 class="lp-card-title">プレミアム体験コース</h3>
-													<p class="lp-price">4,500円<span class="lp-tax">（税込）</span></p>
-													<p class="lp-card-lead">
-														山の幸・海の幸・山梨の名産を贅沢に組み合わせた特別プラン。ほうとう・忍野八海そば・吉田のうどんを、"旅のごちそう"にグレードアップ。<br>
-														<small class="lp-note">※そば・うどんは【温かいメニュー限定】となります。</small>
-													</p>
-													<div class="lp-plan-wrapper">
-														<p class="lp-plan-guide">ご予約時に、以下のプランから<br>
-															おひとつお選びください</p>
-														<div class="lp-plan-item">
-															<div class="lp-plan-head"><span class="lp-plan-badge">Plan
-																	A</span><br>
-																<span class="lp-plan-name">山の幸セット</span>
-															</div>
-															<div class="lp-plan-head"><span class="lp-plan-name"><img
-																		loading="lazy" decoding="async"
-																		class="aligncenter size-full"
-																		src="../assets/IMG_9886-768x432-1.jpeg" alt=""
-																		width="768" height="432"><br>
-																	<small style="font-weight: normal;">甲州ワインビーフ ＋
-																		ジビエ鹿</small></span></div>
-															<p class="lp-plan-desc">
-																山梨が誇るブランド牛「甲州ワインビーフ」と、山梨の山で育ったジビエ鹿肉の競演。それぞれの旨みがスープに溶け込む、山の恵みを存分に味わえるプランです。
-															</p>
-														</div>
-														<div class="lp-plan-item">
-															<div class="lp-plan-head"><span class="lp-plan-badge">Plan
-																	B</span><br>
-																<span class="lp-plan-name">海の幸セット</span>
-															</div>
-															<div class="lp-plan-head"><span class="lp-plan-name"><img
-																		loading="lazy" decoding="async"
-																		class="aligncenter size-full"
-																		src="../assets/IMG_9898-768x432-1.jpeg"
-																		alt="海鮮ほうとう河口湖" width="768" height="432"><br>
-																	<small style="font-weight: normal;">エビ ＋ 牡蠣 ＋
-																		ホタテ</small></span></div>
-															<p class="lp-plan-desc">
-																エビ・牡蠣・ホタテの3種の海鮮を豪快に投入。それぞれの出汁が重なり合い、スープが驚くほど濃厚な旨みに。海鮮好きにはたまらない贅沢な一杯です。
-															</p>
-														</div>
-														<div class="lp-plan-item">
-															<div class="lp-plan-head"><span class="lp-plan-badge">Plan
-																	C</span><br>
-																<span class="lp-plan-name">うな丼 ＋ 馬刺しセット</span>
-															</div>
-															<div><img loading="lazy" decoding="async"
-																	class="aligncenter size-full"
-																	src="../assets/tYAHI9u2.jpg" alt="" width="1280"
-																	height="855"></div>
-															<p class="lp-plan-desc">
-																香ばしいうなぎの蒲焼きと、新鮮な馬刺しの豪華な組み合わせ。麺体験に和の贅沢が揃う、特別感あふれるプランです。
-															</p>
-														</div>
-														<div class="lp-plan-item">
-															<div class="lp-plan-head"><span class="lp-plan-badge">Plan
-																	D</span><br>
-																<span class="lp-plan-name">あわびの煮貝 ＋ 馬刺しセット</span>
-															</div>
-															<div><img loading="lazy" decoding="async"
-																	class="aligncenter size-full"
-																	src="../assets/admin-ajax-2.jpg" alt="アワビ煮貝河口湖"
-																	width="600" height="338"></div>
-															<p class="lp-plan-desc">
-																山梨の郷土料理「あわびの煮貝」と甘みのある馬刺しを一緒に楽しめる、山梨ならではの組み合わせ。旅の記念にぴったりの特別セットです。
-															</p>
-														</div>
+													<h3 class="lp-card-title">山梨コース</h3>
+													<p class="lp-price">4,200円<span class="lp-tax">（税込）/ 1名</span></p>
+													<div class="lp-special-content">
+														<div class="lp-special-row">体　験<span class="u-nowrap">ほうとう作り体験</span></div>
+														<div class="lp-special-row">メイン<span class="u-nowrap">甲州ワインビーフ</span></div>
 													</div>
 												</div>
 											</div>
 										</div>
-										<!-- ▲ プレミアム体験コース ここまで -->
+										<!-- ▲ おすすめコース ここまで -->
 								</section>
 								<!-- ▼ 豪華プラン -->
 								<section class="lp-section lp-menu lp-goukaplan">
 									<div class="lp-container">
-										<h2 class="lp-section-title">豪華ほうとう体験コース</h2>
-										<p><img loading="lazy" decoding="async" class="aligncenter size-full"
-												src="../assets/admin-ajax-3.jpg" alt="" width="600" height="338"></p>
-										<p class="lp-gouka-lead">こだわりの食材をトッピングした、ちょっと贅沢なほうとう体験。<br>
-											旅の気分に合わせてお好みの一品をお選びください。</p>
+										<h2 class="lp-section-title">豪華食材トッピング</h2>
+										<p class="lp-gouka-lead">各種ほうとう・そば・うどんへの追加トッピング。複数追加も可能。<br>
+											お肉のご注文で鉄板・お野菜無料（カセットコンロ）。煮ても焼いてもお楽しみいただけます。</p>
 										<div class="lp-gouka-grid">
 											<div class="lp-gouka-card">
 												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span
-															class="lp-gouka-price-badge">4,000円</span></div>
-													<h3 class="lp-gouka-title">牡蠣ほうとう</h3>
-													<p class="lp-gouka-desc">濃厚な旨みを持つ牡蠣をたっぷり投入。スープにコクと深みが加わり、体の芯まで温まる一杯。
-													</p>
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+550円</span></div>
+													<h3 class="lp-gouka-title">甲州ワインビーフ（50g）</h3>
+													<p class="lp-gouka-desc">山梨ブランド牛「甲州ワインビーフ」をトッピング。きめ細やかな肉質と甘みが麺とスープに溶け込む人気の一品。</p>
 												</div>
 											</div>
 											<div class="lp-gouka-card">
 												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span
-															class="lp-gouka-price-badge">4,000円</span></div>
-													<h3 class="lp-gouka-title">ホタテほうとう</h3>
-													<p class="lp-gouka-desc">甘みと旨みが豊かなホタテが主役。繊細な貝の出汁がスープに広がる、上品な一杯です。
-													</p>
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+400円</span></div>
+													<h3 class="lp-gouka-title">シカ（50g）</h3>
+													<p class="lp-gouka-desc">山梨の山で育ったジビエ鹿肉を使用。野性味あふれる深い旨みが、スープに溶け込みます。</p>
 												</div>
 											</div>
 											<div class="lp-gouka-card">
 												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span
-															class="lp-gouka-price-badge">4,000円</span></div>
-													<h3 class="lp-gouka-title">ジビエ鹿ほうとう</h3>
-													<p class="lp-gouka-desc">
-														山梨の山で育ったジビエ鹿肉を使用。野性味あふれる深い旨みが、ほうとうのスープに溶け込みます。</p>
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+400円</span></div>
+													<h3 class="lp-gouka-title">富士桜ポーク（50g）</h3>
+													<p class="lp-gouka-desc">山梨県のブランド豚。煮ても焼いても楽しめます。</p>
 												</div>
 											</div>
 											<div class="lp-gouka-card">
 												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span
-															class="lp-gouka-price-badge">4,100円</span></div>
-													<h3 class="lp-gouka-title">エビほうとう</h3>
-													<p class="lp-gouka-desc">
-														プリプリの食感と濃厚な海老の旨みがスープに広がる贅沢な一杯。見た目も華やかで特別感抜群。</p>
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+400円</span></div>
+													<h3 class="lp-gouka-title">信玄どり（50g）</h3>
+													<p class="lp-gouka-desc">山梨県のブランド鶏。煮ても焼いても楽しめます。</p>
 												</div>
 											</div>
 											<div class="lp-gouka-card">
 												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span
-															class="lp-gouka-price-badge">4,100円</span></div>
-													<h3 class="lp-gouka-title">ワインビーフほうとう</h3>
-													<p class="lp-gouka-desc">
-														山梨ブランド牛「甲州ワインビーフ」をトッピング。きめ細やかな肉質と甘みが麺とスープに溶け込む人気の一杯。</p>
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+400円</span></div>
+													<h3 class="lp-gouka-title">大人の本気ガチャ</h3>
+													<p class="lp-gouka-desc">カンガルー・海鮮・馬など、何が出るかはお楽しみのトッピングガチャ。</p>
+												</div>
+											</div>
+											<div class="lp-gouka-card">
+												<div class="lp-gouka-card-inner">
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">1,180円</span></div>
+													<h3 class="lp-gouka-title">タン3種食べ比べ</h3>
+													<p class="lp-gouka-desc">牛・馬・ワニのタンを食べ比べできる一品です。</p>
 												</div>
 											</div>
 											<div class="lp-gouka-card lp-gouka-featured">
 												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span
-															class="lp-gouka-label-badge">贅沢</span><span
-															class="lp-gouka-price-badge">4,300円</span></div>
-													<h3 class="lp-gouka-title">金目鯛ほうとう</h3>
-													<p>&nbsp;</p>
-													<p class="lp-gouka-desc">
-														豪華な金目鯛を使用した、富士家イチの贅沢ほうとう。上品な白身の旨みと出汁がスープを極上の味わいに引き上げます。</p>
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-label-badge">贅沢</span><span class="lp-gouka-price-badge">1,180円</span></div>
+													<h3 class="lp-gouka-title">山梨名物盛り合わせ</h3>
+													<p class="lp-gouka-desc">甲州ワインビーフ・富士桜ポーク・信玄どりの山梨ブランド肉3種盛り合わせです。</p>
 												</div>
 											</div>
 										</div>
-										<p class="lp-gouka-note">※各コースには麺体験（ほうとう・うどん・そばから選択）が含まれます。麺の種類は予約時にお選びください。</p>
+										<p class="lp-gouka-note">※トッピングは体験コースへの追加注文です。単品注文はできかねます。</p>
 									</div>
 								</section>
 								<!-- ▲ 豪華プラン ここまで -->
@@ -311,38 +202,28 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 										<h2 class="lp-section-title">体験をさらに<br class="sp-only">豊かにする<br>
 											追加オプション</h2>
 										<div class="lp-option-block">
-											<h3 class="lp-option-head">御飯セット（単品追加枠）</h3>
-											<p class="lp-option-desc">体験のお食事に、もう一品。富士家では、釜めしセットやうな丼を単品でもご注文いただけます。<br>
-												釜めしはみんなで分け合える【2～3人前サイズ】なので、グループ利用にもおすすめです。</p>
+											<h3 class="lp-option-head">追加オプション</h3>
+											<p class="lp-option-desc">体験のお食事に、もう一品。</p>
 											<div class="lp-option-grid-2col">
 												<div class="lp-option-card">
 													<div class="lp-option-card-header">
 														<div class="lp-option-icon"></div>
 														<div class="lp-option-title-group">
-															<h4 class="lp-option-name">選べる海鮮釜めしセット</h4>
-															<p class="lp-option-price">各種体験に＋1,280円</p>
-															<p><img loading="lazy" decoding="async"
-																	class="aligncenter size-full"
-																	src="../assets/IMG_9570-scaled.jpeg" alt=""
-																	width="2560" height="1920"></p>
+															<h4 class="lp-option-name">デザートセット</h4>
+															<p class="lp-option-price">各種体験に＋500円</p>
 														</div>
 													</div>
-													<p class="lp-option-text">
-														エビ、ホタテ、牡蠣から選べます。海鮮の旨みがご飯にしっかり染み込んだ、定番人気の一品。</p>
+													<p class="lp-option-text">特製わらび餅＋甲州ワイン or 山梨ぶどうジュースのセットです。</p>
 												</div>
 												<div class="lp-option-card">
 													<div class="lp-option-card-header">
 														<div class="lp-option-icon"></div>
 														<div class="lp-option-title-group">
-															<h4 class="lp-option-name">うな丼セット</h4>
-															<p class="lp-option-price">各種体験に＋500円</p>
-															<p><img loading="lazy" decoding="async"
-																	class="aligncenter size-full"
-																	src="../assets/tYAHI9u2.jpg" alt="" width="1280"
-																	height="855"></p>
+															<h4 class="lp-option-name">お土産麺作り（追加）</h4>
+															<p class="lp-option-price">各種体験に＋700円</p>
 														</div>
 													</div>
-													<p class="lp-option-text">人気のうな丼です。もう一品ほしいときにおすすめです。</p>
+													<p class="lp-option-text">体験時に作った麺をお持ち帰り用に追加できます。</p>
 												</div>
 											</div>
 										</div>
@@ -513,7 +394,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 									</div>
 								</section>
 								<div id="lpReviewModal" class="lp-modal"><span class="lp-modal-close">×</span><br>
-									<img id="lpModalImg" class="lp-modal-content" alt="拡大画像">
+									<img id="lpModalImg" class="lp-modal-content" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221%22%20height%3D%221%22%2F%3E" alt="拡大画像">
 								</div>
 							</div>
 						</div>

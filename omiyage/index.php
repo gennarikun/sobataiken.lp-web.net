@@ -83,54 +83,49 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <tr>
 <th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">お土産麺＋すりだね作り体験セット<br>
 <span style="font-size: 10px;">麺2人前 + すりだね作り体験セット</span></th>
-<td style="text-align: right; width: 30.2817%;"><strong><s>￥4,200</s></strong><br>
-<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥3,980</span></strong></td>
+<td style="text-align: right; width: 30.2817%;"><strong><s>￥4,500</s></strong><br>
+<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥4,200</span></strong></td>
 </tr>
 <tr>
 <th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">お土産麺＋七味作り体験セット<br>
 <span style="font-size: 10px;">麺2人前 + お土産七味作り体験セット</span></th>
-<td style="text-align: right; width: 30.2817%;"><strong><s>￥4,200</s></strong><br>
-<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥3,980</span></strong></td>
+<td style="text-align: right; width: 30.2817%;"><strong><s>￥4,500</s></strong><br>
+<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥4,200</span></strong></td>
 </tr>
 <tr>
 <th style="color: #ffffff; background-color: #440000; font-size: 14px; width: 69.5775%;">山梨土産・七味作り体験プラン</th>
 </tr>
 <tr>
 <th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">七味作り体験</th>
-<td style="text-align: right; width: 30.2817%;"><strong>￥1,700</strong></td>
+<td style="text-align: right; width: 30.2817%;"><strong>￥2,000</strong></td>
 </tr>
 <tr>
 <th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">名物すりだね体験</th>
-<td style="text-align: right; width: 30.2817%;"><strong>￥1,700</strong></td>
+<td style="text-align: right; width: 30.2817%;"><strong>￥2,000</strong></td>
 </tr>
 <tr>
 <th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">すりだね作り＋黒蜜きな粉餅体験</th>
-<td style="text-align: right; width: 30.2817%;"><strong>￥2,200</strong></td>
+<td style="text-align: right; width: 30.2817%;"><strong><s>￥2,700</s> <span style="color: #ff0000;">￥2,500</span></strong></td>
 </tr>
 <tr>
 <th style="color: #ffffff; background-color: #440000; font-size: 14px; width: 69.5775%;">染物体験プラン</th>
 </tr>
 <tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">染物体験体</th>
-<td style="text-align: right; width: 30.2817%;"><strong>￥3,200</strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">服染体験＋お土産麺セット<br>
-<span style="font-size: 10px;">染物＋麺作り体験セット</span></th>
-<td style="text-align: right; width: 30.2817%;"><strong><s>￥5,700</s></strong><br>
-<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥5,500</span></strong></td>
+<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">染物体験<br>
+<span style="font-size: 10px;">素材代別途¥500〜 / 素材持ち込み無料</span></th>
+<td style="text-align: right; width: 30.2817%;"><strong>￥3,500</strong></td>
 </tr>
 <tr>
 <th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">染物体験＋すりだね作り体験セット<br>
 <span style="font-size: 10px;">染物+ すりだね作り体験セット</span></th>
-<td style="text-align: right; width: 30.2817%;"><strong><s>￥4,900</s></strong><br>
-<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥4,500</span></strong></td>
+<td style="text-align: right; width: 30.2817%;"><strong><s>￥5,500</s></strong><br>
+<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥5,300</span></strong></td>
 </tr>
 <tr>
 <th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">染物体験＋七味作り体験セット<br>
 <span style="font-size: 10px;">染物 + お土産七味作り体験セット</span></th>
-<td style="text-align: right; width: 30.2817%;"><strong><s>￥4,900</s></strong><br>
-<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥4,500</span></strong></td>
+<td style="text-align: right; width: 30.2817%;"><strong><s>￥5,500</s></strong><br>
+<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥5,300</span></strong></td>
 </tr>
 </tbody>
 </table>
