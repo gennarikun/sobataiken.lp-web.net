@@ -14,21 +14,203 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <link rel="icon" href="../assets/cropped-389258-192x192.jpg" sizes="192x192">
 <link rel="apple-touch-icon" href="../assets/cropped-389258-180x180.jpg">
 <meta name="msapplication-TileImage" content="../assets/cropped-389258-270x270.jpg">
-		
-		
+
+
 <link rel="stylesheet" href="../css/lib.min.css" type="text/css" media="all">
 <link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+
+<!-- ===== メニュー刷新 2026-09（和風・黒×金トーン＝トップページ準拠） ===== -->
+<style>
+/* ---------- ページヒーロー（トップ .soba-hero と同トークン） ---------- */
+.sbm-hero {
+  position: relative;
+  background: #1a1208;
+  overflow: hidden;
+  padding: 3rem 1.5rem 2.6rem;
+  text-align: center;
+}
+.sbm-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 50% 40%, rgba(122,92,46,0.28) 0%, transparent 70%);
+  pointer-events: none;
+}
+.sbm-hero-eyebrow {
+  position: relative;
+  font-size: 0.72rem;
+  letter-spacing: 0.45em;
+  color: #c4a060;
+  margin-bottom: 0.9rem;
+}
+.sbm-hero h1 {
+  position: relative;
+  font-family: 'Noto Serif JP', 'Yu Mincho', 'YuMincho', '游明朝', serif;
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 700;
+  color: #f5f0e8;
+  letter-spacing: 0.12em;
+  margin: 0 0 0.8rem;
+  border: none;
+  padding: 0;
+}
+.sbm-hero-desc {
+  position: relative;
+  font-size: 0.88rem;
+  line-height: 1.9;
+  color: rgba(245,240,232,0.72);
+  margin: 0;
+}
+
+/* ---------- 共通 ---------- */
+.sbm-section { margin: 0 0 44px; }
+.sbm-cat-header {
+  background: linear-gradient(135deg, #2c1f0e, #1a1208);
+  border-radius: 4px 4px 0 0;
+  padding: 0.9rem 1.3rem;
+}
+.sbm-cat-header h2 {
+  color: #c4a060;
+  font-size: 1.05rem;
+  letter-spacing: 0.15em;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: 'Noto Serif JP', serif;
+}
+.sbm-cat-desc { font-size: 0.78rem; color: rgba(245,240,232,0.65); margin: 0.3rem 0 0; }
+.sbm-body {
+  border: 1px solid #c4a060;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  background: #fff;
+  padding: 1.2rem;
+}
+.sbm-note { font-size: 0.75rem; color: #5a3800; margin: 0.8rem 0 0; line-height: 1.7; }
+
+/* ---------- 主役そば ---------- */
+.sbm-feature { display: flex; gap: 1.4rem; align-items: stretch; }
+.sbm-feature-img { flex: 0 0 46%; }
+.sbm-feature-img img { width: 100%; height: 100%; object-fit: cover; border-radius: 2px; display: block; }
+.sbm-feature-body { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+.sbm-feature-name {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #2c1f0e;
+  margin-bottom: 0.5rem;
+}
+.sbm-feature-price {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #8b3a1a;
+  margin-bottom: 0.7rem;
+}
+.sbm-feature-price small { font-size: 0.8rem; color: #7a5c2e; font-weight: 400; }
+.sbm-feature-desc { font-size: 0.88rem; color: #555; line-height: 1.9; margin-bottom: 1.1rem; }
+.sbm-btn {
+  display: inline-block;
+  background: #8b3a1a;
+  color: #fff !important;
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  font-size: 0.88rem;
+  letter-spacing: 0.2em;
+  border-radius: 2px;
+  transition: background 0.3s;
+  align-self: flex-start;
+}
+.sbm-btn:hover { background: #703000; text-decoration: none; }
+
+/* ---------- カード ---------- */
+.sbm-cards { display: flex; gap: 1rem; flex-wrap: wrap; }
+.sbm-card {
+  flex: 1 1 calc(33.333% - 0.7rem);
+  min-width: 220px;
+  border: 1px solid #e0d0b0;
+  border-radius: 2px;
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.sbm-card--featured { border-color: #c4a060; background: #fffdf5; }
+.sbm-card-badge {
+  position: absolute; top: -1px; left: 0.9rem; z-index: 2;
+  background: #8b3a1a; color: #fff;
+  font-size: 0.65rem; letter-spacing: 0.15em;
+  padding: 0.25rem 0.7rem; border-radius: 0 0 4px 4px;
+}
+.sbm-card img { width: 100%; display: block; border-radius: 2px 2px 0 0; }
+.sbm-card-body { padding: 0.9rem 1rem 1.1rem; display: flex; flex-direction: column; flex: 1; }
+/* 画像内に品名・価格が焼き込み済みのため、テキスト側は補足キャプション1行に抑える */
+.sbm-card-caption { display: flex; justify-content: space-between; align-items: baseline; gap: 0.6rem; margin-bottom: 0.6rem; flex-wrap: wrap; }
+.sbm-card-name { font-size: 0.85rem; font-weight: 700; color: #2c1f0e; }
+.sbm-card-price { font-family: 'Noto Serif JP', serif; font-size: 0.95rem; font-weight: 700; color: #8b3a1a; white-space: nowrap; }
+.sbm-card-price small { font-size: 0.72rem; color: #7a5c2e; font-weight: 400; }
+.sbm-includes {
+  background: rgba(122,92,46,0.07);
+  border-left: 3px solid #c4a060;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0 2px 2px 0;
+  font-size: 0.8rem;
+  margin: 0;
+}
+.sbm-includes-label { color: #7a5c2e; font-weight: 700; display: block; margin-bottom: 0.3rem; font-size: 0.74rem; letter-spacing: 0.1em; }
+.sbm-includes ul { list-style: none; margin: 0; padding: 0; }
+.sbm-includes li { color: #3a2800; line-height: 1.7; padding-left: 1em; position: relative; }
+.sbm-includes li::before { content: '◆'; color: #c4a060; position: absolute; left: 0; font-size: 0.7em; top: 0.35em; }
+
+/* ---------- 料金行（表） ---------- */
+.sbm-rows { margin: 0; }
+.sbm-row {
+  display: flex; justify-content: space-between; align-items: baseline;
+  padding: 0.7rem 0.2rem; border-bottom: 1px solid #f0e8d8; gap: 1rem;
+}
+.sbm-row:last-child { border-bottom: none; }
+.sbm-row-name { flex: 1; font-size: 0.88rem; color: #333; font-weight: 700; }
+.sbm-row-note { display: block; font-size: 0.76rem; color: #777; font-weight: 400; margin-top: 0.15rem; line-height: 1.6; }
+.sbm-row-price { font-family: 'Noto Serif JP', serif; font-size: 1.05rem; font-weight: 700; color: #8b3a1a; white-space: nowrap; }
+.sbm-price-old { font-size: 0.78rem; color: #999; text-decoration: line-through; font-weight: 400; margin-right: 0.4rem; }
+
+/* ---------- スパイスグリッド ---------- */
+.sbm-spice-grid { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+.sbm-spice-item {
+  flex: 1 1 calc(33.333% - 0.4rem);
+  min-width: 150px;
+  border: 1px solid #e0d0b0; border-radius: 2px;
+  padding: 0.7rem 0.9rem;
+  display: flex; justify-content: space-between; align-items: baseline; gap: 0.5rem;
+}
+.sbm-spice-name { font-size: 0.85rem; color: #333; font-weight: 700; }
+.sbm-spice-price { font-family: 'Noto Serif JP', serif; font-size: 0.95rem; color: #8b3a1a; font-weight: 700; white-space: nowrap; }
+
+/* ---------- ページ末尾CTA ---------- */
+.sbm-cta { text-align: center; padding: 10px 0 30px; }
+.sbm-cta p { font-size: 0.85rem; color: #666; margin-bottom: 1.2rem; }
+
+@media (max-width: 767px) {
+  .sbm-feature { flex-direction: column; }
+  .sbm-feature-img { flex: none; }
+  .sbm-feature-img img { height: 220px; }
+  .sbm-card { flex: 1 1 100%; }
+  .sbm-row { flex-direction: column; gap: 0.2rem; }
+  .sbm-spice-item { flex: 1 1 100%; }
+}
+</style>
 </head>
 <body class="wp-singular page-template-default page page-id-1970 custom-background wp-theme-lightning fa_v7_css bootstrap4 device-pc">
 <a class="skip-link screen-reader-text" href="#main">コンテンツへスキップ</a>
 <a class="skip-link screen-reader-text" href="#vk-mobile-nav">ナビゲーションに移動</a>
 <?php include "../header.php"; ?>
 
-<div class="section page-header"><div class="container"><div class="row"><div class="col-md-12">
-<h1 class="page-header_pageTitle">
-メニュー・料金</h1>
-</div></div></div></div><!-- [ /.page-header ] -->
-
+<!-- ===== ページヒーロー（黒×金） ===== -->
+<div class="sbm-hero">
+  <p class="sbm-hero-eyebrow">忍野八海 そば打ち体験教室</p>
+  <h1>メニュー・料金</h1>
+  <p class="sbm-hero-desc">そば打ち体験を中心に、山梨の食と手仕事を楽しめる体験メニューをご用意しています。</p>
+</div>
 
 <!-- [ .breadSection ] --><div class="section breadSection"><div class="container"><div class="row"><ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><li id="panHome" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item" href="../"><span itemprop="name"><i class="fa-solid fa-house"></i> HOME</span></a><meta itemprop="position" content="1"></li><li><span>メニュー・料金</span><meta itemprop="position" content="2"></li></ol></div></div></div><!-- [ /.breadSection ] -->
 
@@ -39,290 +221,316 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 	<div class="col mainSection mainSection-col-one" id="main" role="main">
 				<article id="post-1970" class="entry entry-full post-1970 page type-page status-publish hentry">
 
-	
-	
-	
 	<div class="entry-body">
-				<h3>豪華プレミアムプラン</h3>
-<div class="lp-menu-wrapper">
-<div class="lp-menu-container">
-<div class="lp-menu-premium-zone">
-<div class="lp-menu-premium-header">
-<h3 class="lp-menu-premium-title">豪華食材・プレミアム体験コース</h3>
+
+<!-- ===== 1. そば打ち体験（主役） ===== -->
+<div class="sbm-section">
+<div class="sbm-cat-header">
+<h2>忍野八海 そば打ち体験</h2>
+<p class="sbm-cat-desc">体験のお客様の3人に1人が選ぶ人気体験</p>
 </div>
-<div class="lp-menu-note">
-<p class="lp-menu-note-text">※すべてのコースで【ほうとう・忍野八海そば・吉田のうどん】からお選びいただけます。</p>
-</div>
-<div class="lp-menu-item lp-rank-matsu">
-<div class="lp-menu-badge">人気No.1</div>
-<div class="lp-menu-item-inner">
-<div class="lp-menu-name-area">
-<div class="lp-menu-name lp-matsu-name">山梨堪能フルコース</div>
-<p class="lp-menu-desc-text">甲州ワインビーフ、あわび釜飯、特製わらび餅、山梨県産ドリンクが付いた最上級セット。山梨の味覚を一度に楽しめる、富士家最上級の贅沢セットです。</p>
-<div class="lp-menu-set-box">
-              <span class="lp-menu-set-label">セット内容</span>
-<div class="lp-menu-set-list">
-                <span class="lp-menu-set-item"><span class="lp-menu-set-icon">◆</span> 甲州ワインビーフ</span><span class="lp-menu-set-item"><span class="lp-menu-set-icon">◆</span> あわび釜飯</span><span class="lp-menu-set-item"><span class="lp-menu-set-icon">◆</span> 特製わらび餅</span><span class="lp-menu-set-item"><span class="lp-menu-set-icon">◆</span> ドリンク</span>
-              </div>
-</div>
-</div>
-<div class="lp-menu-price lp-matsu-price">¥5,000</div>
-</div>
-</div>
-<div class="lp-menu-item">
-<div class="lp-menu-item-inner">
-<div class="lp-menu-name-area">
-<div class="lp-menu-name">プレミアム体験コース〈極〉</div>
-<p class="lp-menu-desc-text">特別な旅だからこそ選びたい、ワンランク上のご褒美トッピング。海の幸であるカニをプラスして“記憶に残る一杯”へ。</p>
-<div class="lp-menu-topping">
-              <span class="lp-menu-topping-label">トッピング</span>
-<div class="lp-menu-topping-text">
-                <span class="lp-u-bold">カニ</span>
-              </div>
-</div>
-</div>
-<div class="lp-menu-price">¥4,500</div>
-</div>
-</div>
-<div class="lp-menu-item">
-<div class="lp-menu-item-inner">
-<div class="lp-menu-name-area">
-<div class="lp-menu-name">プレミアム体験コース</div>
-<p class="lp-menu-desc-text">いつもの麺作り体験に、特別な食材をプラス。一番人気の甲州ワインビーフ、濃厚な牡蠣、上品なあわびからお好みで選べます。</p>
-<div class="lp-menu-topping">
-              <span class="lp-menu-topping-label">選べるトッピング</span>
-<div class="lp-menu-topping-text">
-                <span class="lp-u-bold">甲州ワインビーフ</span><span style="font-size: 0.9em; color: #999; margin: 0 4px;">/</span><span class="lp-u-bold">牡蠣</span><span style="font-size: 0.9em; color: #999; margin: 0 4px;">/</span><span class="lp-u-bold">あわび</span>
-              </div>
-</div>
-</div>
-<div class="lp-menu-price">¥4,180</div>
-</div>
-</div>
-</div>
-<div class="lp-menu-option-zone">
-<h3 class="lp-menu-option-header">追加オプション</h3>
-<div class="lp-menu-option-list">
-<div class="lp-menu-option-row">
-          <span class="lp-menu-option-name">【味変アレンジほうとう】ピリ辛キムチチゲ / トマトチーズ<br>※ほうとう注文の方のみ</span><br>
-          <span class="lp-menu-option-price">+¥250</span>
-        </div>
-<div class="lp-menu-option-row">
-          <span class="lp-menu-option-name">【単品】釜めしセット（鶏肉 / 牡蠣 / あわび）</span><br>
-          <span class="lp-menu-option-price">+¥1,000</span>
-        </div>
-<div class="lp-menu-option-row">
-          <span class="lp-menu-option-name">うな丼セット（ミニうな丼）</span><br>
-          <span class="lp-menu-option-price">+¥530</span>
-        </div>
-<div class="lp-menu-option-row">
-          <span class="lp-menu-option-name">デザートセット（特製わらび餅＋甲州ワインor山梨ぶどうジュース）</span><br>
-          <span class="lp-menu-option-price">+¥500</span>
-        </div>
-<div class="lp-menu-option-row">
-          <span class="lp-menu-option-name">【追加具材】甲州ワインビーフ 1人前</span><br>
-          <span class="lp-menu-option-price">+¥680</span>
-        </div>
+<div class="sbm-body">
+<div class="sbm-feature">
+<div class="sbm-feature-img"><img src="../assets/soba_cutting_noodles.jpg" alt="そば打ち体験 麺切りの様子"></div>
+<div class="sbm-feature-body">
+<div class="sbm-feature-name">忍野八海 そば打ち体験</div>
+<div class="sbm-feature-price">¥3,700<small>（税込）/ 1名</small></div>
+<p class="sbm-feature-desc">富士山の湧き水で打つ手打ちそば。粉から、こねる・のばす・切るまでご自身の手で仕上げます。打ちたてのそばは、冷たいそば＋温かいつけ汁でお召し上がりいただけます。</p>
+<a href="../contact/" class="sbm-btn">体験を予約する</a>
 </div>
 </div>
 </div>
 </div>
-<h3>大人気のセットメニュー</h3>
-<table style="width: 100%; height: 445px;">
-<tbody>
-<tr style="height: 21px;">
-<th style="color: #ffffff; background-color: #440000; font-size: 14px; height: 21px;">藍染体験セット</th>
-</tr>
-<tr style="height: 36px;">
-<th style="background-color: #f5f5f5; font-size: 12px; height: 36px;"><strong>麺作り体験 + 藍染体験セット</strong><br>
-<span style="font-size: 10px;">お好きな麺打ち体験と、大人気藍染体験のセットです。手作業による一人ひとりの感覚、キレイに染めようという想いによって、オリジナルの染め物が生まれていきます。素材の値段が別途500円～発生いたします。</span></th>
-<td style="text-align: right; height: 36px;"><strong><del datetime="2021-08-05T02:32:09+00:00">￥6,700</del> →<span style="color: #ff0000;">￥6,500<br>
-</span></strong></td>
-</tr>
-<tr style="height: 21px;">
-<th style="color: #ffffff; background-color: #440000; font-size: 14px; height: 21px;">七味作り体験セット</th>
-</tr>
-<tr style="height: 36px;">
-<th style="background-color: #f5f5f5; font-size: 12px; height: 36px;"><strong>麺作り体験 + 七味作り体験セット</strong><br>
-<span style="font-size: 10px;">お好きな麺打ち体験と、天然素材を合わせて作るオリジナル七味作り体験のセットです。七味唐辛子は日本の伝統的な薬膳唐辛子ですが、当店ではお客様の好みに合わせてミックス唐辛子を作る体験を行っております。専用の瓶もプレゼントしております。</span></th>
-<td style="text-align: right; height: 36px;"><strong><del datetime="2021-08-05T02:32:09+00:00">￥5,200</del> →<span style="color: #ff0000;">￥4,980<br>
-</span></strong></td>
-</tr>
-<tr style="height: 21px;">
-<th style="color: #ffffff; background-color: #440000; font-size: 14px; height: 21px;">山梨土産作り体験セット</th>
-</tr>
-<tr style="height: 36px;">
-<th style="background-color: #f5f5f5; font-size: 12px; height: 36px;"><strong>麺作り体験 + すりだね作り体験セット</strong><br>
-<span style="font-size: 10px;">お好きな麺打ち体験と、富士五湖エリアの万能辛味調味料すりだねをオリジナルブレンドで作る体験のセットです。すりだねは富士吉田の名物唐辛子です。ゴマやゴマ油をミックスさせたレシピが基本ですが、お客様の好みに合わせてオリジナルすりだねを作っていただけます。</span></th>
-<td style="text-align: right; height: 36px;"><strong><del datetime="2021-08-05T02:32:09+00:00">￥5,200</del> →<span style="color: #ff0000;">￥4,980<br>
-</span></strong></td>
-</tr>
-<tr style="height: 21px;">
-<th style="color: #ffffff; background-color: #440000; font-size: 14px; height: 21px;">黒蜜きな粉作り体験セット</th>
-</tr>
-<tr style="height: 25px;">
-<th style="background-color: #f5f5f5; font-size: 12px; height: 25px;"><strong>麺作り体験 + 黒蜜きな粉餅体験</strong><br>
-<span style="font-size: 10px;">お好きな麺打ち体験と人気のお菓子作り体験がセットになりました。</span></th>
-<td style="text-align: right; height: 25px;"><strong><del datetime="2021-08-05T02:32:09+00:00">￥4,200</del> →<span style="color: #ff0000;">￥3,980</span></strong></td>
-</tr>
-<tr style="height: 21px;">
-<th style="color: #ffffff; background-color: #440000; font-size: 14px; height: 21px;">名物土産2品体験セット</th>
-</tr>
-<tr style="height: 25px;">
-<th style="background-color: #f5f5f5; font-size: 12px; height: 25px;"><strong>すりだね作り体験＋黒蜜きな粉餅体験</strong><br>
-<span style="font-size: 10px;">1人気のお土産作り体験がセットになりました。黒蜜きな粉餅はその場で食べてもOK。</span></th>
-<td style="text-align: right; height: 25px;"><strong><del datetime="2021-08-05T02:32:09+00:00">￥2,400</del> →<span style="color: #ff0000;">￥2,200</span></strong></td>
-</tr>
-</tbody>
-</table>
-<p> </p>
-<h3>単品・オプションメニュー</h3>
-<p>単品メニューはグループ内で組み合わせることも可能ですが、お待たせする可能性がございます。皆様同じ体験ですとスムーズです。</p>
-<table style="width: 100%;">
-<tbody>
-<tr>
-<th style="color: #ffffff; background-color: #440000; font-size: 14px; width: 81.2579%;">単品麺作り体験</th>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">郷土料理ほうとう作り</th>
-<td style="text-align: right; width: 18.6164%;"><strong>￥3,500</strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">二郎系ラーメン作り体験</th>
-<td style="text-align: right; width: 18.6164%;"><strong>￥3,500</strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">豚骨ラーメン作り体験</th>
-<td style="text-align: right; width: 18.6164%;"><strong>￥3,500</strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">富士吉田名物吉田のうどん作り</th>
-<td style="text-align: right; width: 18.6164%;"><strong>￥3,500</strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">忍野八海そば作り</th>
-<td style="text-align: right; width: 18.6164%;"><strong>￥3,500</strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">セルフほうとう作り体験</th>
-<td style="text-align: right; width: 18.6164%;"><strong>￥2,500</strong></td>
-</tr>
-<tr>
-<th style="color: #ffffff; background-color: #440000; font-size: 14px; width: 81.2579%;">体験オプション</th>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">お土産麺作り(追加)</th>
-<td style="text-align: right; width: 18.6164%;"><strong>￥700</strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">黒蜜きな粉餅作り</th>
-<td style="text-align: right; width: 18.6164%;"><strong>￥700</strong></td>
-</tr>
-</tbody>
-</table>
-<h2 id="omiyage" style="text-align: center;">お食事なしの体験</h2>
-<p>お客様自身が打った麺や調合した七味を山梨旅行のお土産にしてみませんか？</p>
-<p>体験教室富士家ではお食事なしの体験も承っております。</p>
-<p>お時間がない方、お食事は済まされてきた方におすすめです。</p>
-<h3 style="text-align: center;">お食事なし体験の特徴</h3>
-<p><img fetchpriority="high" decoding="async" class="aligncenter size-large wp-image-3040" src="../assets/DSC04900-1024x683.jpg" alt="うどん作り体験" width="1024" height="683"></p>
-<p>お食事なしの麺作り体験は、お食事はありませんがしっかり楽しんでいただける内容となっております。</p>
-<h4>特徴①短時間で楽しめる</h4>
-<p>通常の体験ですと90分から120分の所要時間となりますが、お持ち帰りの体験は60分以内に終了しますのでお時間ない方にオススメです。</p>
-<h4>特徴②お家で楽しめる</h4>
-<p>ご家族や友人などと帰宅後に一緒にうどんの味を楽しむことができ、最高のお土産になります。</p>
-<h4>特徴③しっかり体験</h4>
-<p>お食事をすること以外は通常の体験と変わりありませんのでご安心ください。</p>
-<h4>こんな方にオススメ</h4>
+
+<!-- ===== 2. そば打ち体験 おすすめ味変 ===== -->
+<div class="sbm-section">
+<div class="sbm-cat-header">
+<h2>そば打ち体験 — おすすめ味変</h2>
+<p class="sbm-cat-desc">打ちたてのそばを、おすすめの味変で自分好みに</p>
+</div>
+<div class="sbm-body">
+<div class="sbm-cards">
+<div class="sbm-card">
+<img src="../assets/soba_ajihen_suki_20260901.png" alt="ワインビーフすき焼きそば">
+<div class="sbm-card-body">
+<div class="sbm-card-caption"><span class="sbm-card-name">ワインビーフすき焼きそば</span><span class="sbm-card-price">¥4,450<small>（税込）/ 1名</small></span></div>
+<div class="sbm-includes">
+<span class="sbm-includes-label">内容</span>
 <ul>
-<li>時間がないけど体験したい方</li>
-<li>前後に食事の予定がある方</li>
-<li>お土産を作りたい方</li>
-<li>ご家族などに食べてもらいたい方</li>
+<li>そば打ち体験で打った冷たいそば</li>
+<li>ワインビーフ入り・すき焼き仕立ての温かいつけ汁</li>
 </ul>
-<h3>料金</h3>
-<table style="width: 100%;">
-<tbody>
-<tr>
-<th style="color: #ffffff; background-color: #440000; width: 69.5775%;">お食事なし麺作り体験プラン</th>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">お土産麺作り体験<br>
-<span style="font-size: 10px;">麺2人前</span></th>
-<td style="text-align: right; width: 30.2817%;"><strong>￥2,500</strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">お土産麺＋すりだね作り体験セット<br>
-<span style="font-size: 10px;">麺2人前 + すりだね作り体験セット</span></th>
-<td style="text-align: right; width: 30.2817%;"><strong><s>￥4,200</s></strong><br>
-<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥3,980</span></strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">お土産麺＋七味作り体験セット<br>
-<span style="font-size: 10px;">麺2人前 + お土産七味作り体験セット</span></th>
-<td style="text-align: right; width: 30.2817%;"><strong><s>￥4,200</s></strong><br>
-<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥3,980</span></strong></td>
-</tr>
-<tr>
-<th style="color: #ffffff; background-color: #440000; width: 69.5775%;">山梨土産・七味作り体験プラン</th>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">七味作り体験</th>
-<td style="text-align: right; width: 30.2817%;"><strong>￥1,700</strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">名物すりだね体験</th>
-<td style="text-align: right; width: 30.2817%;"><strong>￥1,700</strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">すりだね作り＋黒蜜きな粉餅体験</th>
-<td style="text-align: right; width: 30.2817%;"><strong>￥2,200</strong></td>
-</tr>
-<tr>
-<th style="color: #ffffff; background-color: #440000; width: 69.5775%;">染物体験プラン</th>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">染物体験体</th>
-<td style="text-align: right; width: 30.2817%;"><strong>￥3,200</strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">服染体験＋お土産麺セット<br>
-<span style="font-size: 10px;">染物＋麺作り体験セット</span></th>
-<td style="text-align: right; width: 30.2817%;"><strong><s>￥5,700</s></strong><br>
-<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥5,500</span></strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">染物体験＋すりだね作り体験セット<br>
-<span style="font-size: 10px;">染物+ すりだね作り体験セット</span></th>
-<td style="text-align: right; width: 30.2817%;"><strong><s>￥4,900</s></strong><br>
-<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥4,500</span></strong></td>
-</tr>
-<tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 69.5775%;">染物体験＋七味作り体験セット<br>
-<span style="font-size: 10px;">染物 + お土産七味作り体験セット</span></th>
-<td style="text-align: right; width: 30.2817%;"><strong><s>￥4,900</s></strong><br>
-<strong><span style="color: #ff0000;"><span style="color: #000000;">→</span>￥4,500</span></strong></td>
-</tr>
-</tbody>
-</table>
+</div>
+</div>
+</div>
+<div class="sbm-card">
+<img src="../assets/soba_ajihen_mala_20260901.png" alt="ジビエ麻辣そば">
+<div class="sbm-card-body">
+<div class="sbm-card-caption"><span class="sbm-card-name">ジビエ麻辣そば</span><span class="sbm-card-price">¥4,300<small>（税込）/ 1名</small></span></div>
+<div class="sbm-includes">
+<span class="sbm-includes-label">内容</span>
+<ul>
+<li>そば打ち体験で打った冷たいそば</li>
+<li>鹿肉入り・旨辛麻辣の温かいつけ汁</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sbm-card">
+<img src="../assets/soba_ajihen_shika_20260901.png" alt="鹿肉そば">
+<div class="sbm-card-body">
+<div class="sbm-card-caption"><span class="sbm-card-name">鹿肉そば</span><span class="sbm-card-price">¥4,150<small>（税込）/ 1名</small></span></div>
+<div class="sbm-includes">
+<span class="sbm-includes-label">内容</span>
+<ul>
+<li>そば打ち体験で打った冷たいそば</li>
+<li>鹿肉入りの温かいつけ汁</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<p class="sbm-note">※いずれも基本のそば打ち体験（¥3,700）＋味変の追加料金を含んだ総額（税込）です。</p>
+</div>
+</div>
+
+<!-- ===== 3. おすすめコース ===== -->
+<div class="sbm-section">
+<div class="sbm-cat-header">
+<h2>おすすめコース</h2>
+<p class="sbm-cat-desc">迷ったらこれ。山梨の食材を存分に楽しめる人気コースをご紹介します。</p>
+</div>
+<div class="sbm-body">
+<div class="sbm-cards">
+<div class="sbm-card sbm-card--featured">
+<span class="sbm-card-badge">1番人気</span>
+<img src="../assets/plan_yamanashi_gibier_kiwami_202608190610.png" alt="山梨×ジビエ 極みコース">
+<div class="sbm-card-body">
+<div class="sbm-card-caption"><span class="sbm-card-name">山梨×ジビエ 極みコース</span><span class="sbm-card-price">¥5,700<small>（税込）/ 1名</small></span></div>
+<div class="sbm-includes">
+<span class="sbm-includes-label">セット内容</span>
+<ul>
+<li>ほうとう作り体験</li>
+<li>甲州ワインビーフ</li>
+<li>鹿肉（お鍋で煮ても、ご希望で焼肉にしてもOK）</li>
+<li>あわびご飯</li>
+<li>デザート（黒蜜きな粉餅）</li>
+<li>山梨ワイン or ぶどうジュース</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sbm-card">
+<img src="../assets/plan_yamanashi_course_premium_20260901.png" alt="山梨コース プレミアム">
+<div class="sbm-card-body">
+<div class="sbm-card-caption"><span class="sbm-card-name">山梨コース プレミアム</span><span class="sbm-card-price">¥5,200<small>（税込）/ 1名</small></span></div>
+<div class="sbm-includes">
+<span class="sbm-includes-label">セット内容</span>
+<ul>
+<li>ほうとう作り体験</li>
+<li>甲州ワインビーフ</li>
+<li>あわびご飯</li>
+<li>デザート（黒蜜きな粉餅）</li>
+<li>山梨ワイン or ぶどうジュース</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sbm-card">
+<img src="../assets/plan_yamanashi_course_20260901.png" alt="山梨コース">
+<div class="sbm-card-body">
+<div class="sbm-card-caption"><span class="sbm-card-name">山梨コース</span><span class="sbm-card-price">¥4,200<small>（税込）/ 1名</small></span></div>
+<div class="sbm-includes">
+<span class="sbm-includes-label">セット内容</span>
+<ul>
+<li>ほうとう作り体験</li>
+<li>甲州ワインビーフ</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- ===== 4. スタンダード麺作り体験 ===== -->
+<div class="sbm-section">
+<div class="sbm-cat-header">
+<h2>スタンダード麺作り体験</h2>
+<p class="sbm-cat-desc">山梨の郷土料理を粉から手作り。こねる・のばす・切る・食べるの達成感</p>
+</div>
+<div class="sbm-body">
+<div class="sbm-rows">
+<div class="sbm-row">
+<span class="sbm-row-name">忍野八海 そば打ち体験<span class="sbm-row-note">富士山の湧き水で打つ手打ちそば。冷たいそば＋温かいつけ汁</span></span>
+<span class="sbm-row-price">¥3,700</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">郷土料理ほうとう作り<span class="sbm-row-note">山梨を代表する郷土料理。かぼちゃ・野菜7種入り味噌仕立て</span></span>
+<span class="sbm-row-price">¥3,700</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">富士吉田 吉田のうどん作り<span class="sbm-row-note">コシの強い吉田のうどんを粉から手打ち体験</span></span>
+<span class="sbm-row-price">¥3,500</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">二郎系ラーメン作り体験<span class="sbm-row-note">背脂と極太麺が特徴のガッツリ系体験</span></span>
+<span class="sbm-row-price">¥3,500</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">豚骨ラーメン作り体験<span class="sbm-row-note">本格豚骨スープをじっくり煮込んで手作り麺と合わせる。麺を茹でる工程もお客様自身が行います</span></span>
+<span class="sbm-row-price">¥3,500</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- ===== 5. お食事付きセットメニュー ===== -->
+<div class="sbm-section">
+<div class="sbm-cat-header">
+<h2>お食事付きセットメニュー</h2>
+<p class="sbm-cat-desc">麺作り体験に人気の体験をセットにしたお得なプラン</p>
+</div>
+<div class="sbm-body">
+<div class="sbm-rows">
+<div class="sbm-row">
+<span class="sbm-row-name">染め物体験セット<span class="sbm-row-note">麺作り体験 + 染め物体験。素材代別途¥500〜</span></span>
+<span class="sbm-row-price"><span class="sbm-price-old">¥7,000</span>¥6,800</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">七味作り体験セット<span class="sbm-row-note">麺作り体験 + 天然素材のオリジナル七味作り体験。専用瓶プレゼント</span></span>
+<span class="sbm-row-price"><span class="sbm-price-old">¥5,500</span>¥5,300</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">山梨土産作り体験セット（すりだね）<span class="sbm-row-note">麺作り体験 + すりだねオリジナルブレンド体験</span></span>
+<span class="sbm-row-price"><span class="sbm-price-old">¥5,500</span>¥5,300</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">黒蜜きな粉作り体験セット<span class="sbm-row-note">麺作り体験 + デザート（黒蜜きな粉餅）</span></span>
+<span class="sbm-row-price">¥4,200</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- ===== 6. お食事なし・お土産体験 ===== -->
+<div class="sbm-section" id="omiyage">
+<div class="sbm-cat-header">
+<h2>お食事なし・お土産体験</h2>
+<p class="sbm-cat-desc">時間がない方や食事の予定がある方に。60分以内に完了、手作りのお土産を持ち帰れます</p>
+</div>
+<div class="sbm-body">
+<div class="sbm-rows">
+<div class="sbm-row">
+<span class="sbm-row-name">お土産麺作り体験<span class="sbm-row-note">手打ち麺2人前（持ち帰り）。食事なし・60分以内。ご自宅でご家族・友人と一緒にお楽しみください</span></span>
+<span class="sbm-row-price">¥2,500</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">お土産麺＋すりだね作り体験セット<span class="sbm-row-note">麺2人前（お持ち帰り）＋ すりだね作り体験</span></span>
+<span class="sbm-row-price"><span class="sbm-price-old">¥4,500</span>¥4,200</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">お土産麺＋七味作り体験セット<span class="sbm-row-note">麺2人前（お持ち帰り）＋ 七味作り体験</span></span>
+<span class="sbm-row-price"><span class="sbm-price-old">¥4,500</span>¥4,200</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">名物土産2品体験セット<span class="sbm-row-note">すりだね作り体験 ＋ 黒蜜きな粉餅体験（その場で食べてもOK）</span></span>
+<span class="sbm-row-price"><span class="sbm-price-old">¥2,700</span>¥2,500</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">黒蜜きな粉餅作り体験（単品）<span class="sbm-row-note">その場で食べてもOK。セットの追加としても可</span></span>
+<span class="sbm-row-price">¥800</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- ===== 6b. スパイス作り体験（単品） ===== -->
+<div class="sbm-section">
+<div class="sbm-cat-header">
+<h2>スパイス作り体験（単品）</h2>
+<p class="sbm-cat-desc">5種類から1つ選択。約30分で完了、作ったスパイスはお土産に</p>
+</div>
+<div class="sbm-body">
+<div class="sbm-spice-grid">
+<div class="sbm-spice-item"><span class="sbm-spice-name">七味作り体験</span><span class="sbm-spice-price">¥2,000</span></div>
+<div class="sbm-spice-item"><span class="sbm-spice-name">名物すりだね作り体験</span><span class="sbm-spice-price">¥2,000</span></div>
+<div class="sbm-spice-item"><span class="sbm-spice-name">ふりかけ作り体験</span><span class="sbm-spice-price">¥2,000</span></div>
+<div class="sbm-spice-item"><span class="sbm-spice-name">スパイスソルト作り体験</span><span class="sbm-spice-price">¥2,000</span></div>
+<div class="sbm-spice-item"><span class="sbm-spice-name">クラフトコーラ作り体験</span><span class="sbm-spice-price">¥2,000</span></div>
+</div>
+</div>
+</div>
+
+<!-- ===== 7. 天然染め物体験 ===== -->
+<div class="sbm-section">
+<div class="sbm-cat-header">
+<h2>天然染め物体験</h2>
+<p class="sbm-cat-desc">藍・墨などの天然染料を使った、世界にひとつだけの染め物体験</p>
+</div>
+<div class="sbm-body">
+<div class="sbm-feature">
+<div class="sbm-feature-img"><img src="../assets/389342.jpg" alt="藍染め体験"></div>
+<div class="sbm-feature-body">
+<div class="sbm-feature-name">天然染め物体験（藍染め・墨染め）</div>
+<div class="sbm-feature-price">¥3,500<small>（税込）＋素材代¥500〜</small></div>
+<div class="sbm-includes">
+<span class="sbm-includes-label">内容</span>
+<ul>
+<li>天然染料（藍・墨など）を使用</li>
+<li>素材はお好みで選択可（Tシャツ・ハンカチなど）</li>
+<li>素材代別途¥500〜 / 素材持ち込み無料</li>
+<li>体験時間：約60〜90分</li>
+<li>麺作り体験とのセット予約がお得</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sbm-rows" style="margin-top:1.2rem;">
+<div class="sbm-row">
+<span class="sbm-row-name">麺作り＋染め物体験セット<span class="sbm-row-note">お食事付き麺作り体験 ＋ 染め物体験。素材代別途</span></span>
+<span class="sbm-row-price"><span class="sbm-price-old">¥7,000</span>¥6,800</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">染物体験 ＋ すりだね作り体験セット<span class="sbm-row-note">染め物体験 ＋ すりだね作り体験</span></span>
+<span class="sbm-row-price"><span class="sbm-price-old">¥5,500</span>¥5,300</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">染物体験 ＋ 七味作り体験セット<span class="sbm-row-note">染め物体験 ＋ 七味作り体験</span></span>
+<span class="sbm-row-price"><span class="sbm-price-old">¥5,500</span>¥5,300</span>
+</div>
+<div class="sbm-row">
+<span class="sbm-row-name">染物体験 ＋ ランチ<span class="sbm-row-note">染め物体験 ＋ ほうとう・うどんのランチ</span></span>
+<span class="sbm-row-price">¥4,450〜</span>
+</div>
+</div>
+</div>
+</div>
+
+<!-- ===== 予約CTA ===== -->
+<div class="sbm-cta">
+<p>ご不明な点はお気軽にお問い合わせください。当日予約もOKです。</p>
+<a href="../contact/" class="sbm-btn">予約・お問い合わせ</a>
+</div>
+
 			</div>
 
-	
-	
-	
-	
-			
-	
-		
-		
-		
-		
-	
-	
+
+
+
+
+
+
+
+
+
+
+
+
 </article><!-- [ /#post-1970 ] -->
 			</div><!-- [ /.mainSection ] -->
 
-	
+
 
 </div><!-- [ /.row ] -->
 </div><!-- [ /.container ] -->
