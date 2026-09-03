@@ -18,6 +18,14 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 		
 <link rel="stylesheet" href="../css/lib.min.css" type="text/css" media="all">
 <link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+<style>
+/* ギャラリーグリッド 2026-09-03（体験実写・全てローカルassetsの実在ファイル） */
+.sbg-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin: 10px 0 30px; }
+.sbg-item { margin: 0; }
+.sbg-item img { width: 100%; height: auto; aspect-ratio: 3 / 2; object-fit: cover; display: block; border-radius: 2px; }
+.sbg-item figcaption { font-size: 0.78rem; color: #555; margin-top: 6px; text-align: center; }
+@media (max-width: 767px) { .sbg-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; } }
+</style>
 </head>
 <body class="wp-singular page-template page-template-_g2 page-template-page-onecolumn page-template-_g2page-onecolumn-php page page-id-1659 custom-background wp-theme-lightning fa_v7_css bootstrap4 device-pc">
 <a class="skip-link screen-reader-text" href="#main">コンテンツへスキップ</a>
@@ -38,7 +46,21 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 			<article id="post-1659" class="post-1659 page type-page status-publish hentry">
 
 						<div class="entry-body">
-			<p><span></span></p>
+<p>富士家のそば打ち体験・麺作り体験・染め物体験の様子をご紹介します。</p>
+<div class="sbg-grid">
+<figure class="sbg-item"><img src="../assets/DSC01069-1024x683.jpg" alt="そば打ち体験 麺切りの様子" loading="lazy"><figcaption>そば打ち体験（麺切り）</figcaption></figure>
+<figure class="sbg-item"><img src="../assets/DSC04972-1024x683.jpg" alt="麺棒で生地を伸ばす様子" loading="lazy"><figcaption>生地を麺棒で伸ばす</figcaption></figure>
+<figure class="sbg-item"><img src="../assets/DSC04900-1024x683.jpg" alt="麺作り体験 麺切りの様子" loading="lazy"><figcaption>包丁で麺を切る</figcaption></figure>
+<figure class="sbg-item"><img src="../assets/DSC04963-1024x683.jpg" alt="親子で麺作り体験" loading="lazy"><figcaption>ご家族での麺作り体験</figcaption></figure>
+<figure class="sbg-item"><img src="../assets/DSC02190-1536x1024-1-1024x683.jpg" alt="団体での麺作り体験の様子" loading="lazy"><figcaption>団体・修学旅行の体験</figcaption></figure>
+<figure class="sbg-item"><img src="../assets/DSC02191-1536x1024-1-1024x683.jpg" alt="団体での麺作り体験の様子" loading="lazy"><figcaption>団体・修学旅行の体験</figcaption></figure>
+<figure class="sbg-item"><img src="../assets/3-1024x683.png" alt="忍野八海ざるそば打ち体験の完成そば" loading="lazy"><figcaption>打ちたての忍野八海そば</figcaption></figure>
+<figure class="sbg-item"><img src="../assets/DSC00420-1024x683-1.jpg" alt="すりだね作り体験の様子" loading="lazy"><figcaption>すりだね作り体験</figcaption></figure>
+<figure class="sbg-item"><img src="../assets/375306_0-e1712490869576_0-1024x683.jpg" alt="藍染め体験で染めたTシャツを持つ参加者" loading="lazy"><figcaption>藍染め体験</figcaption></figure>
+<figure class="sbg-item"><img src="../assets/DSC05779-1024x683.jpg" alt="体験会場の座敷" loading="lazy"><figcaption>体験会場（座敷）</figcaption></figure>
+<figure class="sbg-item"><img src="../assets/DSC04855-1024x683.jpg" alt="富士家 店舗外観" loading="lazy"><figcaption>富士家 店舗外観</figcaption></figure>
+<figure class="sbg-item"><img src="../assets/DSC04780-1024x683.jpg" alt="富士山と河口湖周辺の風景" loading="lazy"><figcaption>富士山のふもとの立地</figcaption></figure>
+</div>
 			</div>
 			
 						</article><!-- [ /#post-1659 ] -->

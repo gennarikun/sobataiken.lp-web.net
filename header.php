@@ -26,7 +26,7 @@
 
 <li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/suridane/"><strong class="gMenu_name">お土産すりだね販売</strong></a></li>
 <li id="menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/gallery/"><strong class="gMenu_name">体験ギャラリー</strong></a></li>
-<li id="menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/photo-service/"><strong class="gMenu_name">写真撮影サービス</strong></a></li>
+<!-- PHOTOSERVICE-HIDDEN 2026-09-03 <li id="menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="/photo-service/"><strong class="gMenu_name">写真撮影サービス</strong></a></li> -->
 </ul></nav>			</div>
 			</div>
 	</header>

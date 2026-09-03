@@ -1,0 +1,377 @@
+/* dantai-page.css — houtoutaiken common.css から launch ページ使用セレクタだけ抽出 (2026-09-03 mirror-jp-page) */
+/* ═══════════════════════════════════════
+   富士家 共通スタイルシート v2
+   common.css — 全ページで読み込む
+═══════════════════════════════════════ */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700;800;900&family=Shippori+Mincho:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@300;400;500&display=swap');
+
+/* ─── SP widow (1文字だけ次行に落ちる問題) 対策：ブラウザネイティブ機能で自動制御 ───
+   text-wrap:pretty  — 本文の孤立行を回避（widow/orphan制御）
+   text-wrap:balance — 見出しの折返しを均等に分配
+   Chrome 117+/Safari 17.4+/Firefox 121+ で対応済み（2026年時点で全モダン環境OK） */
+p, li, dd, dt, td, blockquote, .cat-desc, .page-hero-desc, .menu-section-banner-copy, .plan-price, .ht-faq-a, .location-name{
+  text-wrap:pretty;
+}
+
+h1, h2, h3, h4, .plan-card-title, .osusume-course-header, .job-title{
+  text-wrap:balance;
+}
+
+
+:root {
+  --ink: #1a1209;
+  --ink-mid: #3d2f1a;
+  --ink-light: #6b5a45;
+  --paper: #faf7f2;
+  --paper-warm: #f5f0e8;
+  --paper-dark: #ede7da;
+  --vermillion: #c0392b;
+  --vermillion-dark: #962d22;
+  --gold: #b5862a;
+  --gold-light: #d4a843;
+  --cream: #fef9f0;
+  --serif: 'Shippori Mincho','Hiragino Mincho Pro',serif;
+  --display: 'Noto Serif JP','Hiragino Mincho Pro',serif;
+  --sans: 'Zen Kaku Gothic New','Hiragino Kaku Gothic ProN',sans-serif;
+}
+
+
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+
+html{scroll-behavior:smooth;scroll-padding-top:64px;}
+
+body{font-family:var(--sans);background:var(--paper);color:var(--ink);font-weight:300;line-height:1.8;overflow-x:hidden;margin:0;}
+
+img{max-width:100%;height:auto;display:block;}
+
+.skip{position:absolute;left:-999px;}
+
+.skip:focus{left:1rem;top:1rem;z-index:999;background:var(--ink);color:var(--paper);padding:4px 12px;}
+
+header.scrolled{box-shadow:0 2px 24px rgba(26,18,9,.08);}
+
+.header-inner{max-width:1200px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:64px;}
+
+.logo{font-family:var(--serif);font-size:1.05rem;font-weight:600;color:var(--ink);text-decoration:none;line-height:1.3;letter-spacing:.05em;}
+
+.logo span{display:block;font-size:.62rem;font-family:var(--sans);font-weight:300;color:var(--ink-light);letter-spacing:.12em;margin-top:1px;}
+
+nav a:hover::after,nav a.active::after{transform:scaleX(1);}
+
+nav a.active{color:var(--gold);}
+
+.nav-cta{margin-left:1rem;background:var(--vermillion);color:var(--cream)!important;padding:8px 20px!important;border-radius:2px;font-weight:500;letter-spacing:.1em;transition:background .2s!important;}
+
+.nav-cta::after{display:none!important;}
+
+.nav-cta:hover{background:var(--vermillion-dark)!important;}
+
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none;}
+
+.hamburger span{display:block;width:24px;height:1.5px;background:var(--ink);transition:all .3s;}
+
+.nav-drawer{display:none;position:fixed;top:64px;left:0;right:0;bottom:0;background:var(--paper);z-index:99;padding:2rem;flex-direction:column;overflow-y:auto;}
+
+.nav-drawer.open{display:flex;}
+
+.nav-drawer a{display:block;font-size:1rem;color:var(--ink-mid);text-decoration:none;padding:18px 0;border-bottom:1px solid rgba(181,134,42,.15);letter-spacing:.1em;}
+
+.nav-drawer .drawer-cta{margin-top:24px;background:var(--vermillion);color:var(--cream);text-align:center;padding:16px;border-radius:2px;font-weight:500;border-bottom:none;}
+
+
+/* ── BUTTONS ── */
+.btn-primary{display:inline-flex;align-items:center;gap:10px;background:var(--vermillion);color:var(--cream);text-decoration:none;padding:16px 40px;font-family:var(--sans);font-size:.9rem;font-weight:500;letter-spacing:.15em;border-radius:2px;transition:background .25s,transform .2s;}
+
+.btn-primary:hover{background:var(--vermillion-dark);transform:translateY(-2px);}
+
+
+/* ── STICKY CTA ── */
+.sticky-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:200;padding:12px 16px;background:rgba(26,18,9,.97);backdrop-filter:blur(8px);border-top:1px solid rgba(181,134,42,.3);animation:slideUp .4s ease-out;}
+
+@keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
+
+.sticky-cta a{display:flex;align-items:center;justify-content:center;gap:10px;background:var(--vermillion);color:var(--cream);text-decoration:none;padding:14px;font-size:.9rem;font-weight:500;letter-spacing:.12em;border-radius:2px;}
+
+.sticky-cta a:active{background:var(--vermillion-dark);}
+
+.sticky-cta svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+
+.footer-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:64px;}
+
+.footer-brand{font-family:var(--serif);font-size:1.1rem;color:var(--cream);margin-bottom:12px;letter-spacing:.08em;}
+
+.footer-desc{font-size:.78rem;line-height:1.9;margin-bottom:20px;}
+
+.footer-tel{font-size:1.2rem;color:var(--gold-light);font-family:var(--serif);letter-spacing:.08em;text-decoration:none;}
+
+.footer-nav-title{font-size:.7rem;letter-spacing:.2em;color:var(--gold);margin-bottom:16px;font-weight:400;}
+
+.footer-nav-list{list-style:none;display:flex;flex-direction:column;gap:10px;}
+
+.footer-nav-list a{font-size:.8rem;color:rgba(254,249,240,.6);text-decoration:none;letter-spacing:.08em;transition:color .2s;}
+
+.footer-nav-list a:hover{color:var(--gold-light);}
+
+.footer-bottom{max-width:1200px;margin:40px auto 0;padding-top:24px;border-top:1px solid rgba(181,134,42,.15);font-size:.72rem;letter-spacing:.1em;color:rgba(254,249,240,.35);display:flex;justify-content:space-between;align-items:center;}
+
+.reveal.visible{opacity:1;transform:translateY(0);}
+
+@keyframes heroZoom{from{transform:scale(1.08)}to{transform:scale(1)}}
+
+@keyframes heroFade{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+
+@keyframes scrollBounce{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(6px)}}
+
+.menu-tab.active{color:var(--gold);border-bottom-color:var(--gold);}
+
+.plan-card{background:var(--paper-warm);overflow:hidden;position:relative;display:flex;flex-direction:column;}
+
+.plan-card.featured{grid-column:span 3;display:grid;grid-template-columns:1fr 1fr;}
+
+.plan-card img{width:100%;object-fit:cover;display:block;aspect-ratio:4/3;}
+
+.plan-card.featured img{aspect-ratio:unset;height:100%;min-height:280px;}
+
+.plan-card.featured .plan-carousel{aspect-ratio:unset;height:100%;min-height:280px;}
+
+.plan-carousel img.active{opacity:1;}
+
+.plan-card.featured .plan-card-body{padding:36px 40px;display:flex;flex-direction:column;justify-content:center;}
+
+.plan-badge{display:inline-block;font-size:.72rem;padding:5px 12px;letter-spacing:.08em;margin-bottom:14px;border-radius:2px;align-self:flex-start;}
+
+.plan-badge.popular{background:var(--vermillion);color:var(--cream);}
+
+.plan-badge.standard{background:rgba(181,134,42,.15);color:var(--gold);border:1px solid rgba(181,134,42,.3);}
+
+.plan-badge.craft{background:rgba(59,139,212,.1);color:#185fa5;border:1px solid rgba(59,139,212,.2);}
+
+.plan-badge.takeout{background:rgba(181,134,42,.08);color:#6b5020;border:1px solid rgba(181,134,42,.35);}
+
+.plan-card.featured .plan-card-title{font-size:1.5rem;}
+
+.plan-cards--2col .plan-card{cursor:pointer;}
+
+.plan-cards--3col .plan-card{background:transparent;box-shadow:none;display:flex;flex-direction:column;align-items:center;}
+
+.plan-cards--3col .plan-card img{width:100%;height:auto;object-fit:contain;display:block;aspect-ratio:unset;}
+
+.plan-card.wide{grid-column:1/-1;display:grid;grid-template-columns:1fr 1.8fr;}
+
+.plan-card.wide img{aspect-ratio:unset;height:100%;min-height:240px;object-fit:cover;display:block;width:100%;}
+
+.plan-card.wide .plan-card-body{padding:32px 40px;}
+
+.plan-badge.feature{background:rgba(26,18,9,.85);color:var(--cream);}
+
+.menu-section-block.active{display:block;}
+
+.faq-cat-btn:hover,.faq-cat-btn.active{background:rgba(181,134,42,.15);border-color:var(--gold);color:var(--gold-light);}
+
+.faq-item.open .faq-icon{transform:rotate(45deg);}
+
+.faq-item.open .faq-a{display:block;}
+
+.filter-btn:hover,.filter-btn.active{background:rgba(181,134,42,.1);border-color:var(--gold);color:var(--gold);}
+
+@keyframes dHeroZoom{from{transform:scale(1.06)}to{transform:scale(1)}}
+@media(max-width:768px){
+
+  header,.header-inner{height:56px;}
+
+  .hamburger{display:flex;}
+
+  .footer-inner{grid-template-columns:1fr;gap:40px;}
+
+  .footer-bottom{flex-direction:column;gap:8px;text-align:center;}
+
+  .sticky-cta{display:block;}
+
+  html{scroll-padding-top:56px;}
+
+  .plan-card.featured{grid-column:span 1;}
+
+  .plan-card.featured .plan-card-body{padding:28px 24px;}
+
+  .plan-card.wide{grid-column:span 1;display:block;}
+
+  .plan-card.wide img{height:200px;min-height:unset;width:100%;aspect-ratio:unset;}
+}
+@media(max-width:600px){
+
+  .menu-tab.active{background:var(--gold);color:#fff;border-color:var(--gold);border-bottom-color:var(--gold);}
+}
+
+.vmodal.open{display:flex;}
+
+/* プランカード内の動画ボタン */
+.btn-video-plan{display:flex;align-items:center;justify-content:center;gap:.45rem;width:100%;padding:.65rem 1rem;margin:.8rem 0 0;background:none;border:1.5px solid rgba(140,80,40,.4);color:#8c5028;border-radius:4px;font-size:.85rem;letter-spacing:.06em;cursor:pointer;transition:border-color .2s,color .2s;}
+
+.btn-video-plan:hover{border-color:rgba(140,80,40,.8);color:#6b3a1c;}
+
+
+/* ── プランモーダル（ボトムシート） ── */
+.plan-modal{position:fixed;inset:0;z-index:800;background:rgba(26,18,9,.6);display:flex;align-items:flex-end;justify-content:center;opacity:0;pointer-events:none;transition:opacity .3s;}
+
+.plan-modal.open{opacity:1;pointer-events:auto;}
+
+.plan-modal-inner{background:var(--paper);border-radius:20px 20px 0 0;width:100%;max-width:560px;max-height:88vh;overflow-y:auto;position:relative;transform:translateY(100%);transition:transform .38s cubic-bezier(.4,0,.2,1);}
+
+.plan-modal.open .plan-modal-inner{transform:none;}
+
+.plan-modal-header{display:flex;align-items:center;justify-content:center;padding:14px 14px 10px;position:relative;}
+
+.plan-modal-drag{width:40px;height:4px;background:rgba(0,0,0,.14);border-radius:2px;}
+
+.plan-modal-img{width:100%;aspect-ratio:3/2;object-fit:cover;object-position:top;display:block;}
+
+.plan-modal-content{padding:20px 24px 40px;}
+
+.plan-modal-close{position:absolute;right:0;top:50%;transform:translateY(-50%);background:rgba(0,0,0,.2);border:none;font-size:.82rem;cursor:pointer;color:var(--ink);padding:0;line-height:1;border-radius:50%;width:28px;height:28px;display:flex;align-items:center;justify-content:center;}
+
+.plan-modal-close:hover{background:rgba(0,0,0,.12);}
+
+.plan-modal-name{font-family:var(--display);font-size:1.4rem;font-weight:800;color:var(--ink);letter-spacing:.06em;margin:10px 0 8px;line-height:1.3;}
+
+.plan-modal-price{font-family:var(--display);font-size:1.6rem;font-weight:800;color:var(--vermillion);margin-bottom:20px;letter-spacing:.03em;}
+
+.plan-modal-includes{margin-bottom:24px;}
+
+.plan-modal-includes-title{font-size:.82rem;letter-spacing:.2em;color:var(--gold);margin-bottom:12px;font-weight:600;}
+
+.plan-modal-includes ul{list-style:none;display:flex;flex-direction:column;gap:8px;}
+
+.plan-modal-includes li{font-size:.95rem;color:var(--ink-mid);padding-left:16px;position:relative;line-height:1.7;}
+
+.plan-modal-includes li::before{content:'';position:absolute;left:0;top:.62em;width:4px;height:4px;background:var(--gold);border-radius:50%;}
+
+.plan-modal-cta{display:block;text-align:center;}
+
+.plan-modal-note{font-size:.88rem;color:var(--ink-mid);background:rgba(180,60,30,.07);border-left:3px solid var(--vermillion);padding:10px 14px;border-radius:0 4px 4px 0;margin-bottom:16px;line-height:1.7;}
+
+#planModalVideoBtn{margin-bottom:16px;}
+
+
+/* ── コンパクトカード（モーダル連動） ── */
+.plan-card[data-plan-name]{cursor:pointer;transition:transform .25s,box-shadow .25s;}
+
+.plan-card[data-plan-name]:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(0,0,0,.1);}
+
+.plan-card.featured .plan-card-body--compact{padding:28px 36px;justify-content:flex-start;}
+
+#osusume .plan-card,#osusume .plan-card.featured{display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px;padding:20px 20px;background:transparent;border:none;box-shadow:none;overflow:visible;}
+
+#osusume .plan-card .plan-card-img-wrap img,#osusume .plan-card.featured .plan-card-img-wrap img{width:100%;height:auto;aspect-ratio:1;border-radius:0;object-fit:cover;object-position:top;flex-shrink:0;display:block;transition:transform .3s;}
+@media(hover:hover){
+#osusume .osusume-featured-wrap .plan-card-img-wrap:hover .plan-badge.popular{opacity:0;}
+}
+
+#osusume .plan-card-img-wrap .plan-badge{display:none;}
+
+#osusume .plan-badge{display:none;}
+
+#osusume .plan-card[data-plan-name]{cursor:default;}
+
+#osusume .plan-card[data-plan-name]:hover{transform:none;box-shadow:none;}
+
+/* ── ラーメン pair-col: #osusume と完全に同一スタイル ── */
+#ramen .osusume-pair-col .plan-card{background:transparent;box-shadow:none;overflow:visible;}
+@media(hover:hover){
+#ramen .osusume-pair-col .plan-card-img-wrap:hover .plan-badge{z-index:1;}
+}
+
+#ramen .osusume-pair-col .plan-card-img-wrap .plan-badge{display:none;}
+
+#ramen .osusume-pair-col .plan-badge{display:none;}
+
+#ramen .osusume-pair-col .plan-card[data-plan-name]{cursor:default;}
+
+#ramen .osusume-pair-col .plan-card[data-plan-name]:hover{transform:none;box-shadow:none;}
+@media(max-width:900px){
+
+  #ramen .osusume-pair-col .plan-card{padding-left:0;padding-right:0;}
+}
+
+/* 朱色スタンプバッジ（1番人気）
+   position(top/right): github.com/Hoseiin28/online-restaurant food-detail.css & github.com/ragulk2211/QRhino foodcard.css
+   circle size(96-128px): github.com/bkeepers/primer-css circle-badge.scss .CircleBadge--medium/large
+   font-weight:800 / line-height:1.2 / flex-direction:column: github.com/ragulk2211/QRhino foodcard.css discount-badge
+   box-shadow 0 8px 16px: github.com/ragulk2211/QRhino foodcard.css --shadow-badge */
+#osusume .osusume-featured-wrap .plan-card-img-wrap .plan-badge.popular{display:flex !important;flex-direction:column;align-items:center;justify-content:center;position:absolute;top:-15px;right:-15px;width:110px;height:110px;border-radius:50%;background:#b02015;color:#fff;font-family:var(--serif);font-size:1.25rem;font-weight:800;line-height:1.2;text-align:center;transform:rotate(-15deg);border:3px solid rgba(255,255,255,.5);box-shadow:0 8px 16px rgba(181,36,21,.4);z-index:10;pointer-events:none;transition:opacity .3s;}
+@media(max-width:768px){
+
+  .hscroll-dot.active{
+    width:22px;background:var(--gold);border-radius:4px;
+  }
+}
+
+.promo-overlay.active{display:flex;}
+
+.promo-overlay.active .promo-card{opacity:1;transform:translateY(0) scale(1);}
+
+
+/* ── Nav Dropdown ── */
+.nav-drop-wrap{position:relative;display:inline-flex;align-items:center;}
+
+.nav-drop{display:none;position:absolute;top:calc(100% + 8px);left:0;background:rgba(250,247,242,.98);border:1px solid rgba(181,134,42,.18);border-radius:6px;box-shadow:0 8px 24px rgba(26,18,9,.12);flex-direction:column;min-width:200px;padding:6px 0;z-index:200;}
+
+.nav-drop::before{content:"";position:absolute;top:-8px;left:0;right:0;height:8px;}
+
+.nav-drop-wrap:hover .nav-drop{display:flex;}
+
+.nav-drop a{padding:10px 20px!important;font-size:.78rem!important;color:var(--ink-mid)!important;white-space:nowrap;letter-spacing:.06em;display:block!important;}
+
+.nav-drop a::after{display:none!important;}
+
+.nav-drop a:hover{background:rgba(181,134,42,.08);}
+
+  
+body.exp-hoto .ht-char-list .num {
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 800;
+    color: var(--ht-pumpkin);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }
+
+  
+body.exp-soba .sb-char-list .num {
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 800;
+    color: var(--sb-water);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }
+
+  
+body.exp-ramen .rm-char-list .num {
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 800;
+    color: var(--rm-red);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }
+
+  
+body.exp-suridane .sr-char-list .num {
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 800;
+    color: var(--sr-chili);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }
+
+  
+body.exp-yoshidanoudon .yn-char-list .num {
+    font-family: 'Shippori Mincho', serif;
+    font-weight: 800;
+    color: var(--yn-suridane);
+    font-size: 1.1rem;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }

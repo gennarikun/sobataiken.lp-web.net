@@ -9,7 +9,7 @@
 
 <li id="menu-item-2132" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2132"><a href="/suridane/">お土産すりだね販売</a></li>
 <li id="menu-item-1661" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1661"><a href="/gallery/">体験ギャラリー</a></li>
-<li id="menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2560"><a href="/photo-service/">写真撮影サービス</a></li>
+<!-- PHOTOSERVICE-HIDDEN 2026-09-03 <li id="menu-item-2560" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2560"><a href="/photo-service/">写真撮影サービス</a></li> -->
 </ul></nav>			</div>
 		</div>
 			
@@ -33,5 +33,5 @@
 
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2132"><a href="/suridane/">お土産すりだね販売</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1661"><a href="/gallery/">体験ギャラリー</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2560"><a href="/photo-service/">写真撮影サービス</a></li>
+<!-- PHOTOSERVICE-HIDDEN 2026-09-03 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2560"><a href="/photo-service/">写真撮影サービス</a></li> -->
 </ul></nav></div>

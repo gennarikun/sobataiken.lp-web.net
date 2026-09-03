@@ -1,3 +1,10 @@
+<?php
+// PHOTOSERVICE-HIDDEN 2026-09-03: 写真撮影サービス一時中止のため非表示（オーナー指示）。
+// 復活手順: ファイル先頭のこのPHPブロック全体を削除し、header.php / footer.php の PHOTOSERVICE-HIDDEN コメントを外す。
+header('Location: /', true, 302);
+exit;
+// close tag omitted intentionally
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head><meta charset="UTF-8">

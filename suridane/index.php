@@ -43,7 +43,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 	
 	
 	<div class="entry-body">
-				<p><a class="btn-lg btn btn-block btn-primary" href="https://gekikaratakanasensei.lp-web.net/">すりだね通販ページはこちら</a></p>
+				<p><a class="btn-lg btn btn-block btn-primary" href="https://yoshidanoudon-suridane.net/shop/">すりだね通販ページはこちら</a></p>
 <p><img fetchpriority="high" decoding="async" class="aligncenter size-large wp-image-2913" src="../assets/DSC04018-1024x683.jpg" alt="すりだね通販" width="1024" height="683" srcset="../assets/DSC04018-1024x683.jpg 1024w, ../assets/DSC04018-300x200.jpg 300w, ../assets/DSC04018-768x512.jpg 768w, ../assets/DSC04018-1536x1024.jpg 1536w, ../assets/DSC04018.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px"></p>
 <h2 style="text-align: center;">富士吉田名物すりだねとは？</h2>
 <p><img decoding="async" class="aligncenter size-large wp-image-2940" src="../assets/DSC05037-1024x683.jpg" alt="すりだね通販" width="1024" height="683" srcset="../assets/DSC05037-1024x683.jpg 1024w, ../assets/DSC05037-300x200.jpg 300w, ../assets/DSC05037-768x512.jpg 768w, ../assets/DSC05037-1536x1024.jpg 1536w, ../assets/DSC05037.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px"><br>
@@ -335,7 +335,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </div>
 </div>
 </div>
-<p><a class="btn-lg btn btn-block btn-primary" href="https://gekikaratakanasensei.lp-web.net/">すりだね通販ページはこちら</a></p>
+<p><a class="btn-lg btn btn-block btn-primary" href="https://yoshidanoudon-suridane.net/shop/">すりだね通販ページはこちら</a></p>
 <h2>通販について</h2>
 <p>当店ではすりだねの販売を行っております。</p>
 <p>通販で購入をご希望のお客様は当店通販サイトからご購入ください。</p>
@@ -465,7 +465,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <dt>店舗でも買えますか？</dt>
 <dd>はい、お買い求めいただけます。ほうとう・吉田のうどんの体験後の食事にもお出しします。</dd>
 </dl>
-<p><a class="btn-lg btn btn-block btn-primary" href="https://gekikaratakanasensei.lp-web.net/">すりだね通販ページはこちら</a></p>
+<p><a class="btn-lg btn btn-block btn-primary" href="https://yoshidanoudon-suridane.net/shop/">すりだね通販ページはこちら</a></p>
 <section class="fuwa">
 <div class="widget widget_vkexunit_contact_section">
 <div class="veu_contact">
