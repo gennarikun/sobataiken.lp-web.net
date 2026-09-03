@@ -43,7 +43,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 	
 	
 	<div class="entry-body">
-				<p><a class="btn-lg btn btn-block btn-primary" href="https://yoshidanoudon-suridane.net/shop/">すりだね通販ページはこちら</a></p>
+				<p><a class="btn-lg btn btn-block btn-primary" href="https://yoshidanoudon-suridane.net/shop.html">すりだね通販ページはこちら</a></p>
 <p><img fetchpriority="high" decoding="async" class="aligncenter size-large wp-image-2913" src="../assets/DSC04018-1024x683.jpg" alt="すりだね通販" width="1024" height="683" srcset="../assets/DSC04018-1024x683.jpg 1024w, ../assets/DSC04018-300x200.jpg 300w, ../assets/DSC04018-768x512.jpg 768w, ../assets/DSC04018-1536x1024.jpg 1536w, ../assets/DSC04018.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px"></p>
 <h2 style="text-align: center;">富士吉田名物すりだねとは？</h2>
 <p><img decoding="async" class="aligncenter size-large wp-image-2940" src="../assets/DSC05037-1024x683.jpg" alt="すりだね通販" width="1024" height="683" srcset="../assets/DSC05037-1024x683.jpg 1024w, ../assets/DSC05037-300x200.jpg 300w, ../assets/DSC05037-768x512.jpg 768w, ../assets/DSC05037-1536x1024.jpg 1536w, ../assets/DSC05037.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px"><br>
@@ -63,7 +63,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <p><img decoding="async" class="aligncenter size-large wp-image-2911" src="../assets/DSC05719-2-1024x683.jpg" alt="すりだね通販" width="1024" height="683" srcset="../assets/DSC05719-2-1024x683.jpg 1024w, ../assets/DSC05719-2-300x200.jpg 300w, ../assets/DSC05719-2-768x512.jpg 768w, ../assets/DSC05719-2-1536x1024.jpg 1536w, ../assets/DSC05719-2.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px"></p>
 <h4>すりだねベーシック</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶</li>
 </ul>
 <p>すりだねベーシックは辛いものが苦手な方でもすりだねを楽しんでいただけるように商品化した辛さ控えめのすりだねになります。うまみを出すために天然かつお節を粉末にしたものを混ぜており、そのままどんな料理にでも使っていただけます。当店自慢の一品を是非お試しください。</p>
@@ -74,7 +74,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2923" src="../assets/DSC00449-1024x683.jpg" alt="すりだね通販" width="1024" height="683" srcset="../assets/DSC00449-1024x683.jpg 1024w, ../assets/DSC00449-300x200.jpg 300w, ../assets/DSC00449-768x512.jpg 768w, ../assets/DSC00449-1536x1024.jpg 1536w, ../assets/DSC00449.jpg 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px"></p>
 <h4>すりだね食物繊維爆弾</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶</li>
 </ul>
 <p>すりだね食物繊維爆弾はレベル２のすりだねベーシックに食物繊維豊富な当店オリジナルの【すごい粉】を混ぜたものです。寒天、米ぬかなど食物繊維がたくさん入っている素材のみを使用しており、女性に人気です。辛さもかなり控えめになっており、いろんな料理に使用できます。</p>
@@ -83,7 +83,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2903" src="../assets/DSC05710-1024x683.jpg" alt="すりだね通販" width="1024" height="683" srcset="../assets/DSC05710-1024x683.jpg 1024w, ../assets/DSC05710-300x200.jpg 300w, ../assets/DSC05710-768x512.jpg 768w, ../assets/DSC05710-1536x1024.jpg 1536w, ../assets/DSC05710.jpg 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px"></p>
 <h4>すりだねシビカラ（山椒）</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶</li>
 </ul>
 <p>すりだねシビカラは当店人気NO.1！厳選した山椒をミックスした商品です。うどんやラーメンなどの汁物にアクセントとしての使用がオススメですが、麻婆豆腐など中華料理とも相性バツグンです。</p>
@@ -95,7 +95,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2906" src="../assets/DSC05713-1024x683.jpg" alt="すりだね通販" width="1024" height="683" srcset="../assets/DSC05713-1024x683.jpg 1024w, ../assets/DSC05713-300x200.jpg 300w, ../assets/DSC05713-768x512.jpg 768w, ../assets/DSC05713-1536x1024.jpg 1536w, ../assets/DSC05713.jpg 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px"></p>
 <h4>すりだねガーリック</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶</li>
 </ul>
 <p>すりだねガーリックは当店で人気の商品です。ザクザクとした食感をだすために天然ガーリックチップを混ぜ、さらに乾燥させたにんにくを粉末にしたパウダーとインド産唐辛子を配合しており、ラーメンやチャーハンなどにぴったりです。</p>
@@ -104,7 +104,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2909" src="../assets/DSC05717-1024x683.jpg" alt="すりだね通販" width="1024" height="683" srcset="../assets/DSC05717-1024x683.jpg 1024w, ../assets/DSC05717-300x200.jpg 300w, ../assets/DSC05717-768x512.jpg 768w, ../assets/DSC05717-1536x1024.jpg 1536w, ../assets/DSC05717.jpg 2048w" sizes="auto, (max-width: 1024px) 100vw, 1024px"></p>
 <h4>すりだねスパイスカレー</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶</li>
 </ul>
 <p>すりだねスパイスカレーは本場インドなどから仕入れたスパイスとインド産唐辛子を配合したすりだねです。ターメリック、コリアンダー、クミンなど本格スパイスは美容にも健康にもいい成分が含まれているのでおすすめです。</p>
@@ -116,7 +116,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだね無限肉スパイス</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶</li>
 </ul>
 <p>すりだね無限肉スパイスはすりだねと10種類以上のスパイスを独自にブレンドした商品です。バーベキュー、焼き肉などのお供にぜひご使用ください。</p>
@@ -128,7 +128,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだね激辛</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶</li>
 </ul>
 <p>すりだね激辛は辛いものが大好きな方の為にオーナーがあちこち探し回って発見したインド産激辛唐辛子をブレンドしたすりだねになります。激辛というわりにあまり辛くなくて中々満足するものに出会えてない方におすすめです。</p>
@@ -141,7 +141,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだねスーパー</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶</li>
 </ul>
 <p>すりだねスーパーはスーパーフード3種類をミックスした健康的なすりだねです。玄米の表面の部分の米ぬか、豆腐を作る際にできるおからはビタミン、食物繊維、たんぱく質が豊富に入っております。</p>
@@ -153,7 +153,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだねแกงเขียวหวาน</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶</li>
 </ul>
 <p>すりだねแกงเขียวหวานは”ゲーンキャオワーン”と読み、日本語でいうグリーンカレーのことです。タイで人気のグリーンカレーに使われるスパイス数種類とココナッツとすりだねをブレンドしております。スパイシーな料理やスープと相性が良いのでぜひお試しください。</p>
@@ -166,7 +166,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだね大噴火</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶</li>
 </ul>
 <p>すりだね大噴火は、本当に辛いものが大好きな方の為に作った商品です。辛いものが苦手な方は食べられないレベルですのでご注意ください。</p>
@@ -178,7 +178,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだね雷神</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶</li>
 </ul>
 <p>すりだね雷神は当店人気NO.1のシビカラにホールの花椒とインド産唐辛子を混ぜて電気のようにしびれる辛さにしました。スープに入れれば火鍋風、麻婆豆腐にかければ本格四川風になります。シビカラでは物足りない方にオススメです。</p>
@@ -191,7 +191,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだねぴえん</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶</li>
 </ul>
 <p>すりだねぴえんは当店の辛さレベル５のすりだねで、普通の方や辛い物が苦手な方が食べるとぴえんと泣いてしまう辛さです。レベル１~４に使用している韓国産のキムチ唐辛子の割合を大幅に下げ、インド産の激辛唐辛子を多めに配合しております。大噴火では物足りない方にオススメです。</p>
@@ -202,7 +202,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだね永沢君</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶</li>
 </ul>
 <p>すりだね永沢君はご存じ国民的人気アニメに登場するあの名わき役をモチーフにしたすりだねです。インド産唐辛子を使用した激辛すりだねにフライドオニオンを混ぜています。</p>
@@ -216,7 +216,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだね飛ぶぞ</h4>
 <ul>
-<li>店頭販売価格 ¥700~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶🌶</li>
 </ul>
 <p>「食ってみな。飛ぶぞ。」あの長州力が生んだ名言を丸ごとパクらせていただきました。激辛の本場四川で使われる希少な広西唐辛子を混ぜ込んでおり、かなり辛いです。</p>
@@ -228,7 +228,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだねダルシム</h4>
 <ul>
-<li>店頭販売価格 ¥750~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶🌶</li>
 </ul>
 <p>すりだねダルシムは世界的に有名なストリートファイターに出てくるあのお方をモチーフに作りました。辛いすりだねとカレーパウダーを混ぜておりついつい『ヨガファイヤ』と言いたくなるすりだね。洋風の料理やスープなどに使用するとスパイシーな風味がアクセントになります。</p>
@@ -241,7 +241,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだね菩薩</h4>
 <ul>
-<li>店頭販売価格 ¥750~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶🌶</li>
 </ul>
 <p>もっと辛くするためにはどうしたらいいだろう？と考えた末にメキシコの超有名激辛唐辛子ハバネロに手を出してしまいました。</p>
@@ -253,7 +253,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだね武田信玄</h4>
 <ul>
-<li>店頭販売価格 ¥750~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶🌶🌶</li>
 </ul>
 <p>すりだね武田信玄は山梨県の英雄信玄公をイメージして作ったすりだねです。武田信玄といえば山梨、山梨といえばほうとう、ほうとうといえば味噌…ということで味噌が入っております。通常のすりだねよりさらにカツオも増しているので、辛いけど旨味もさらに増した旨辛な一品です。</p>
@@ -266,7 +266,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだね臭王</h4>
 <ul>
-<li>店頭販売価格 ¥750~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶🌶🌶🌶</li>
 </ul>
 <p>すりだね臭王(しゅうおう)は激辛唐辛子のハバネロにガーリックチップをふんだんに混ぜたすりだねです。</p>
@@ -278,7 +278,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだね来世</h4>
 <ul>
-<li>店頭販売価格 ¥800~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶🌶🌶🌶🌶</li>
 </ul>
 <p>ブート・ジョロキアというギネスにも乗った殺人的に辛い世界一の唐辛子入りのすりだねです。辛さは鷹の爪の25倍。現在はギネス記録を抜かれてしまいましたが最強クラスに辛いことには変わりありません。食ってみて飛んで、悟りを開いて、天国へ逝って、来世でまた会いましょう。</p>
@@ -291,7 +291,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだねジンジャー</h4>
 <ul>
-<li>店頭販売価格 ¥800~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶🌶🌶🌶🌶</li>
 </ul>
 <p>すりだねジンジャーかつてはレベル１の全然辛くないものでした。「生姜って体も温まるし女性にオススメできるかな」と思って作りましたが全く見向きもされませんでした。</p>
@@ -303,7 +303,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだね Oh my god</h4>
 <ul>
-<li>店頭販売価格 ¥800~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶🌶🌶🌶🌶</li>
 </ul>
 <p>すりだねOh my godは大人気の山椒入りシビカラをさらに辛くした雷神のさらに辛いすりだねです。根強い人気があるシビカラにハバネロや四川唐辛子を加えた最上級のものですので、シビカラを極めたい方にオススメ。麻婆豆腐など中華料理と相性がよく、火鍋などをつくる際にもお使いください。</p>
@@ -316,7 +316,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだねパプリカ</h4>
 <ul>
-<li>店頭販売価格 ¥800~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶🌶🌶🌶🌶🌶</li>
 </ul>
 <p>かつてすりだねパプリカは、辛いものが苦手な方向けに赤い栄養満点のパプリカパウダーを使って作ったすりだねでした。ところが盛大にスベッていたようで買ってくれる方がいませんでした。確かに唐辛子抜きのすりだねなんてカツ丼のカツ抜きくらい意味不明なので、いっそ激辛にしてしまえと広西唐辛子やハバネロやジョロキアを盛りまくり当店NO1の激辛にしました。</p>
@@ -327,7 +327,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="caption">
 <h4>すりだねあげぽよ</h4>
 <ul>
-<li>店頭販売価格 ¥800~</li>
+<li>店頭販売価格 ¥650~</li>
 <li>辛さレベル🌶🌶🌶🌶🌶🌶🌶🌶🌶🌶</li>
 </ul>
 <p>すりだねあげぽよは、レベル３のすりだねスーパーとおなじでアマランサスなどのスーパーフードがブレンドされている健康的なすりだねです。しかしジョロキアやハバネロなどをふんだんに混ぜているため超絶激辛です。</p>
@@ -335,7 +335,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </div>
 </div>
 </div>
-<p><a class="btn-lg btn btn-block btn-primary" href="https://yoshidanoudon-suridane.net/shop/">すりだね通販ページはこちら</a></p>
+<p><a class="btn-lg btn btn-block btn-primary" href="https://yoshidanoudon-suridane.net/shop.html">すりだね通販ページはこちら</a></p>
 <h2>通販について</h2>
 <p>当店ではすりだねの販売を行っております。</p>
 <p>通販で購入をご希望のお客様は当店通販サイトからご購入ください。</p>
@@ -409,7 +409,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 			</dt></dl><br style="clear: both">
 		</div>
 
-<p><a class="btn-lg btn btn-block btn-primary" href="https://yoshidanoudon-suridane.net/about-suridane/">通販サイトへ移動</a></p>
+<p><a class="btn-lg btn btn-block btn-primary" href="https://yoshidanoudon-suridane.net/shop.html">通販サイトへ移動</a></p>
 <h2 style="text-align: center;">すりだね通販購入の流れ</h2>
 <div>
 <div class="veu_flowBox" style="text-align: center;">
@@ -465,7 +465,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <dt>店舗でも買えますか？</dt>
 <dd>はい、お買い求めいただけます。ほうとう・吉田のうどんの体験後の食事にもお出しします。</dd>
 </dl>
-<p><a class="btn-lg btn btn-block btn-primary" href="https://yoshidanoudon-suridane.net/shop/">すりだね通販ページはこちら</a></p>
+<p><a class="btn-lg btn btn-block btn-primary" href="https://yoshidanoudon-suridane.net/shop.html">すりだね通販ページはこちら</a></p>
 <section class="fuwa">
 <div class="widget widget_vkexunit_contact_section">
 <div class="veu_contact">
