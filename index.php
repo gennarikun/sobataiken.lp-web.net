@@ -195,7 +195,39 @@
 .news-content h3 { font-size: 1rem; margin: 0 0 0.5rem; }
 .news-content p { font-size: 0.85rem; color: #555; margin: 0; line-height: 1.7; }
 
+
+/* ---------- そば主役セクション（トップ・menuページ準拠 2026-09-03） ---------- */
+.tsb-section { margin: 0 0 28px; }
+.tsb-header { background: linear-gradient(135deg, #2c1f0e, #1a1208); border-radius: 4px 4px 0 0; padding: 0.9rem 1.3rem; }
+.tsb-header h3 { color: #c4a060; font-size: 1.05rem; letter-spacing: 0.15em; margin: 0; padding: 0; border: none; font-family: 'Noto Serif JP', serif; }
+.tsb-header h3::after { border: none; }
+.tsb-desc { font-size: 0.78rem; color: rgba(245,240,232,0.65); margin: 0.3rem 0 0; }
+.tsb-body { border: 1px solid #c4a060; border-top: none; border-radius: 0 0 4px 4px; background: #fff; padding: 1.2rem; }
+.tsb-feature { display: flex; gap: 1.4rem; align-items: stretch; }
+.tsb-feature-img { flex: 0 0 46%; }
+.tsb-feature-img img { width: 100%; height: 100%; object-fit: cover; border-radius: 2px; display: block; }
+.tsb-feature-body { flex: 1; display: flex; flex-direction: column; justify-content: center; }
+.tsb-feature-name { font-family: 'Noto Serif JP', serif; font-size: 1.35rem; font-weight: 700; color: #2c1f0e; margin-bottom: 0.5rem; }
+.tsb-feature-price { font-family: 'Noto Serif JP', serif; font-size: 2rem; font-weight: 700; color: #8b3a1a; margin-bottom: 0.7rem; }
+.tsb-feature-price small { font-size: 0.8rem; color: #7a5c2e; font-weight: 400; }
+.tsb-feature-desc { font-size: 0.88rem; color: #555; line-height: 1.9; margin-bottom: 1.1rem; }
+.tsb-btn { display: inline-block; background: #8b3a1a; color: #fff !important; text-decoration: none; padding: 0.75rem 2rem; font-size: 0.88rem; letter-spacing: 0.2em; border-radius: 2px; transition: background 0.3s; align-self: flex-start; }
+.tsb-btn:hover { background: #703000; text-decoration: none; }
+.tsb-cards { display: flex; gap: 1rem; flex-wrap: wrap; }
+.tsb-card { flex: 1 1 calc(33.333% - 0.7rem); min-width: 220px; border: 1px solid #e0d0b0; border-radius: 2px; background: #fff; display: flex; flex-direction: column; }
+.tsb-card img { width: 100%; display: block; border-radius: 2px 2px 0 0; }
+.tsb-caption { display: flex; justify-content: space-between; align-items: baseline; gap: 0.6rem; padding: 0.7rem 0.9rem; flex-wrap: wrap; }
+.tsb-name { font-size: 0.85rem; font-weight: 700; color: #2c1f0e; }
+.tsb-price { font-family: 'Noto Serif JP', serif; font-size: 0.95rem; font-weight: 700; color: #8b3a1a; white-space: nowrap; }
+.tsb-price small { font-size: 0.72rem; color: #7a5c2e; font-weight: 400; }
+.tsb-note { font-size: 0.75rem; color: #5a3800; margin: 0.8rem 0 0; line-height: 1.7; }
+
 @media (max-width: 767px) {
+  .tsb-feature { flex-direction: column; }
+  .tsb-feature-img { flex: none; }
+  .tsb-feature-img img { height: 220px; }
+  .tsb-card { flex: 1 1 100%; }
+
   .soba-hero-inner { flex-direction: column; padding: 2rem 1.2rem; }
   .soba-hero-visual svg { width: 220px; height: 220px; }
   .soba-hero-title { font-size: 2rem; }
@@ -512,6 +544,51 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </div>
 </div>
 <h2 id="price" style="text-align: center;">料金表</h2>
+
+<!-- ===== そば打ち体験（主役・menuページ準拠 2026-09-03） ===== -->
+<div class="tsb-section">
+<div class="tsb-header">
+<h3>忍野八海 そば打ち体験</h3>
+<p class="tsb-desc">体験のお客様の3人に1人が選ぶ人気体験</p>
+</div>
+<div class="tsb-body">
+<div class="tsb-feature">
+<div class="tsb-feature-img"><img loading="lazy" decoding="async" src="assets/soba_cutting_noodles.jpg" alt="そば打ち体験 麺切りの様子"></div>
+<div class="tsb-feature-body">
+<div class="tsb-feature-name">忍野八海 そば打ち体験</div>
+<div class="tsb-feature-price">¥3,700<small>（税込）/ 1名</small></div>
+<p class="tsb-feature-desc">富士山の湧き水で打つ手打ちそば。粉から、こねる・のばす・切るまでご自身の手で仕上げます。打ちたてのそばは、冷たいそば＋温かいつけ汁でお召し上がりいただけます。</p>
+<a href="contact/" class="tsb-btn">体験を予約する</a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- ===== そば味変3種（menuページ準拠） ===== -->
+<div class="tsb-section">
+<div class="tsb-header">
+<h3>そば打ち体験 — おすすめ味変</h3>
+<p class="tsb-desc">打ちたてのそばを、おすすめの味変で自分好みに</p>
+</div>
+<div class="tsb-body">
+<div class="tsb-cards">
+<div class="tsb-card">
+<img loading="lazy" decoding="async" src="assets/soba_ajihen_suki_202609031730.png" alt="ワインビーフすき焼きそば">
+<div class="tsb-caption"><span class="tsb-name">ワインビーフすき焼きそば</span><span class="tsb-price">¥4,450<small>（税込）/ 1名</small></span></div>
+</div>
+<div class="tsb-card">
+<img loading="lazy" decoding="async" src="assets/soba_ajihen_mala_202609031730.png" alt="ジビエ麻辣そば">
+<div class="tsb-caption"><span class="tsb-name">ジビエ麻辣そば</span><span class="tsb-price">¥4,300<small>（税込）/ 1名</small></span></div>
+</div>
+<div class="tsb-card">
+<img loading="lazy" decoding="async" src="assets/soba_ajihen_shika_202609031730.png" alt="鹿肉そば">
+<div class="tsb-caption"><span class="tsb-name">鹿肉そば</span><span class="tsb-price">¥4,150<small>（税込）/ 1名</small></span></div>
+</div>
+</div>
+<p class="tsb-note">※いずれも基本のそば打ち体験（¥3,700）＋味変の追加料金を含んだ総額（税込）です。</p>
+</div>
+</div>
+
 <p>※ほうとうにはかぼちゃ、ジャガイモ、ネギなど約6種類が入っています。吉田のうどん・そばにもトッピングをお付けしております。</p>
 <p>必ずお1人様１つの麺類体験をお選びください。オプションのみのご注文はできかねますのでご了承ください。</p>
 <p>なるべくグループで同じセットやメニュー・オプションを注文いただけると当日の進行がスムーズです。</p>
