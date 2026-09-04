@@ -454,6 +454,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </div>
 </div>
 </div>
+
 <section class="fuwa">
 <div class="widget widget_vkexunit_contact_section">
 <div class="veu_contact">
@@ -589,11 +590,6 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </div>
 </div>
 
-<p>※ほうとうにはかぼちゃ、ジャガイモ、ネギなど約6種類が入っています。吉田のうどん・そばにもトッピングをお付けしております。</p>
-<p>必ずお1人様１つの麺類体験をお選びください。オプションのみのご注文はできかねますのでご了承ください。</p>
-<p>なるべくグループで同じセットやメニュー・オプションを注文いただけると当日の進行がスムーズです。</p>
-<p>バラバラのセットをご注文いただくとお時間が長引いてしまう可能性もございますのでご了承ください。</p>
-<p>食べきれなかった分は全品お持ち帰りいただけますので、ご希望の方にはお持ち帰り用の容器をお渡しいたします。お気軽にスタッフまでお申し付けください。</p>
 <div class="back" style="text-align: center;"><strong>※すべて税込み価格</strong><br>
 <strong>4歳以下のお子様無料</strong></div>
 
@@ -857,6 +853,13 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </tr>
 </tbody>
 </table>
+<!-- 体験メニュー共通の注意書き（全メニュー掲示後に表示・2026-09-04 オーナー指示で移動） -->
+<p>※ほうとうにはかぼちゃ、ジャガイモ、ネギなど約6種類が入っています。吉田のうどん・そばにもトッピングをお付けしております。</p>
+<p>必ずお1人様１つの麺類体験をお選びください。オプションのみのご注文はできかねますのでご了承ください。</p>
+<p>なるべくグループで同じセットやメニュー・オプションを注文いただけると当日の進行がスムーズです。</p>
+<p>バラバラのセットをご注文いただくとお時間が長引いてしまう可能性もございますのでご了承ください。</p>
+<p>食べきれなかった分は全品お持ち帰りいただけますので、ご希望の方にはお持ち帰り用の容器をお渡しいたします。お気軽にスタッフまでお申し付けください。</p>
+
 <section class="fuwa">
 <div class="widget widget_vkexunit_contact_section">
 <div class="veu_contact">
