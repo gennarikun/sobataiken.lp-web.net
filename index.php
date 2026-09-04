@@ -545,6 +545,9 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </div>
 </div>
 <h2 id="price" style="text-align: center;">料金表</h2>
+<div class="back" style="text-align: center;"><strong>※すべて税込み価格</strong><br>
+<strong>4歳以下のお子様無料</strong></div>
+
 
 <!-- ===== そば打ち体験（主役・menuページ準拠 2026-09-03） ===== -->
 <div class="tsb-section">
@@ -590,8 +593,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </div>
 </div>
 
-<div class="back" style="text-align: center;"><strong>※すべて税込み価格</strong><br>
-<strong>4歳以下のお子様無料</strong></div>
+
 
 <!-- ===== おすすめコース（9/1新価格・正本houtoutaiken/menu転記 2026-09-03） ===== -->
 <div class="lp-menu-wrapper">
