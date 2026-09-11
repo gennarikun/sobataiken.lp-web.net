@@ -401,20 +401,20 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
     <div class="lch-genre-inner">
       <div class="lch-genre-head">
         <h2 id="lch-genre-hoto">山梨郷土料理ほうとうランチ</h2>
-        <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ お好みで「黒蜜きなこ餅」か「お飲み物（甲州ワイン・山梨ぶどうジュース）」を<strong>1つ選択</strong>。プレミアムはアワビご飯つき。</p>
+        <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ 黒蜜きなこ餅。プレミアムはさらに甲州ワイン・アワビご飯つき。</p>
       </div>
 
       <div class="lch-tier">
         <div class="lch-tier-head"><h3>通常コース</h3></div>
-        <p class="lch-tier-note">小鉢（ひじきの煮物）＋ デザート（黒蜜きなこ餅）またはドリンク（甲州ワイン・ジュース）を選択</p>
+        <p class="lch-tier-note">小鉢（ひじきの煮物）＋ 黒蜜きなこ餅</p>
         <div class="lch-course-grid">
           <div class="lch-plan plan-card"
                data-plan-name="野菜ほうとう（通常コース）" data-plan-price="平日¥1,700／土日祝¥1,900（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>野菜ほうとう</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート（黒蜜きなこ餅）またはドリンク（甲州ワイン・ジュース）を選択</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>野菜ほうとう</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
                data-plan-href="../contact/" tabindex="0" role="button" aria-label="野菜ほうとう 通常コース 詳細を見る">
             <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_course_yasai_20260825.png" alt="野菜ほうとう 通常コース" loading="eager" fetchpriority="high">
+              <img src="../assets/dantai_fj_course_yasai_202609112230.webp" alt="野菜ほうとう 通常コース" loading="eager" fetchpriority="high">
             </div>
             <div class="lch-plan-body">
               <h3 class="lch-plan-name">野菜ほうとう</h3>
@@ -426,10 +426,10 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <div class="lch-plan plan-card"
                data-plan-name="肉入りほうとう（鹿・富士桜ポーク）通常コース" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>肉入りほうとう（鹿・富士桜ポークから選択）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート（黒蜜きなこ餅）またはドリンク（甲州ワイン・ジュース）を選択</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>肉入りほうとう（鹿・富士桜ポーク）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
                data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう 鹿・富士桜ポーク 通常コース 詳細を見る">
             <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_course_shika_pork_20260825.png" alt="肉入りほうとう 鹿・富士桜ポーク 通常コース" loading="lazy">
+              <img src="../assets/dantai_fj_course_shika_pork_202609112230.webp" alt="肉入りほうとう 鹿・富士桜ポーク 通常コース" loading="lazy">
             </div>
             <div class="lch-plan-body">
               <h3 class="lch-plan-name">肉入りほうとう（鹿・富士桜ポーク）</h3>
@@ -439,16 +439,16 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           </div>
 
           <div class="lch-plan plan-card"
-               data-plan-name="肉入りほうとう（信玄鶏・馬）通常コース" data-plan-price="平日¥2,050／土日祝¥2,250（税込）/ 1名"
+               data-plan-name="肉入りほうとう（信玄鶏・富士桜ポーク）通常コース" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>肉入りほうとう（信玄鶏・馬から選択）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート（黒蜜きなこ餅）またはドリンク（甲州ワイン・ジュース）を選択</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう 信玄鶏・馬 通常コース 詳細を見る">
+               data-plan-includes='["<strong>肉入りほうとう（信玄鶏・富士桜ポーク）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう 信玄鶏・富士桜ポーク 通常コース 詳細を見る">
             <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_course_shingen_horse_20260825.png" alt="肉入りほうとう 信玄鶏・馬 通常コース" loading="lazy">
+              <img src="../assets/dantai_fj_course_shingen_pork_202609112230.webp" alt="肉入りほうとう 信玄鶏・富士桜ポーク 通常コース" loading="lazy">
             </div>
             <div class="lch-plan-body">
-              <h3 class="lch-plan-name">肉入りほうとう（信玄鶏・馬）</h3>
-              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,050</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,250</strong></span></div>
+              <h3 class="lch-plan-name">肉入りほうとう（信玄鶏・富士桜ポーク）</h3>
+              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,000</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,200</strong></span></div>
               <div class="lch-plan-hint">タップで詳細</div>
             </div>
           </div>
@@ -456,10 +456,10 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <div class="lch-plan plan-card"
                data-plan-name="肉入りほうとう（ワインビーフ）通常コース" data-plan-price="平日¥2,300／土日祝¥2,500（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>甲州ワインビーフほうとう</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート（黒蜜きなこ餅）またはドリンク（甲州ワイン・ジュース）を選択</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>甲州ワインビーフほうとう</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
                data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう ワインビーフ 通常コース 詳細を見る">
             <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_course_winebeef_20260825.png" alt="肉入りほうとう ワインビーフ 通常コース" loading="lazy">
+              <img src="../assets/dantai_fj_course_winebeef_202609112230.webp" alt="肉入りほうとう ワインビーフ 通常コース" loading="lazy">
             </div>
             <div class="lch-plan-body">
               <h3 class="lch-plan-name">肉入りほうとう（ワインビーフ）</h3>
@@ -477,7 +477,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <div class="lch-plan lch-plan--premium plan-card"
                data-plan-name="肉入りほうとう（鹿・富士桜ポーク）プレミアム" data-plan-price="平日¥2,700／土日祝¥2,900（税込）/ 1名"
                data-plan-badge="プレミアム" data-plan-badge-class="popular"
-               data-plan-includes='["<strong>肉入りほうとう（鹿・富士桜ポークから選択）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート（黒蜜きなこ餅）またはドリンク（甲州ワイン・ジュース）を選択</strong>","<strong>アワビご飯</strong>","※アレルギー：小麦・大豆・かぼちゃ・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>肉入りほうとう（鹿・富士桜ポーク）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","<strong>甲州ワイン</strong>","<strong>アワビご飯</strong>","※アレルギー：小麦・大豆・かぼちゃ・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
                data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう 鹿・富士桜ポーク プレミアム 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_premium_shika_pork_20260825.png" alt="肉入りほうとう 鹿・富士桜ポーク プレミアム" loading="lazy">
@@ -490,16 +490,16 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           </div>
 
           <div class="lch-plan lch-plan--premium plan-card"
-               data-plan-name="肉入りほうとう（信玄鶏・馬）プレミアム" data-plan-price="平日¥2,750／土日祝¥2,950（税込）/ 1名"
+               data-plan-name="肉入りほうとう（信玄鶏・富士桜ポーク）プレミアム" data-plan-price="平日¥2,700／土日祝¥2,900（税込）/ 1名"
                data-plan-badge="プレミアム" data-plan-badge-class="popular"
-               data-plan-includes='["<strong>肉入りほうとう（信玄鶏・馬から選択）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート（黒蜜きなこ餅）またはドリンク（甲州ワイン・ジュース）を選択</strong>","<strong>アワビご飯</strong>","※アレルギー：小麦・大豆・かぼちゃ・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう 信玄鶏・馬 プレミアム 詳細を見る">
+               data-plan-includes='["<strong>肉入りほうとう（信玄鶏・富士桜ポーク）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","<strong>甲州ワイン</strong>","<strong>アワビご飯</strong>","※アレルギー：小麦・大豆・かぼちゃ・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう 信玄鶏・富士桜ポーク プレミアム 詳細を見る">
             <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_premium_shingen_horse_20260825.png" alt="肉入りほうとう 信玄鶏・馬 プレミアム" loading="lazy">
+              <img src="../assets/dantai_fj_premium_shingen_pork_202609112230.webp" alt="肉入りほうとう 信玄鶏・富士桜ポーク プレミアム" loading="lazy">
               </div>
             <div class="lch-plan-body">
-              <h3 class="lch-plan-name">肉入りほうとう（信玄鶏・馬）プレミアム</h3>
-              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,750</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,950</strong></span></div>
+              <h3 class="lch-plan-name">肉入りほうとう（信玄鶏・富士桜ポーク）プレミアム</h3>
+              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,700</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,900</strong></span></div>
               <div class="lch-plan-hint">タップで詳細</div>
             </div>
           </div>
@@ -507,7 +507,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <div class="lch-plan lch-plan--premium plan-card"
                data-plan-name="肉入りほうとう（ワインビーフ）プレミアム" data-plan-price="平日¥3,000／土日祝¥3,200（税込）/ 1名"
                data-plan-badge="プレミアム" data-plan-badge-class="popular"
-               data-plan-includes='["<strong>甲州ワインビーフほうとう</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート（黒蜜きなこ餅）またはドリンク（甲州ワイン・ジュース）を選択</strong>","<strong>アワビご飯</strong>","※アレルギー：小麦・大豆・かぼちゃ・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>甲州ワインビーフほうとう</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","<strong>甲州ワイン</strong>","<strong>アワビご飯</strong>","※アレルギー：小麦・大豆・かぼちゃ・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
                data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう ワインビーフ プレミアム 詳細を見る">
             <div class="lch-plan-img-wrap">
               <img src="../assets/dantai_hoto_winebeef_premium_20260716.jpg" alt="肉入りほうとう ワインビーフ プレミアム" loading="lazy">
@@ -543,12 +543,12 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <tbody>
             <tr><td>野菜ほうとう</td><td class="val">¥1,300</td><td class="val">¥1,500</td></tr>
             <tr><td>肉入りほうとう（鹿・富士桜ポーク）</td><td class="val">¥1,600</td><td class="val">¥1,800</td></tr>
-            <tr><td>肉入りほうとう（信玄鶏・馬）</td><td class="val">¥1,650</td><td class="val">¥1,850</td></tr>
+            <tr><td>肉入りほうとう（信玄鶏・富士桜ポーク）</td><td class="val">¥1,600</td><td class="val">¥1,800</td></tr>
             <tr><td>肉入りほうとう（ワインビーフ）</td><td class="val">¥1,900</td><td class="val">¥2,100</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="lch-genre-note" style="margin-top:20px;">※こちらは<strong>単品（麺のみ・小鉢/お飲み物なし）</strong>の料金です。小鉢＋デザート/ドリンク付きの<strong>通常コース・プレミアム</strong>は上部「山梨郷土料理ほうとうランチ」をご覧ください。</p>
+      <p class="lch-genre-note" style="margin-top:20px;">※こちらは<strong>単品（麺のみ・小鉢/お飲み物なし）</strong>の料金です。小鉢＋黒蜜きなこ餅付きの<strong>通常コース・プレミアム</strong>は上部「山梨郷土料理ほうとうランチ」をご覧ください。</p>
       <p class="lch-genre-note" style="margin-top:8px;">※<strong>高校生以下の学生</strong>は、全メニュー<strong>平日料金からさらに−100円引き</strong>（要予約・修学旅行や遠足などの学校団体歓迎）。</p>
       <div class="lch-genre-cta">
         <a href="../contact/">単品ランチで見積を依頼する</a>
