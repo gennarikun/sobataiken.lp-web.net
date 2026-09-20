@@ -368,6 +368,25 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
 #planModal{z-index:100000;}
 .sticky-cta{z-index:99999;}
 </style>
+<style>
+/* 団体ランチ 単品料金表（4サイト共通・2026-09-20） */
+.price-table{width:100%;border-collapse:collapse;font-size:14px;}
+.price-table thead th{background:#0f1b3c;color:#e8d9a8;padding:13px 18px;font-family:'Shippori Mincho',serif;font-weight:600;text-align:left;white-space:nowrap;}
+.price-table thead th:nth-child(2),.price-table thead th:nth-child(3){text-align:right;}
+.price-table tbody td{padding:13px 18px;border-bottom:1px solid rgba(0,0,0,.06);color:#4a4a4a;vertical-align:top;}
+.price-table tbody tr:last-child td{border-bottom:none;}
+.price-table tbody tr:nth-child(even) td{background:#faf7f0;}
+.price-table td.price-val{font-family:'Shippori Mincho',serif;font-size:19px;color:#0f1b3c;font-weight:700;white-space:nowrap;text-align:right;line-height:1.35;}
+.price-table td.price-val .gakusei{display:block;font-family:'Noto Sans JP',sans-serif;font-size:13px;font-weight:600;color:#0f1b3c;margin-top:4px;white-space:nowrap;}
+.price-table-wrap{background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.06);margin-bottom:12px;}
+.price-note{margin-top:14px;font-size:12px;color:#6b6b6b;background:#faf7f0;padding:10px 16px;border-radius:4px;border-left:3px solid #b5862a;line-height:1.8;}
+@media (max-width:640px){
+  .price-table thead th{padding:10px 8px;font-size:12px;}
+  .price-table tbody td{padding:10px 8px;font-size:12.5px;line-height:1.5;}
+  .price-table td.price-val{font-size:15px;}
+  .price-table td.price-val .gakusei{font-size:11.5px;}
+}
+</style>
 </head>
 <body class="wp-singular page page-template-default custom-background wp-theme-lightning fa_v7_css bootstrap4 device-pc">
 <?php include "../header.php"; ?>
@@ -390,282 +409,178 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
   <!-- 共通セット内容ブロック（全プランに何がついてくるかを1度だけ説明） -->
   <div class="lch-plan-common">
     <span class="lch-plan-common-title">プランの内容について</span>
-    <p><strong>どのコースにも</strong>「小鉢（ひじきの煮物）」がつきます。</p>
-    <p><strong>「プレミアムコース」</strong>は「アワビご飯」つきの特別セットです。</p>
-    <p class="lch-plan-common-sub">※ お飲み物・デザートの内容はコースによって異なります。各コースの「セット内容」をご覧ください。</p>
-    <p class="lch-plan-common-sub">※「ほうとう単品ランチ」は単品でのご提供です（小鉢・お飲み物なし）。</p>
+    <p><strong>どのコースにも</strong>「小鉢（ひじきの煮物）」と「黒蜜きなこ餅」がつきます。</p>
+    <p><strong>ほうとう・焼肉は4名様ごと</strong>にご提供します（ほうとうは鍋、焼肉は卓上コンロ）。4名様以下は個別盛りも承ります。</p>
+    <p class="lch-plan-common-sub">※「ほうとう単品ランチ」は小鉢・黒蜜きなこ餅なしのご提供です（4名様以上は鍋でのご提供となります）。</p>
   </div>
 
-  <!-- ジャンル1：ほうとう（縦2段：通常3 → プレミアム2） -->
+  <!-- ジャンル1：ほうとう（4名ごとの鍋提供・全6品） -->
   <section class="lch-genre lch-genre--white" aria-labelledby="lch-genre-hoto">
     <div class="lch-genre-inner">
       <div class="lch-genre-head">
         <h2 id="lch-genre-hoto">山梨郷土料理ほうとうランチ</h2>
-        <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ 黒蜜きなこ餅。プレミアムはさらに甲州ワイン・アワビご飯つき。</p>
+        <p class="lch-genre-note"><strong>4名様ごとに1つの鍋でご提供します。</strong>ご到着後、麺・お野菜・お肉をご自身で入れて仕上げていただく約10分の調理体験つきです。4名様以下は個別盛りでのご提供も承ります。</p>
+        <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ 黒蜜きなこ餅</p>
       </div>
 
       <div class="lch-tier">
-        <div class="lch-tier-head"><h3>通常コース</h3></div>
-        <p class="lch-tier-note">小鉢（ひじきの煮物）＋ 黒蜜きなこ餅</p>
         <div class="lch-course-grid">
           <div class="lch-plan plan-card"
-               data-plan-name="野菜ほうとう（通常コース）" data-plan-price="平日¥1,700／土日祝¥1,900（税込）/ 1名"
+               data-plan-name="野菜ほうとう" data-plan-price="平日¥1,700／土日祝¥1,900（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>野菜ほうとう</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="野菜ほうとう 通常コース 詳細を見る">
+               data-plan-includes='["<strong>野菜ほうとう</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,600","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="野菜ほうとう 詳細を見る">
             <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_course_yasai_202609112230.webp" alt="野菜ほうとう 通常コース" loading="eager" fetchpriority="high">
+              <img src="../assets/dantai_fj_hoto_yasai_202609200500.webp" alt="野菜ほうとう" loading="lazy">
             </div>
             <div class="lch-plan-body">
               <h3 class="lch-plan-name">野菜ほうとう</h3>
               <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥1,700</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥1,900</strong></span></div>
+              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥1,600<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
               <div class="lch-plan-hint">タップで詳細</div>
             </div>
           </div>
 
           <div class="lch-plan plan-card"
-               data-plan-name="肉入りほうとう（鹿・富士桜ポーク）通常コース" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
+               data-plan-name="鶏ほうとう（信玄どり）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>肉入りほうとう（鹿・富士桜ポーク）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう 鹿・富士桜ポーク 通常コース 詳細を見る">
+               data-plan-includes='["<strong>鶏ほうとう（信玄どり）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="鶏ほうとう（信玄どり） 詳細を見る">
             <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_course_shika_pork_202609112230.webp" alt="肉入りほうとう 鹿・富士桜ポーク 通常コース" loading="lazy">
+              <img src="../assets/dantai_fj_hoto_tori_202609200500.webp" alt="鶏ほうとう 信玄どり" loading="lazy">
             </div>
             <div class="lch-plan-body">
-              <h3 class="lch-plan-name">肉入りほうとう（鹿・富士桜ポーク）</h3>
+              <h3 class="lch-plan-name">鶏ほうとう（信玄どり）</h3>
               <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,000</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,200</strong></span></div>
+              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥1,900<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
               <div class="lch-plan-hint">タップで詳細</div>
             </div>
           </div>
 
           <div class="lch-plan plan-card"
-               data-plan-name="肉入りほうとう（信玄鶏・富士桜ポーク）通常コース" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
+               data-plan-name="豚ほうとう（富士桜ポーク）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>肉入りほうとう（信玄鶏・富士桜ポーク）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう 信玄鶏・富士桜ポーク 通常コース 詳細を見る">
+               data-plan-includes='["<strong>豚ほうとう（富士桜ポーク）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="豚ほうとう（富士桜ポーク） 詳細を見る">
             <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_course_shingen_pork_202609112230.webp" alt="肉入りほうとう 信玄鶏・富士桜ポーク 通常コース" loading="lazy">
+              <img src="../assets/dantai_fj_hoto_buta_202609200500.webp" alt="豚ほうとう 富士桜ポーク" loading="lazy">
             </div>
             <div class="lch-plan-body">
-              <h3 class="lch-plan-name">肉入りほうとう（信玄鶏・富士桜ポーク）</h3>
+              <h3 class="lch-plan-name">豚ほうとう（富士桜ポーク）</h3>
               <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,000</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,200</strong></span></div>
+              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥1,900<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
               <div class="lch-plan-hint">タップで詳細</div>
             </div>
           </div>
 
           <div class="lch-plan plan-card"
-               data-plan-name="肉入りほうとう（ワインビーフ）通常コース" data-plan-price="平日¥2,300／土日祝¥2,500（税込）/ 1名"
+               data-plan-name="鹿ほうとう（ジビエ）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>甲州ワインビーフほうとう</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう ワインビーフ 通常コース 詳細を見る">
+               data-plan-includes='["<strong>鹿ほうとう（ジビエ）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="鹿ほうとう（ジビエ） 詳細を見る">
             <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_course_winebeef_202609112230.webp" alt="肉入りほうとう ワインビーフ 通常コース" loading="lazy">
+              <img src="../assets/dantai_fj_hoto_shika_202609200500.webp" alt="鹿ほうとう ジビエ" loading="lazy">
             </div>
             <div class="lch-plan-body">
-              <h3 class="lch-plan-name">肉入りほうとう（ワインビーフ）</h3>
+              <h3 class="lch-plan-name">鹿ほうとう（ジビエ）</h3>
+              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,000</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,200</strong></span></div>
+              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥1,900<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
+              <div class="lch-plan-hint">タップで詳細</div>
+            </div>
+          </div>
+
+          <div class="lch-plan plan-card"
+               data-plan-name="ワインビーフほうとう" data-plan-price="平日¥2,300／土日祝¥2,500（税込）/ 1名"
+               data-plan-badge="定食" data-plan-badge-class="takeout"
+               data-plan-includes='["<strong>ワインビーフほうとう</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥2,200","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="ワインビーフほうとう 詳細を見る">
+            <div class="lch-plan-img-wrap contain">
+              <img src="../assets/dantai_fj_hoto_winebeef_202609200500.webp" alt="ワインビーフほうとう" loading="lazy">
+            </div>
+            <div class="lch-plan-body">
+              <h3 class="lch-plan-name">ワインビーフほうとう</h3>
               <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,300</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,500</strong></span></div>
+              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥2,200<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
+              <div class="lch-plan-hint">タップで詳細</div>
+            </div>
+          </div>
+
+          <div class="lch-plan plan-card"
+               data-plan-name="山梨名物3種盛りほうとう" data-plan-price="平日¥2,700／土日祝¥2,900（税込）/ 1名"
+               data-plan-badge="定食" data-plan-badge-class="takeout"
+               data-plan-includes='["<strong>山梨名物3種盛りほうとう</strong>（甲州ワインビーフ・富士桜ポーク・信玄どり）","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥2,600","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="山梨名物3種盛りほうとう 詳細を見る">
+            <div class="lch-plan-img-wrap contain">
+              <img src="../assets/dantai_fj_hoto_3shu_202609200500.webp" alt="山梨名物3種盛りほうとう ワインビーフ・豚・鶏" loading="lazy">
+            </div>
+            <div class="lch-plan-body">
+              <h3 class="lch-plan-name">山梨名物3種盛りほうとう</h3>
+              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,700</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,900</strong></span></div>
+              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥2,600<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
               <div class="lch-plan-hint">タップで詳細</div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="lch-tier lch-tier--premium">
-        <div class="lch-tier-head"><h3>プレミアムコース</h3></div>
-        <p class="lch-tier-note">通常コースに「アワビご飯」が追加された特別セット</p>
-        <div class="lch-course-grid">
-          <div class="lch-plan lch-plan--premium plan-card"
-               data-plan-name="肉入りほうとう（鹿・富士桜ポーク）プレミアム" data-plan-price="平日¥2,700／土日祝¥2,900（税込）/ 1名"
-               data-plan-badge="プレミアム" data-plan-badge-class="popular"
-               data-plan-includes='["<strong>肉入りほうとう（鹿・富士桜ポーク）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","<strong>甲州ワイン</strong>","<strong>アワビご飯</strong>","※アレルギー：小麦・大豆・かぼちゃ・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう 鹿・富士桜ポーク プレミアム 詳細を見る">
-            <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_premium_shika_pork_20260825.png" alt="肉入りほうとう 鹿・富士桜ポーク プレミアム" loading="lazy">
-              </div>
-            <div class="lch-plan-body">
-              <h3 class="lch-plan-name">肉入りほうとう（鹿・富士桜ポーク）プレミアム</h3>
-              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,700</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,900</strong></span></div>
-              <div class="lch-plan-hint">タップで詳細</div>
-            </div>
-          </div>
-
-          <div class="lch-plan lch-plan--premium plan-card"
-               data-plan-name="肉入りほうとう（信玄鶏・富士桜ポーク）プレミアム" data-plan-price="平日¥2,700／土日祝¥2,900（税込）/ 1名"
-               data-plan-badge="プレミアム" data-plan-badge-class="popular"
-               data-plan-includes='["<strong>肉入りほうとう（信玄鶏・富士桜ポーク）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","<strong>甲州ワイン</strong>","<strong>アワビご飯</strong>","※アレルギー：小麦・大豆・かぼちゃ・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう 信玄鶏・富士桜ポーク プレミアム 詳細を見る">
-            <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_premium_shingen_pork_202609112230.webp" alt="肉入りほうとう 信玄鶏・富士桜ポーク プレミアム" loading="lazy">
-              </div>
-            <div class="lch-plan-body">
-              <h3 class="lch-plan-name">肉入りほうとう（信玄鶏・富士桜ポーク）プレミアム</h3>
-              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,700</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,900</strong></span></div>
-              <div class="lch-plan-hint">タップで詳細</div>
-            </div>
-          </div>
-
-          <div class="lch-plan lch-plan--premium plan-card"
-               data-plan-name="肉入りほうとう（ワインビーフ）プレミアム" data-plan-price="平日¥3,000／土日祝¥3,200（税込）/ 1名"
-               data-plan-badge="プレミアム" data-plan-badge-class="popular"
-               data-plan-includes='["<strong>甲州ワインビーフほうとう</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>黒蜜きなこ餅</strong>","<strong>甲州ワイン</strong>","<strong>アワビご飯</strong>","※アレルギー：小麦・大豆・かぼちゃ・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="肉入りほうとう ワインビーフ プレミアム 詳細を見る">
-            <div class="lch-plan-img-wrap">
-              <img src="../assets/dantai_hoto_winebeef_premium_20260716.jpg" alt="肉入りほうとう ワインビーフ プレミアム" loading="lazy">
-              </div>
-            <div class="lch-plan-body">
-              <h3 class="lch-plan-name">肉入りほうとう（ワインビーフ）プレミアム</h3>
-              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥3,000</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥3,200</strong></span></div>
-              <div class="lch-plan-hint">タップで詳細</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <p class="lch-genre-note" style="text-align:center;margin-top:8px;">※表示は平日／土日祝の料金です。<strong>高校生以下の学生</strong>は全メニュー<strong>平日料金からさらに−100円引き</strong>（要予約）。単品（麺のみ）は下段をご覧ください。</p>
+      <p class="lch-genre-note" style="margin-top:14px;">※表示は平日／土日祝の料金です。<strong>高校生以下の学生は平日料金からさらに100円引き</strong>（要予約）。土日祝は学生も一般と同じ料金です。単品（麺のみ）は下段をご覧ください。</p>
       <div class="lch-genre-cta">
         <a href="../contact/">ほうとうで見積を依頼する</a>
       </div>
     </div>
   </section>
 
-  <!-- ジャンル1.5：ほうとう単品ランチ（2026-08-19 団体サイトと同期・MTG 2026-08-18 決定） -->
+  <!-- ジャンル1.5：ほうとう単品ランチ（2026-08-19 新設・MTG 2026-08-18 決定） -->
   <section class="lch-genre lch-genre--alt" aria-labelledby="lch-genre-tanpin">
     <div class="lch-genre-inner">
       <div class="lch-genre-head">
         <h2 id="lch-genre-tanpin">ほうとう単品ランチ</h2>
-        <p>小鉢・お飲み物なしの単品プランです。肉入り・野菜ほうとうは土日祝もご利用いただけます（平日は200円引き）。<br>学生プランは平日限定・要予約です。</p>
+        <p class="lch-genre-note">小鉢・黒蜜きなこ餅なしの単品プランです。平日・土日祝ともご利用いただけます（平日は200円引き）。<strong>4名様以上は鍋でのご提供</strong>となります。<br class="br-pc">学生プランは平日限定・要予約です。</p>
       </div>
-      <div class="tanpin-table-wrap">
-        <table class="tanpin-table">
+
+      <div class="price-table-wrap" style="max-width:720px;margin:28px auto 0;">
+        <table class="price-table price-table--tanpin">
           <thead>
-            <tr><th>プラン</th><th class="num">平日</th><th class="num">土日祝</th></tr>
+            <tr><th>プラン</th><th style="text-align:right;">平日</th><th style="text-align:right;">土日祝</th></tr>
           </thead>
           <tbody>
-            <tr><td>野菜ほうとう</td><td class="val">¥1,300</td><td class="val">¥1,500</td></tr>
-            <tr><td>肉入りほうとう（鹿・富士桜ポーク）</td><td class="val">¥1,600</td><td class="val">¥1,800</td></tr>
-            <tr><td>肉入りほうとう（信玄鶏・富士桜ポーク）</td><td class="val">¥1,600</td><td class="val">¥1,800</td></tr>
-            <tr><td>肉入りほうとう（ワインビーフ）</td><td class="val">¥1,900</td><td class="val">¥2,100</td></tr>
+            <tr><td>野菜ほうとう</td><td class="price-val">¥1,300<span class="gakusei">学生平日 ¥1,200</span></td><td class="price-val">¥1,500</td></tr>
+            <tr><td>鶏ほうとう（信玄どり）</td><td class="price-val">¥1,600<span class="gakusei">学生平日 ¥1,500</span></td><td class="price-val">¥1,800</td></tr>
+            <tr><td>豚ほうとう（富士桜ポーク）</td><td class="price-val">¥1,600<span class="gakusei">学生平日 ¥1,500</span></td><td class="price-val">¥1,800</td></tr>
+            <tr><td>鹿ほうとう（ジビエ）</td><td class="price-val">¥1,600<span class="gakusei">学生平日 ¥1,500</span></td><td class="price-val">¥1,800</td></tr>
+            <tr><td>ワインビーフほうとう</td><td class="price-val">¥1,900<span class="gakusei">学生平日 ¥1,800</span></td><td class="price-val">¥2,100</td></tr>
+            <tr><td>山梨名物3種盛りほうとう<br><span style="font-size:11px;color:var(--text-light);">ワインビーフ・豚・鶏</span></td><td class="price-val">¥2,300<span class="gakusei">学生平日 ¥2,200</span></td><td class="price-val">¥2,500</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="lch-genre-note" style="margin-top:20px;">※こちらは<strong>単品（麺のみ・小鉢/お飲み物なし）</strong>の料金です。小鉢＋黒蜜きなこ餅付きの<strong>通常コース・プレミアム</strong>は上部「山梨郷土料理ほうとうランチ」をご覧ください。</p>
-      <p class="lch-genre-note" style="margin-top:8px;">※<strong>高校生以下の学生</strong>は、全メニュー<strong>平日料金からさらに−100円引き</strong>（要予約・修学旅行や遠足などの学校団体歓迎）。</p>
+
+      <p class="lch-genre-note" style="margin-top:20px;">※こちらは<strong>単品（麺のみ・小鉢/黒蜜きなこ餅なし）</strong>の料金です。小鉢＋黒蜜きなこ餅付きの<strong>セット</strong>は上部「山梨郷土料理ほうとうランチ」をご覧ください。</p>
+      <p class="lch-genre-note" style="margin-top:8px;">※<strong>学生料金は高校生以下が対象・平日のみ</strong>です（要予約・修学旅行や遠足などの学校団体歓迎）。<strong>土日祝は学生も一般と同じ料金</strong>です。</p>
+
       <div class="lch-genre-cta">
         <a href="../contact/">単品ランチで見積を依頼する</a>
       </div>
     </div>
   </section>
 
-  <!-- ジャンル2：そば（上下段：通常3 → プレミアム3、同順対称） -->
-  <section class="lch-genre lch-genre--white" aria-labelledby="lch-genre-soba">
-    <div class="lch-genre-inner">
-      <div class="lch-genre-head">
-        <h2 id="lch-genre-soba">富士山麓そばランチ</h2>
-        <p class="lch-genre-note">温かい汁そばでご提供します</p>
-        <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ お飲み物（甲州ワイン・山梨ぶどうジュース）。プレミアムは黒蜜きなこ餅・アワビご飯つき。</p>
-      </div>
-
-      <div class="lch-tier">
-          <div class="lch-tier-head"><h3>通常コース</h3></div>
-          <p class="lch-tier-note">小鉢（ひじきの煮物）とお飲み物（甲州ワインまたは山梨ぶどうジュース）付き</p>
-          <div class="lch-plan-grid lch-plan-grid--quad2">
-            <div class="lch-plan plan-card"
-                 data-plan-name="鹿肉そば" data-plan-price="¥1,850（税込）/ 1名"
-                 data-plan-badge="単品" data-plan-badge-class="takeout"
-                 data-plan-includes='["<strong>鹿肉そば</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","※アレルギー：卵・小麦・そば・大豆／詳細は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="鹿肉そば 詳細を見る">
-              <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_soba_shika_20260717.jpg" alt="鹿肉そば" loading="lazy">
-                </div>
-              <div class="lch-plan-body">
-                <h3 class="lch-plan-name">鹿肉そば</h3>
-                <div class="lch-plan-price"><strong>¥1,850</strong><small>（税込）/ 1名</small></div>
-                <div class="lch-plan-hint">タップで詳細</div>
-              </div>
-            </div>
-
-            
-
-            <div class="lch-plan plan-card"
-                 data-plan-name="甲州ワインビーフそば" data-plan-price="¥2,000（税込）/ 1名"
-                 data-plan-badge="単品" data-plan-badge-class="takeout"
-                 data-plan-includes='["<strong>甲州ワインビーフそば</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","※アレルギー：卵・小麦・そば・大豆／詳細は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="甲州ワインビーフそば 詳細を見る">
-              <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_soba_winebeef_20260717.jpg" alt="甲州ワインビーフそば" loading="lazy">
-                </div>
-              <div class="lch-plan-body">
-                <h3 class="lch-plan-name">甲州ワインビーフそば</h3>
-                <div class="lch-plan-price"><strong>¥2,000</strong><small>（税込）/ 1名</small></div>
-                <div class="lch-plan-hint">タップで詳細</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="lch-tier lch-tier--premium">
-          <div class="lch-tier-head"><h3>プレミアムコース</h3></div>
-          <p class="lch-tier-note">通常コースに「アワビご飯・黒蜜きなこ餅」が追加された特別セット</p>
-          <div class="lch-plan-grid lch-plan-grid--quad2">
-            <div class="lch-plan lch-plan--premium plan-card"
-                 data-plan-name="鹿肉そば プレミアム" data-plan-price="¥2,550（税込）/ 1名"
-                 data-plan-badge="プレミアム" data-plan-badge-class="popular"
-                 data-plan-includes='["<strong>鹿肉そば</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","<strong>黒蜜きなこ餅</strong>","<strong>アワビご飯</strong>","※アレルギー：卵・小麦・そば・大豆・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="鹿肉そば プレミアム 詳細を見る">
-              <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_soba_shika_premium_20260717.jpg" alt="鹿肉そば プレミアム" loading="lazy">
-              </div>
-              <div class="lch-plan-body">
-                <h3 class="lch-plan-name">鹿肉そば プレミアム</h3>
-                <div class="lch-plan-price"><strong>¥2,550</strong><small>（税込）/ 1名</small></div>
-                <div class="lch-plan-hint">タップで詳細</div>
-              </div>
-            </div>
-
-            
-
-            <div class="lch-plan lch-plan--premium plan-card"
-                 data-plan-name="甲州ワインビーフそば プレミアム" data-plan-price="¥2,700（税込）/ 1名"
-                 data-plan-badge="プレミアム" data-plan-badge-class="popular"
-                 data-plan-includes='["<strong>甲州ワインビーフそば</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","<strong>黒蜜きなこ餅</strong>","<strong>アワビご飯</strong>","※アレルギー：卵・小麦・そば・大豆・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="甲州ワインビーフそば プレミアム 詳細を見る">
-              <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_soba_winebeef_premium_20260717.jpg" alt="甲州ワインビーフそば プレミアム" loading="lazy">
-              </div>
-              <div class="lch-plan-body">
-                <h3 class="lch-plan-name">甲州ワインビーフそば プレミアム</h3>
-                <div class="lch-plan-price"><strong>¥2,700</strong><small>（税込）/ 1名</small></div>
-                <div class="lch-plan-hint">タップで詳細</div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      <div class="lch-genre-cta">
-        <a href="../contact/">そばで見積を依頼する</a>
-      </div>
-    </div>
-  </section>
 
   <!-- ジャンル3：吉田のうどん（PC 4列横並び：通常2 + プレミアム2、同順対称） -->
   <section class="lch-genre lch-genre--alt" aria-labelledby="lch-genre-udon">
     <div class="lch-genre-inner">
       <div class="lch-genre-head">
         <h2 id="lch-genre-udon">吉田のうどんランチ</h2>
-        <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ お飲み物（甲州ワイン・山梨ぶどうジュース）。プレミアムは黒蜜きなこ餅・アワビご飯つき。</p>
+        <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ 黒蜜きなこ餅。<strong>15名様まで</strong>承ります。</p>
       </div>
 
       <div class="lch-tier">
-        <div class="lch-tier-head"><h3>通常コース</h3></div>
-        <p class="lch-tier-note">小鉢（ひじきの煮物）とお飲み物（甲州ワインまたは山梨ぶどうジュース）付き</p>
         <div class="lch-plan-grid lch-plan-grid--quad2">
           <div class="lch-plan plan-card"
                data-plan-name="鹿肉うどん" data-plan-price="¥1,850（税込）/ 1名"
                  data-plan-badge="単品" data-plan-badge-class="takeout"
-                 data-plan-includes='["<strong>鹿肉うどん（吉田のうどん）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","※アレルギー：小麦・大豆・さば・いわし／詳細は事前にお問合せください"]'
+                 data-plan-includes='["<strong>鹿肉うどん（吉田のうどん）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・さば・いわし／詳細は事前にお問合せください"]'
                  data-plan-href="../contact/" tabindex="0" role="button" aria-label="鹿肉うどん 詳細を見る">
               <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_udon_shika_20260716.jpg" alt="鹿肉うどん" loading="lazy">
+                <img src="../assets/dantai_fj_udon_shika_202609200500.webp" alt="鹿肉うどん" loading="lazy">
                 </div>
               <div class="lch-plan-body">
                 <h3 class="lch-plan-name">鹿肉うどん</h3>
@@ -673,14 +588,13 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                 <div class="lch-plan-hint">タップで詳細</div>
               </div>
             </div>
-
-            <div class="lch-plan plan-card"
+          <div class="lch-plan plan-card"
                  data-plan-name="甲州ワインビーフうどん" data-plan-price="¥2,000（税込）/ 1名"
                  data-plan-badge="単品" data-plan-badge-class="takeout"
-                 data-plan-includes='["<strong>甲州ワインビーフうどん（吉田のうどん）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","※アレルギー：小麦・大豆・さば・いわし／詳細は事前にお問合せください"]'
+                 data-plan-includes='["<strong>甲州ワインビーフうどん（吉田のうどん）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・さば・いわし／詳細は事前にお問合せください"]'
                  data-plan-href="../contact/" tabindex="0" role="button" aria-label="甲州ワインビーフうどん 詳細を見る">
               <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_udon_winebeef_20260716.jpg" alt="甲州ワインビーフうどん" loading="lazy">
+                <img src="../assets/dantai_fj_udon_winebeef_202609200500.webp" alt="甲州ワインビーフうどん" loading="lazy">
                 </div>
               <div class="lch-plan-body">
                 <h3 class="lch-plan-name">甲州ワインビーフうどん</h3>
@@ -688,44 +602,8 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                 <div class="lch-plan-hint">タップで詳細</div>
               </div>
             </div>
-          </div>
         </div>
-
-        <div class="lch-tier lch-tier--premium">
-          <div class="lch-tier-head"><h3>プレミアムコース</h3></div>
-          <p class="lch-tier-note">通常コースに「アワビご飯・黒蜜きなこ餅」が追加された特別セット</p>
-          <div class="lch-plan-grid lch-plan-grid--quad2">
-            <div class="lch-plan lch-plan--premium plan-card"
-                 data-plan-name="鹿肉うどん プレミアム" data-plan-price="¥2,550（税込）/ 1名"
-                 data-plan-badge="プレミアム" data-plan-badge-class="popular"
-                 data-plan-includes='["<strong>鹿肉うどん（吉田のうどん）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","<strong>黒蜜きなこ餅</strong>","<strong>アワビご飯</strong>","※アレルギー：小麦・大豆・さば・いわし・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="鹿肉うどん プレミアム 詳細を見る">
-              <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_udon_shika_premium_20260716.jpg" alt="鹿肉うどん プレミアム" loading="lazy">
-              </div>
-              <div class="lch-plan-body">
-                <h3 class="lch-plan-name">鹿肉うどん プレミアム</h3>
-                <div class="lch-plan-price"><strong>¥2,550</strong><small>（税込）/ 1名</small></div>
-                <div class="lch-plan-hint">タップで詳細</div>
-              </div>
-            </div>
-
-            <div class="lch-plan lch-plan--premium plan-card"
-                 data-plan-name="甲州ワインビーフうどん プレミアム" data-plan-price="¥2,700（税込）/ 1名"
-                 data-plan-badge="プレミアム" data-plan-badge-class="popular"
-                 data-plan-includes='["<strong>甲州ワインビーフうどん（吉田のうどん）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","<strong>黒蜜きなこ餅</strong>","<strong>アワビご飯</strong>","※アレルギー：小麦・大豆・さば・いわし・軟体類（アワビ）・きな粉／詳細は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="甲州ワインビーフうどん プレミアム 詳細を見る">
-              <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_udon_winebeef_premium_20260716.jpg" alt="甲州ワインビーフうどん プレミアム" loading="lazy">
-              </div>
-              <div class="lch-plan-body">
-                <h3 class="lch-plan-name">甲州ワインビーフうどん プレミアム</h3>
-                <div class="lch-plan-price"><strong>¥2,700</strong><small>（税込）/ 1名</small></div>
-                <div class="lch-plan-hint">タップで詳細</div>
-              </div>
-            </div>
-          </div>
-        </div>
+      </div>
 
       <div class="lch-genre-cta">
         <a href="../contact/">うどんで見積を依頼する</a>
@@ -734,84 +612,93 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
   </section>
 
   <!-- ジャンル4：焼肉定食（PC 4列横並び：通常2 + プレミアム2、同順対称） -->
+  <!-- ジャンル：山梨ジビエ焼肉ランチ（4名ごとの卓上コンロ・全5品） -->
   <section class="lch-genre lch-genre--white" aria-labelledby="lch-genre-yakiniku">
     <div class="lch-genre-inner">
       <div class="lch-genre-head">
         <h2 id="lch-genre-yakiniku">山梨ジビエ焼肉ランチ</h2>
-        <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ 白ごはん ＋ ミニ吉田のうどん または ミニほうとう（＋¥200）＋ お飲み物（甲州ワイン・山梨ぶどうジュース）。プレミアムは白ごはん→アワビご飯・黒蜜きなこ餅つき。</p>
+        <p class="lch-genre-note"><strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます。お肉はお皿に盛ってご提供します。<strong>20名様まで</strong>承ります。4名様以下は個別盛りでのご提供も承ります。</p>
+        <p class="lch-genre-note"><strong>セット内容</strong>：ミニ吉田のうどん ＋ 白ごはん ＋ お漬物 ＋ 小鉢（ひじきの煮物）＋ 黒蜜きなこ餅</p>
       </div>
 
       <div class="lch-tier">
-        <div class="lch-tier-head"><h3>通常コース</h3></div>
-        <p class="lch-tier-note">小鉢（ひじきの煮物）・白ごはん・ミニ吉田のうどん または ミニほうとう（＋¥200）・お飲み物（甲州ワインまたは山梨ぶどうジュース）付き</p>
         <div class="lch-plan-grid lch-plan-grid--quad2">
           <div class="lch-plan plan-card"
-               data-plan-name="ハーフ＆ハーフ焼肉定食" data-plan-price="¥2,200（税込）/ 1名"
-                 data-plan-badge="単品" data-plan-badge-class="takeout"
-                 data-plan-includes='["<strong>ハーフ＆ハーフ焼肉</strong>（鹿肉100g・甲州ワインビーフ100g／合計200g/人）","<strong>白ご飯</strong>","<strong>ミニ吉田のうどん</strong> または <strong>ミニほうとう</strong>（ミニほうとうは＋200円）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","※アレルギー：小麦・大豆・かぼちゃ（ミニほうとう選択時）・さば・いわし（ミニ吉田のうどん選択時）／焼肉タレの成分は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="ハーフ＆ハーフ焼肉定食 詳細を見る">
-              <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_yakiniku_halfhalf_20260716.jpg" alt="ハーフ＆ハーフ焼肉定食" loading="lazy">
-                </div>
-              <div class="lch-plan-body">
-                <h3 class="lch-plan-name">ハーフ＆ハーフ<br>焼肉定食</h3>
-                <div class="lch-plan-price"><strong>¥2,200</strong><small>（税込）/ 1名</small></div>
-                <div class="lch-plan-hint">タップで詳細</div>
-              </div>
+               data-plan-name="山梨名物3種盛り定食" data-plan-price="¥2,200（税込）/ 1名"
+               data-plan-badge="定食" data-plan-badge-class="takeout"
+               data-plan-includes='["<strong>山梨名物3種盛り（甲州ワインビーフ・富士桜ポーク・信玄どり／計200g）</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="山梨名物3種盛り定食 詳細を見る">
+            <div class="lch-plan-img-wrap">
+              <img src="../assets/dantai_fj_yakiniku_3shu_202609200500.webp" alt="山梨名物3種盛り定食" loading="lazy">
             </div>
+            <div class="lch-plan-body">
+              <h3 class="lch-plan-name">山梨名物3種盛り定食</h3>
+              <div class="lch-plan-price"><strong>¥2,200</strong><small>（税込）/ 1名</small></div>
+              <div class="lch-plan-hint">タップで詳細</div>
+            </div>
+          </div>
 
-            <div class="lch-plan plan-card"
-                 data-plan-name="ワインビーフ焼肉定食" data-plan-price="¥2,400（税込）/ 1名"
-                 data-plan-badge="単品" data-plan-badge-class="takeout"
-                 data-plan-includes='["<strong>甲州ワインビーフ焼肉</strong>（200g/人）","<strong>白ご飯</strong>","<strong>ミニ吉田のうどん</strong> または <strong>ミニほうとう</strong>（ミニほうとうは＋200円）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","※アレルギー：小麦・大豆・かぼちゃ（ミニほうとう選択時）・さば・いわし（ミニ吉田のうどん選択時）／焼肉タレの成分は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="ワインビーフ焼肉定食 詳細を見る">
-              <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_yakiniku_winebeef_20260716.jpg" alt="ワインビーフ焼肉定食" loading="lazy">
-                </div>
-              <div class="lch-plan-body">
-                <h3 class="lch-plan-name">ワインビーフ<br>焼肉定食</h3>
-                <div class="lch-plan-price"><strong>¥2,400</strong><small>（税込）/ 1名</small></div>
-                <div class="lch-plan-hint">タップで詳細</div>
-              </div>
+          <div class="lch-plan plan-card"
+               data-plan-name="ワインビーフ定食" data-plan-price="¥2,600（税込）/ 1名"
+               data-plan-badge="定食" data-plan-badge-class="takeout"
+               data-plan-includes='["<strong>甲州ワインビーフ 200g</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="ワインビーフ定食 詳細を見る">
+            <div class="lch-plan-img-wrap">
+              <img src="../assets/dantai_fj_yakiniku_winebeef_202609200500.webp" alt="ワインビーフ定食" loading="lazy">
+            </div>
+            <div class="lch-plan-body">
+              <h3 class="lch-plan-name">ワインビーフ定食</h3>
+              <div class="lch-plan-price"><strong>¥2,600</strong><small>（税込）/ 1名</small></div>
+              <div class="lch-plan-hint">タップで詳細</div>
+            </div>
+          </div>
+
+          <div class="lch-plan plan-card"
+               data-plan-name="ジビエ鹿定食" data-plan-price="¥1,700（税込）/ 1名"
+               data-plan-badge="定食" data-plan-badge-class="takeout"
+               data-plan-includes='["<strong>ジビエ鹿肉 200g</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="ジビエ鹿定食 詳細を見る">
+            <div class="lch-plan-img-wrap">
+              <img src="../assets/dantai_fj_yakiniku_shika_202609200500.webp" alt="ジビエ鹿定食" loading="lazy">
+            </div>
+            <div class="lch-plan-body">
+              <h3 class="lch-plan-name">ジビエ鹿定食</h3>
+              <div class="lch-plan-price"><strong>¥1,700</strong><small>（税込）/ 1名</small></div>
+              <div class="lch-plan-hint">タップで詳細</div>
+            </div>
+          </div>
+
+          <div class="lch-plan plan-card"
+               data-plan-name="MIX信玄どり定食" data-plan-price="¥1,700（税込）/ 1名"
+               data-plan-badge="定食" data-plan-badge-class="takeout"
+               data-plan-includes='["<strong>信玄どり 200g（ムネ・モモMIX）</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="MIX信玄どり定食 詳細を見る">
+            <div class="lch-plan-img-wrap">
+              <img src="../assets/dantai_fj_yakiniku_shingen_202609200500.webp" alt="MIX信玄どり定食" loading="lazy">
+            </div>
+            <div class="lch-plan-body">
+              <h3 class="lch-plan-name">MIX信玄どり定食</h3>
+              <div class="lch-plan-price"><strong>¥1,700</strong><small>（税込）/ 1名</small></div>
+              <div class="lch-plan-hint">タップで詳細</div>
+            </div>
+          </div>
+
+          <div class="lch-plan plan-card"
+               data-plan-name="富士桜ポーク定食" data-plan-price="¥1,700（税込）/ 1名"
+               data-plan-badge="定食" data-plan-badge-class="takeout"
+               data-plan-includes='["<strong>富士桜ポーク 200g</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
+               data-plan-href="../contact/" tabindex="0" role="button" aria-label="富士桜ポーク定食 詳細を見る">
+            <div class="lch-plan-img-wrap">
+              <img src="../assets/dantai_fj_yakiniku_pork_202609200500.webp" alt="富士桜ポーク定食" loading="lazy">
+            </div>
+            <div class="lch-plan-body">
+              <h3 class="lch-plan-name">富士桜ポーク定食</h3>
+              <div class="lch-plan-price"><strong>¥1,700</strong><small>（税込）/ 1名</small></div>
+              <div class="lch-plan-hint">タップで詳細</div>
             </div>
           </div>
         </div>
-
-        <div class="lch-tier lch-tier--premium">
-          <div class="lch-tier-head"><h3>プレミアムコース</h3></div>
-          <p class="lch-tier-note">通常コースの白ごはんが「アワビご飯」に変わり、「黒蜜きなこ餅」が付く特別セット</p>
-          <div class="lch-plan-grid lch-plan-grid--quad2">
-            <div class="lch-plan lch-plan--premium plan-card"
-                 data-plan-name="ハーフ＆ハーフ焼肉定食 プレミアム" data-plan-price="¥2,900（税込）/ 1名"
-                 data-plan-badge="プレミアム" data-plan-badge-class="popular"
-                 data-plan-includes='["<strong>ハーフ＆ハーフ焼肉</strong>（鹿肉100g・甲州ワインビーフ100g／合計200g/人）","<strong>ミニ吉田のうどん</strong> または <strong>ミニほうとう</strong>（ミニほうとうは＋200円）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","<strong>アワビご飯</strong>","<strong>黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・かぼちゃ（ミニほうとう選択時）・さば・いわし（ミニ吉田のうどん選択時）・軟体類（アワビ）・きな粉／焼肉タレの成分は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="ハーフ＆ハーフ焼肉定食 プレミアム 詳細を見る">
-              <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_yakiniku_halfhalf_premium_20260716.jpg" alt="ハーフ＆ハーフ焼肉定食 プレミアム" loading="lazy">
-              </div>
-              <div class="lch-plan-body">
-                <h3 class="lch-plan-name">ハーフ＆ハーフ焼肉定食 プレミアム</h3>
-                <div class="lch-plan-price"><strong>¥2,900</strong><small>（税込）/ 1名</small></div>
-                <div class="lch-plan-hint">タップで詳細</div>
-              </div>
-            </div>
-
-            <div class="lch-plan lch-plan--premium plan-card"
-                 data-plan-name="ワインビーフ焼肉定食 プレミアム" data-plan-price="¥3,100（税込）/ 1名"
-                 data-plan-badge="プレミアム" data-plan-badge-class="popular"
-                 data-plan-includes='["<strong>甲州ワインビーフ焼肉</strong>（200g/人）","<strong>ミニ吉田のうどん</strong> または <strong>ミニほうとう</strong>（ミニほうとうは＋200円）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>甲州ワイン</strong> または <strong>山梨ぶどうジュース</strong>","<strong>アワビご飯</strong>","<strong>黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・かぼちゃ（ミニほうとう選択時）・さば・いわし（ミニ吉田のうどん選択時）・軟体類（アワビ）・きな粉／焼肉タレの成分は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="ワインビーフ焼肉定食 プレミアム 詳細を見る">
-              <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_yakiniku_winebeef_premium_20260716.jpg" alt="ワインビーフ焼肉定食 プレミアム" loading="lazy">
-              </div>
-              <div class="lch-plan-body">
-                <h3 class="lch-plan-name">ワインビーフ焼肉定食 プレミアム</h3>
-                <div class="lch-plan-price"><strong>¥3,100</strong><small>（税込）/ 1名</small></div>
-                <div class="lch-plan-hint">タップで詳細</div>
-              </div>
-            </div>
-          </div>
-        </div>
+      </div>
 
       <div class="lch-genre-cta">
         <a href="../contact/">焼肉で見積を依頼する</a>
@@ -820,8 +707,6 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
   </section>
 
 </section>
-
-<!-- CONDITIONS -->
 <section id="conditions" class="lch-section lch-conditions" aria-labelledby="lch-cond-h">
   <div class="lch-section-inner">
     <h2 id="lch-cond-h">対応可能人数・運用条件</h2>
@@ -835,7 +720,8 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
         <div class="lch-cond-body">
           <h3>ほうとう：最大 <strong>100 名</strong></h3>
           <ul>
-            <li><strong>20 名以上</strong>：4〜5 名用の大鍋を複数台に分けて<strong>シェア</strong>（グループで鍋を囲む形）</li>
+            <li><strong>4 名様ごとに 1 つの鍋</strong>でご提供（ご到着後にご自身で仕上げる約10分の調理体験つき）</li>
+            <li><strong>4 名様以下</strong>は個別盛りでのご提供も可能</li>
             <li><strong>80 名超</strong>：一部のお客様は向かいの系列店舗（<strong>保護猫カフェ</strong>）でお食事</li>
             <li><strong>猫アレルギー</strong>の方は事前にご相談ください</li>
           </ul>
@@ -847,10 +733,10 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
         </div>
         <div class="lch-cond-body">
-          <h3>焼肉:最大 <strong>30 名</strong></h3>
+          <h3>焼肉：最大 <strong>20 名</strong></h3>
           <ul>
-            <li>最大 <strong>30 名</strong>までご受付可能</li>
-            <li><strong>1 人 1 台</strong>のミニコンロで席焼き</li>
+            <li>最大 <strong>15 名</strong>までご受付可能</li>
+            <li><strong>4 名様ごとに 1 台</strong>の卓上コンロで焼いてお召し上がり</li>
             <li>1 人あたりお肉 <strong>200g</strong></li>
           </ul>
         </div>
@@ -861,10 +747,10 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg>
         </div>
         <div class="lch-cond-body">
-          <h3>そば・うどん：最大 <strong>20 名</strong></h3>
+          <h3>うどん：最大 <strong>15 名</strong></h3>
           <ul>
             <li>最大 <strong>20 名</strong>までご受付可能</li>
-            <li><strong>温かい</strong>汁そば・汁うどんでご提供</li>
+            <li><strong>温かい</strong>汁うどんでご提供</li>
           </ul>
         </div>
       </div>
