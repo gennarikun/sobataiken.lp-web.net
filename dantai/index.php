@@ -419,7 +419,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
     <div class="lch-genre-inner">
       <div class="lch-genre-head">
         <h2 id="lch-genre-hoto">山梨郷土料理ほうとうランチ</h2>
-        <p class="lch-genre-note"><strong>4名様ごとに1つの鍋でご提供します。</strong>ご到着後、麺・お野菜・お肉をご自身で入れて仕上げていただく約10分の調理体験つきです。4名様以下は個別盛りでのご提供も承ります。</p>
+        <p class="lch-genre-note"><strong>4名様ごとに1つの鍋でご提供します。</strong>ご到着後、鍋に麺・お野菜・お肉を入れて、お客様ご自身で仕上げてお召し上がりいただきます（約10分）。4名様以下は個別盛りでのご提供も承ります。</p>
         <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ 黒蜜きなこ餅</p>
       </div>
 
@@ -428,7 +428,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <div class="lch-plan plan-card"
                data-plan-name="野菜ほうとう" data-plan-price="平日¥1,700／土日祝¥1,900（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>野菜ほうとう</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,600","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>野菜ほうとう</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,600","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
                data-plan-href="../contact/" tabindex="0" role="button" aria-label="野菜ほうとう 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_yasai_202609200500.webp" alt="野菜ほうとう" loading="lazy">
@@ -444,7 +444,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <div class="lch-plan plan-card"
                data-plan-name="鶏ほうとう（信玄どり）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>鶏ほうとう（信玄どり）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>鶏ほうとう（信玄どり）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
                data-plan-href="../contact/" tabindex="0" role="button" aria-label="鶏ほうとう（信玄どり） 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_tori_202609200500.webp" alt="鶏ほうとう 信玄どり" loading="lazy">
@@ -460,7 +460,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <div class="lch-plan plan-card"
                data-plan-name="豚ほうとう（富士桜ポーク）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>豚ほうとう（富士桜ポーク）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>豚ほうとう（富士桜ポーク）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
                data-plan-href="../contact/" tabindex="0" role="button" aria-label="豚ほうとう（富士桜ポーク） 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_buta_202609200500.webp" alt="豚ほうとう 富士桜ポーク" loading="lazy">
@@ -476,7 +476,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <div class="lch-plan plan-card"
                data-plan-name="鹿ほうとう（ジビエ）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>鹿ほうとう（ジビエ）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>鹿ほうとう（ジビエ）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
                data-plan-href="../contact/" tabindex="0" role="button" aria-label="鹿ほうとう（ジビエ） 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_shika_202609200500.webp" alt="鹿ほうとう ジビエ" loading="lazy">
@@ -492,7 +492,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <div class="lch-plan plan-card"
                data-plan-name="ワインビーフほうとう" data-plan-price="平日¥2,300／土日祝¥2,500（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>ワインビーフほうとう</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥2,200","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>ワインビーフほうとう</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥2,200","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
                data-plan-href="../contact/" tabindex="0" role="button" aria-label="ワインビーフほうとう 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_winebeef_202609200500.webp" alt="ワインビーフほうとう" loading="lazy">
@@ -508,7 +508,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <div class="lch-plan plan-card"
                data-plan-name="山梨名物3種盛りほうとう" data-plan-price="平日¥2,700／土日祝¥2,900（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>山梨名物3種盛りほうとう</strong>（甲州ワインビーフ・富士桜ポーク・信玄どり）","<strong>4名様ごとに1つの鍋でご提供</strong>（ご到着後にご自身で仕上げる約10分の調理体験つき／4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥2,600","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>山梨名物3種盛りほうとう</strong>（甲州ワインビーフ・富士桜ポーク・信玄どり）","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥2,600","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
                data-plan-href="../contact/" tabindex="0" role="button" aria-label="山梨名物3種盛りほうとう 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_3shu_202609200500.webp" alt="山梨名物3種盛りほうとう ワインビーフ・豚・鶏" loading="lazy">
@@ -720,7 +720,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
         <div class="lch-cond-body">
           <h3>ほうとう：最大 <strong>100 名</strong></h3>
           <ul>
-            <li><strong>4 名様ごとに 1 つの鍋</strong>でご提供（ご到着後にご自身で仕上げる約10分の調理体験つき）</li>
+            <li><strong>4 名様ごとに 1 つの鍋</strong>でご提供（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分）</li>
             <li><strong>4 名様以下</strong>は個別盛りでのご提供も可能</li>
             <li><strong>80 名超</strong>：一部のお客様は向かいの系列店舗（<strong>保護猫カフェ</strong>）でお食事</li>
             <li><strong>猫アレルギー</strong>の方は事前にご相談ください</li>
