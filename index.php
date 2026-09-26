@@ -581,10 +581,6 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 <div class="tsb-caption"><span class="tsb-name">ワインビーフすき焼きそば</span><span class="tsb-price">¥4,450<small>（税込）/ 1名</small></span></div>
 </div>
 <div class="tsb-card">
-<img loading="lazy" decoding="async" src="assets/soba_ajihen_mala_202609031730.png" alt="ジビエ麻辣そば">
-<div class="tsb-caption"><span class="tsb-name">ジビエ麻辣そば</span><span class="tsb-price">¥4,300<small>（税込）/ 1名</small></span></div>
-</div>
-<div class="tsb-card">
 <img loading="lazy" decoding="async" src="assets/soba_ajihen_shika_202609031730.png" alt="鹿肉そば">
 <div class="tsb-caption"><span class="tsb-name">鹿肉そば</span><span class="tsb-price">¥4,150<small>（税込）/ 1名</small></span></div>
 </div>

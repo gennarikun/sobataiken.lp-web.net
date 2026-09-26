@@ -264,19 +264,6 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </div>
 </div>
 <div class="sbm-card">
-<img src="../assets/soba_ajihen_mala_202609031730.png" alt="ジビエ麻辣そば">
-<div class="sbm-card-body">
-<div class="sbm-card-caption"><span class="sbm-card-name">ジビエ麻辣そば</span><span class="sbm-card-price">¥4,300<small>（税込）/ 1名</small></span></div>
-<div class="sbm-includes">
-<span class="sbm-includes-label">内容</span>
-<ul>
-<li>そば打ち体験で打った冷たいそば</li>
-<li>鹿肉入り・旨辛麻辣の温かいつけ汁</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sbm-card">
 <img src="../assets/soba_ajihen_shika_202609031730.png" alt="鹿肉そば">
 <div class="sbm-card-body">
 <div class="sbm-card-caption"><span class="sbm-card-name">鹿肉そば</span><span class="sbm-card-price">¥4,150<small>（税込）/ 1名</small></span></div>
