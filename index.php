@@ -568,29 +568,6 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </div>
 </div>
 
-<!-- ===== そば味変3種（menuページ準拠） ===== -->
-<div class="tsb-section">
-<div class="tsb-header">
-<h3>そば打ち体験 — おすすめ味変</h3>
-<p class="tsb-desc">打ちたてのそばを、おすすめの味変で自分好みに</p>
-</div>
-<div class="tsb-body">
-<div class="tsb-cards">
-<div class="tsb-card">
-<img loading="lazy" decoding="async" src="assets/soba_ajihen_suki_202609031730.png" alt="ワインビーフすき焼きそば">
-<div class="tsb-caption"><span class="tsb-name">ワインビーフすき焼きそば</span><span class="tsb-price">¥4,450<small>（税込）/ 1名</small></span></div>
-</div>
-<div class="tsb-card">
-<img loading="lazy" decoding="async" src="assets/soba_ajihen_shika_202609031730.png" alt="鹿肉そば">
-<div class="tsb-caption"><span class="tsb-name">鹿肉そば</span><span class="tsb-price">¥4,150<small>（税込）/ 1名</small></span></div>
-</div>
-</div>
-<p class="tsb-note">※いずれも基本のそば打ち体験（¥3,700）＋味変の追加料金を含んだ総額（税込）です。</p>
-</div>
-</div>
-
-
-
 <!-- ===== おすすめコース（9/1新価格・正本houtoutaiken/menu転記 2026-09-03） ===== -->
 <div class="lp-menu-wrapper">
 <div class="lp-menu-container">

@@ -242,45 +242,6 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </div>
 </div>
 
-<!-- ===== 2. そば打ち体験 おすすめ味変 ===== -->
-<div class="sbm-section">
-<div class="sbm-cat-header">
-<h2>そば打ち体験 — おすすめ味変</h2>
-<p class="sbm-cat-desc">打ちたてのそばを、おすすめの味変で自分好みに</p>
-</div>
-<div class="sbm-body">
-<div class="sbm-cards">
-<div class="sbm-card">
-<img src="../assets/soba_ajihen_suki_202609031730.png" alt="ワインビーフすき焼きそば">
-<div class="sbm-card-body">
-<div class="sbm-card-caption"><span class="sbm-card-name">ワインビーフすき焼きそば</span><span class="sbm-card-price">¥4,450<small>（税込）/ 1名</small></span></div>
-<div class="sbm-includes">
-<span class="sbm-includes-label">内容</span>
-<ul>
-<li>そば打ち体験で打った冷たいそば</li>
-<li>ワインビーフ入り・すき焼き仕立ての温かいつけ汁</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="sbm-card">
-<img src="../assets/soba_ajihen_shika_202609031730.png" alt="鹿肉そば">
-<div class="sbm-card-body">
-<div class="sbm-card-caption"><span class="sbm-card-name">鹿肉そば</span><span class="sbm-card-price">¥4,150<small>（税込）/ 1名</small></span></div>
-<div class="sbm-includes">
-<span class="sbm-includes-label">内容</span>
-<ul>
-<li>そば打ち体験で打った冷たいそば</li>
-<li>鹿肉入りの温かいつけ汁</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-<p class="sbm-note">※いずれも基本のそば打ち体験（¥3,700）＋味変の追加料金を含んだ総額（税込）です。</p>
-</div>
-</div>
-
 <!-- ===== 3. おすすめコース ===== -->
 <div class="sbm-section">
 <div class="sbm-cat-header">
@@ -365,7 +326,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <span class="sbm-row-price">¥3,500</span>
 </div>
 <div class="sbm-row">
-<span class="sbm-row-name">豚骨ラーメン作り体験<span class="sbm-row-note">本格豚骨スープをじっくり煮込んで手作り麺と合わせる。麺を茹でる工程もお客様自身が行います</span></span>
+<span class="sbm-row-name">豚骨ラーメン作り体験<span class="sbm-row-note">本格豚骨スープをじっくり煮込んで手作り麺と合わせる</span></span>
 <span class="sbm-row-price">¥3,500</span>
 </div>
 </div>
