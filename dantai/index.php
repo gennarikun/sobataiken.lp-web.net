@@ -710,7 +710,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
 <section id="conditions" class="lch-section lch-conditions" aria-labelledby="lch-cond-h">
   <div class="lch-section-inner">
     <h2 id="lch-cond-h">対応可能人数・運用条件</h2>
-    <p class="lch-section-lead">お食事の対応可能な人数・条件をまとめました。全プラン下限 <strong>2 名</strong>から承ります。ご不明点はお気軽にご相談ください。</p>
+    <p class="lch-section-lead">お食事の対応可能な人数・条件をまとめました。全プラン <strong>1 名様</strong>から承ります。ご不明点はお気軽にご相談ください。</p>
 
     <div class="lch-cond-bento">
       <div class="lch-cond-item">
