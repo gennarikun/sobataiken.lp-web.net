@@ -735,7 +735,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
         <div class="lch-cond-body">
           <h3>焼肉：最大 <strong>20 名</strong></h3>
           <ul>
-            <li>最大 <strong>15 名</strong>までご受付可能</li>
+            <li>最大 <strong>20 名</strong>までご受付可能</li>
             <li><strong>4 名様ごとに 1 台</strong>の卓上コンロで焼いてお召し上がり</li>
             <li>1 人あたりお肉 <strong>200g</strong></li>
           </ul>
@@ -749,7 +749,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
         <div class="lch-cond-body">
           <h3>うどん：最大 <strong>15 名</strong></h3>
           <ul>
-            <li>最大 <strong>20 名</strong>までご受付可能</li>
+            <li>最大 <strong>15 名</strong>までご受付可能</li>
             <li><strong>温かい</strong>汁うどんでご提供</li>
           </ul>
         </div>
