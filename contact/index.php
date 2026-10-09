@@ -59,7 +59,9 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </div>
 <p><a class="btn-lg btn btn-block btn-primary" href="../rule/">体験詳細はこちら</a></p>
 <p>富士家では完全予約制とさせていただいております。</p>
-<p>一般のお客様は、下記の【LINE】【WhatsApp】にてご連絡ください。旅行会社や企業様はメールでお問い合わせください。</p>
+<p>一般のお客様は、下記の【LINE】【WhatsApp】にてご連絡ください。団体（旅行会社・企業・学校）のご予約は、専用の団体予約フォームで承ります。</p>
+<p><a class="btn-lg btn btn-block btn-primary" href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" target="_blank" rel="noopener">団体予約フォームを開く</a></p>
+<p style="text-align:center;font-size:.85em;">団体予約フォームが新しいタブで開きます ／ 店舗より1営業日以内にご連絡します</p>
 <p>ご不明な点などもこちらからお気軽にご連絡ください。</p>
 <h3 id="line"><strong>LINE</strong>で予約</h3>
 <p><a class="line-button" href="https://lin.ee/5BGAp80"><br>
@@ -71,7 +73,7 @@ LINEで問い合わせ<br>
 <p style="text-align: center;"><a class="btn btn-success btn-lg" href="https://wa.me/message/CTEXDMJSLLURD1">WhatsAppで連絡する</a></p>
 <p>リンククリック後に表示される項目の回答をお送りください。24時間受け付けており返信は必ず致します。スムーズにご予約を希望されるお客様はぜひご利用ください。WhatsAppでのお問い合わせは<strong>朝9時～夜6時の間</strong>でお返事させて頂きます。</p>
 <h3><strong>メール</strong>で予約</h3>
-<p>旅行会社や企業様はメールでお問い合わせください。</p>
+<p>メールでもご予約・お問い合わせを承ります。</p>
 <p style="text-align: center;"><a class="btn btn-success btn-lg" href="mailto:taiken.takanasensei@gmail.com%0A?body=%E3%80%8C%E9%83%B7%E5%9C%9F%E6%96%99%E7%90%86%E4%BD%93%E9%A8%93%E6%95%99%E5%AE%A4%E3%80%80%E4%BA%88%E7%B4%84%E7%94%B3%E3%81%97%E8%BE%BC%E3%81%BF%E3%80%8D%0D%0A%E3%80%80%0D%0A%E3%80%90%E2%91%A0%E7%AC%AC%E4%B8%80%E5%B8%8C%E6%9C%9B%E3%81%AE%E6%97%A5%E6%99%82/First%20choice%20of%20date%20and%20time%E3%80%91%0D%0A%E3%80%90%E2%91%A1%E7%AC%AC%E4%BA%8C%E5%B8%8C%E6%9C%9B%E3%81%AE%E6%97%A5%E6%99%82/Second%20choice%20of%20date%20and%20time%E3%80%91%0D%0A%E3%80%90%E2%91%A2%E3%81%94%E5%B8%8C%E6%9C%9B%E4%BD%93%E9%A8%93%E3%82%B3%E3%83%BC%E3%82%B9/Desired%20experience%20course%E3%80%91%0D%0A%E3%80%90%E2%91%A3%E3%81%8A%E5%AE%A2%E6%A7%98%E3%81%AE%E4%BA%BA%E6%95%B0(13%E6%AD%B3%E4%BB%A5%E4%B8%8A)/Number%20of%20participants%20(ages%2013%20and%20over)%E3%80%91%0D%0A%E3%80%90%E2%91%A4%E3%81%8A%E5%AE%A2%E6%A7%98%E3%81%AE%E4%BA%BA%E6%95%B0(12%E6%AD%B3%EF%BD%9E5%E6%AD%B3)/Number%20of%20participants%20(ages%2012%20to%205)%E3%80%91%0D%0A%E3%80%90%E2%91%A5%E3%81%8A%E5%AE%A2%E6%A7%98%E3%81%AE%E4%BA%BA%E6%95%B0(4%E6%AD%B3%E4%BB%A5%E4%B8%8B)/Number%20of%20participants%20(ages%204%20and%20under)%E3%80%91%0D%0A%E3%80%90%E2%91%A6%E4%BB%A3%E8%A1%A8%E8%80%85%E6%A7%98%E3%81%AE%E3%81%8A%E5%90%8D%E5%89%8D/Name%20of%20the%20representative%E3%80%91%0D%0A%E3%80%90%E2%91%A7%E4%BB%A3%E8%A1%A8%E8%80%85%E6%A7%98%E3%81%AE%E3%81%94%E9%80%A3%E7%B5%A1%E5%85%88/Contact%20information%20of%20the%20representative%E3%80%91">MAIL</a></p>
 <p>メールには、</p>
 <ul>
