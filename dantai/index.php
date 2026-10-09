@@ -429,7 +429,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="野菜ほうとう" data-plan-price="平日¥1,700／土日祝¥1,900（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
                data-plan-includes='["<strong>野菜ほうとう</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,600","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="野菜ほうとう 詳細を見る">
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="野菜ほうとう 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_yasai_202610021827.webp" alt="野菜ほうとう" loading="lazy">
             </div>
@@ -445,7 +445,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="鶏ほうとう（信玄どり）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
                data-plan-includes='["<strong>鶏ほうとう（信玄どり）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="鶏ほうとう（信玄どり） 詳細を見る">
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="鶏ほうとう（信玄どり） 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_tori_202610021827.webp" alt="鶏ほうとう 信玄どり" loading="lazy">
             </div>
@@ -461,7 +461,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="豚ほうとう（富士桜ポーク）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
                data-plan-includes='["<strong>豚ほうとう（富士桜ポーク）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="豚ほうとう（富士桜ポーク） 詳細を見る">
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="豚ほうとう（富士桜ポーク） 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_buta_202610021827.webp" alt="豚ほうとう 富士桜ポーク" loading="lazy">
             </div>
@@ -477,7 +477,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="鹿ほうとう（ジビエ）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
                data-plan-includes='["<strong>鹿ほうとう（ジビエ）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="鹿ほうとう（ジビエ） 詳細を見る">
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="鹿ほうとう（ジビエ） 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_shika_202610021827.webp" alt="鹿ほうとう ジビエ" loading="lazy">
             </div>
@@ -493,7 +493,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="ワインビーフほうとう" data-plan-price="平日¥2,300／土日祝¥2,500（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
                data-plan-includes='["<strong>ワインビーフほうとう</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥2,200","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="ワインビーフほうとう 詳細を見る">
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="ワインビーフほうとう 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_winebeef_202610021827.webp" alt="ワインビーフほうとう" loading="lazy">
             </div>
@@ -509,7 +509,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="山梨名物3種盛りほうとう" data-plan-price="平日¥2,700／土日祝¥2,900（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
                data-plan-includes='["<strong>山梨名物3種盛りほうとう</strong>（甲州ワインビーフ・富士桜ポーク・信玄どり）","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥2,600","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="山梨名物3種盛りほうとう 詳細を見る">
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="山梨名物3種盛りほうとう 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_3shu_202610021827.webp" alt="山梨名物3種盛りほうとう ワインビーフ・豚・鶏" loading="lazy">
             </div>
@@ -525,7 +525,8 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
 
       <p class="lch-genre-note" style="margin-top:14px;">※表示は平日／土日祝の料金です。<strong>高校生以下の学生は平日料金からさらに100円引き</strong>（要予約）。土日祝は学生も一般と同じ料金です。単品（麺のみ）は下段をご覧ください。</p>
       <div class="lch-genre-cta">
-        <a href="../contact/">ほうとうで見積を依頼する</a>
+        <a href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" target="_blank" rel="noopener">ほうとうで見積を依頼する</a>
+        <p class="grf-note" style="margin:8px 0 0;font-size:.82rem;line-height:1.7;color:#6b6560;text-align:center;">団体予約フォームが新しいタブで開きます ／ 店舗より1営業日以内にご連絡します</p>
       </div>
     </div>
   </section>
@@ -558,7 +559,8 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       <p class="lch-genre-note" style="margin-top:8px;">※<strong>学生料金は高校生以下が対象・平日のみ</strong>です（要予約・修学旅行や遠足などの学校団体歓迎）。<strong>土日祝は学生も一般と同じ料金</strong>です。</p>
 
       <div class="lch-genre-cta">
-        <a href="../contact/">単品ランチで見積を依頼する</a>
+        <a href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" target="_blank" rel="noopener">単品ランチで見積を依頼する</a>
+        <p class="grf-note" style="margin:8px 0 0;font-size:.82rem;line-height:1.7;color:#6b6560;text-align:center;">団体予約フォームが新しいタブで開きます ／ 店舗より1営業日以内にご連絡します</p>
       </div>
     </div>
   </section>
@@ -578,7 +580,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="鹿肉うどん" data-plan-price="¥1,850（税込）/ 1名"
                  data-plan-badge="単品" data-plan-badge-class="takeout"
                  data-plan-includes='["<strong>鹿肉うどん（吉田のうどん）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・さば・いわし／詳細は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="鹿肉うどん 詳細を見る">
+                 data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="鹿肉うどん 詳細を見る">
               <div class="lch-plan-img-wrap">
                 <img src="../assets/dantai_fj_udon_shika_202609200500.webp" alt="鹿肉うどん" loading="lazy">
                 </div>
@@ -592,7 +594,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                  data-plan-name="甲州ワインビーフうどん" data-plan-price="¥2,000（税込）/ 1名"
                  data-plan-badge="単品" data-plan-badge-class="takeout"
                  data-plan-includes='["<strong>甲州ワインビーフうどん（吉田のうどん）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・さば・いわし／詳細は事前にお問合せください"]'
-                 data-plan-href="../contact/" tabindex="0" role="button" aria-label="甲州ワインビーフうどん 詳細を見る">
+                 data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="甲州ワインビーフうどん 詳細を見る">
               <div class="lch-plan-img-wrap">
                 <img src="../assets/dantai_fj_udon_winebeef_202609200500.webp" alt="甲州ワインビーフうどん" loading="lazy">
                 </div>
@@ -606,7 +608,8 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       </div>
 
       <div class="lch-genre-cta">
-        <a href="../contact/">うどんで見積を依頼する</a>
+        <a href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" target="_blank" rel="noopener">うどんで見積を依頼する</a>
+        <p class="grf-note" style="margin:8px 0 0;font-size:.82rem;line-height:1.7;color:#6b6560;text-align:center;">団体予約フォームが新しいタブで開きます ／ 店舗より1営業日以内にご連絡します</p>
       </div>
     </div>
   </section>
@@ -627,7 +630,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="山梨名物3種盛り定食" data-plan-price="¥2,200（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
                data-plan-includes='["<strong>山梨名物3種盛り（甲州ワインビーフ・富士桜ポーク・信玄どり／計200g）</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="山梨名物3種盛り定食 詳細を見る">
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="山梨名物3種盛り定食 詳細を見る">
             <div class="lch-plan-img-wrap">
               <img src="../assets/dantai_fj_yakiniku_3shu_202609200500.webp" alt="山梨名物3種盛り定食" loading="lazy">
             </div>
@@ -642,7 +645,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="ワインビーフ定食" data-plan-price="¥2,600（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
                data-plan-includes='["<strong>甲州ワインビーフ 200g</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="ワインビーフ定食 詳細を見る">
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="ワインビーフ定食 詳細を見る">
             <div class="lch-plan-img-wrap">
               <img src="../assets/dantai_fj_yakiniku_winebeef_202609200500.webp" alt="ワインビーフ定食" loading="lazy">
             </div>
@@ -657,7 +660,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="ジビエ鹿定食" data-plan-price="¥1,700（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
                data-plan-includes='["<strong>ジビエ鹿肉 200g</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="ジビエ鹿定食 詳細を見る">
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="ジビエ鹿定食 詳細を見る">
             <div class="lch-plan-img-wrap">
               <img src="../assets/dantai_fj_yakiniku_shika_202609200500.webp" alt="ジビエ鹿定食" loading="lazy">
             </div>
@@ -672,7 +675,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="MIX信玄どり定食" data-plan-price="¥1,700（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
                data-plan-includes='["<strong>信玄どり 200g（ムネ・モモMIX）</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="MIX信玄どり定食 詳細を見る">
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="MIX信玄どり定食 詳細を見る">
             <div class="lch-plan-img-wrap">
               <img src="../assets/dantai_fj_yakiniku_shingen_202609200500.webp" alt="MIX信玄どり定食" loading="lazy">
             </div>
@@ -687,7 +690,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                data-plan-name="富士桜ポーク定食" data-plan-price="¥1,700（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
                data-plan-includes='["<strong>富士桜ポーク 200g</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
-               data-plan-href="../contact/" tabindex="0" role="button" aria-label="富士桜ポーク定食 詳細を見る">
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="富士桜ポーク定食 詳細を見る">
             <div class="lch-plan-img-wrap">
               <img src="../assets/dantai_fj_yakiniku_pork_202609200500.webp" alt="富士桜ポーク定食" loading="lazy">
             </div>
@@ -701,7 +704,8 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       </div>
 
       <div class="lch-genre-cta">
-        <a href="../contact/">焼肉で見積を依頼する</a>
+        <a href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" target="_blank" rel="noopener">焼肉で見積を依頼する</a>
+        <p class="grf-note" style="margin:8px 0 0;font-size:.82rem;line-height:1.7;color:#6b6560;text-align:center;">団体予約フォームが新しいタブで開きます ／ 店舗より1営業日以内にご連絡します</p>
       </div>
     </div>
   </section>
@@ -945,8 +949,9 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
 <section id="final-cta" class="lch-final" aria-labelledby="lch-final-h">
   <div class="lch-final-inner">
     <h2 id="lch-final-h">まずは空き状況・お見積りをご相談ください</h2>
-    <p>LINE ／ メール ／ WhatsApp ／ お電話 で承ります。<br>ご希望のプラン・人数・日時をお知らせください。</p>
-    <a href="../contact/" class="btn-primary">団体枠の空き状況を確認する</a>
+    <p>団体のご予約は専用の予約フォームで承ります。<br>ご希望のプラン・人数・日時をご入力ください。</p>
+    <a href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" target="_blank" rel="noopener" class="btn-primary">団体枠の空き状況を確認する</a>
+    <p class="grf-note" style="margin:8px 0 0;font-size:.82rem;line-height:1.7;color:#6b6560;text-align:center;">団体予約フォームが新しいタブで開きます ／ 店舗より1営業日以内にご連絡します</p>
     <p class="lch-hero-micro">見積・相談は無料 ／ 開催5日前より前ならキャンセル料無料 ／ 数名の欠員は柔軟対応</p>
   </div>
 </section>
@@ -954,7 +959,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
 </main>
 
 <div class="sticky-cta">
-  <a href="../contact/">
+  <a href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" target="_blank" rel="noopener">
     <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
     団体枠の空き状況を確認する
   </a>
@@ -978,7 +983,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       </div>
       <div id="planModalNote" class="plan-modal-note" style="display:none"></div>
       <button id="planModalVideoBtn" class="btn-video-plan" style="display:none" onclick="openVideoModal(this.getAttribute('data-video-src'))">▶ 動画を見る</button>
-      <a class="btn-primary plan-modal-cta" id="planModalCta" href="../contact/">このプランで予約する</a>
+      <a class="btn-primary plan-modal-cta" id="planModalCta" href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" target="_blank" rel="noopener">このプランで予約する</a>
     </div>
   </div>
 </div>
