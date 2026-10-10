@@ -561,7 +561,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 <div class="tsb-feature-body">
 <div class="tsb-feature-name">忍野八海 そば打ち体験</div>
 <div class="tsb-feature-price">¥3,700<small>（税込）/ 1名</small></div>
-<p class="tsb-feature-desc">富士山の湧き水で打つ手打ちそば。粉から、こねる・のばす・切るまでご自身の手で仕上げます。打ちたてのそばは、冷たいそば＋温かいつけ汁でお召し上がりいただけます。1団体最大20名様までです。</p>
+<p class="tsb-feature-desc">富士山の湧き水で打つ手打ちそば。粉から、こねる・のばす・切るまでご自身の手で仕上げます。打ちたてのそばは、冷たいそば＋温かいつけ汁でお召し上がりいただけます。</p>
 <a href="contact/" class="tsb-btn">体験を予約する</a>
 </div>
 </div>
@@ -667,7 +667,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </tr>
 <tr style="height: 36px;">
 <th style="background-color: #f5f5f5; font-size: 12px; height: 36px;"><strong>麺作り体験 + 藍染体験セット</strong><br>
-<span style="font-size: 10px;">お好きな麺打ち体験と、大人気藍染体験のセットです。（そば・うどん・ラーメンは1団体最大20名様まで）手作業による一人ひとりの感覚、キレイに染めようという想いによって、オリジナルの染め物が生まれていきます。素材の値段が別途500円～発生いたします。</span></th>
+<span style="font-size: 10px;">お好きな麺打ち体験と、大人気藍染体験のセットです。手作業による一人ひとりの感覚、キレイに染めようという想いによって、オリジナルの染め物が生まれていきます。素材の値段が別途500円～発生いたします。</span></th>
 <td style="text-align: right; height: 36px;"><strong><del datetime="2021-08-05T02:32:09+00:00">￥7,000</del> →<span style="color: #ff0000;">￥6,800<br>
 </span></strong></td>
 </tr>
@@ -676,7 +676,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </tr>
 <tr style="height: 36px;">
 <th style="background-color: #f5f5f5; font-size: 12px; height: 36px;"><strong>麺作り体験 + 七味作り体験セット</strong><br>
-<span style="font-size: 10px;">お好きな麺打ち体験と、天然素材を合わせて作るオリジナル七味作り体験のセットです。（そば・うどん・ラーメンは1団体最大20名様まで）七味唐辛子は日本の伝統的な薬膳唐辛子ですが、当店ではお客様の好みに合わせてミックス唐辛子を作る体験を行っております。専用の瓶もプレゼントしております。</span></th>
+<span style="font-size: 10px;">お好きな麺打ち体験と、天然素材を合わせて作るオリジナル七味作り体験のセットです。七味唐辛子は日本の伝統的な薬膳唐辛子ですが、当店ではお客様の好みに合わせてミックス唐辛子を作る体験を行っております。専用の瓶もプレゼントしております。</span></th>
 <td style="text-align: right; height: 36px;"><strong><del datetime="2021-08-05T02:32:09+00:00">￥5,500</del> →<span style="color: #ff0000;">￥5,300<br>
 </span></strong></td>
 </tr>
@@ -685,7 +685,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </tr>
 <tr style="height: 36px;">
 <th style="background-color: #f5f5f5; font-size: 12px; height: 36px;"><strong>麺作り体験 + すりだね作り体験セット</strong><br>
-<span style="font-size: 10px;">お好きな麺打ち体験と、富士五湖エリアの万能辛味調味料すりだねをオリジナルブレンドで作る体験のセットです。（そば・うどん・ラーメンは1団体最大20名様まで）すりだねは富士吉田の名物唐辛子です。ゴマやゴマ油をミックスさせたレシピが基本ですが、お客様の好みに合わせてオリジナルすりだねを作っていただけます。</span></th>
+<span style="font-size: 10px;">お好きな麺打ち体験と、富士五湖エリアの万能辛味調味料すりだねをオリジナルブレンドで作る体験のセットです。すりだねは富士吉田の名物唐辛子です。ゴマやゴマ油をミックスさせたレシピが基本ですが、お客様の好みに合わせてオリジナルすりだねを作っていただけます。</span></th>
 <td style="text-align: right; height: 36px;"><strong><del datetime="2021-08-05T02:32:09+00:00">￥5,500</del> →<span style="color: #ff0000;">￥5,300<br>
 </span></strong></td>
 </tr>
@@ -694,7 +694,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </tr>
 <tr style="height: 25px;">
 <th style="background-color: #f5f5f5; font-size: 12px; height: 25px;"><strong>麺作り体験 + 黒蜜きな粉餅体験</strong><br>
-<span style="font-size: 10px;">お好きな麺打ち体験と人気のお菓子作り体験がセットになりました。（そば・うどん・ラーメンは1団体最大20名様まで）</span></th>
+<span style="font-size: 10px;">お好きな麺打ち体験と人気のお菓子作り体験がセットになりました。</span></th>
 <td style="text-align: right; height: 25px;"><strong><span style="color: #ff0000;">￥4,200</span></strong></td>
 </tr>
 <tr style="height: 21px;">
@@ -713,26 +713,26 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 <table style="width: 100%;">
 <tbody>
 <tr>
-<th style="color: #ffffff; background-color: #440000; font-size: 14px; width: 81.2579%;">単品麺作り体験</th>
+<th style="color: #ffffff; background-color: #440000; font-size: 14px; width: 81.2579%;">単品麺作り体験（そば・吉田のうどん・ラーメンは1団体最大20名様まで）</th>
 </tr>
 <tr>
 <th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">郷土料理ほうとう作り</th>
 <td style="text-align: right; width: 18.6164%;"><strong>￥3,700</strong></td>
 </tr>
 <tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">二郎系ラーメン作り体験（1団体最大20名様まで）</th>
+<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">二郎系ラーメン作り体験</th>
 <td style="text-align: right; width: 18.6164%;"><strong>￥3,500</strong></td>
 </tr>
 <tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">豚骨ラーメン作り体験（1団体最大20名様まで）</th>
+<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">豚骨ラーメン作り体験</th>
 <td style="text-align: right; width: 18.6164%;"><strong>￥3,500</strong></td>
 </tr>
 <tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">富士吉田名物吉田のうどん作り（1団体最大20名様まで）</th>
+<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">富士吉田名物吉田のうどん作り</th>
 <td style="text-align: right; width: 18.6164%;"><strong>￥3,500</strong></td>
 </tr>
 <tr>
-<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">忍野八海そば作り（1団体最大20名様まで）</th>
+<th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">忍野八海そば作り</th>
 <td style="text-align: right; width: 18.6164%;"><strong>￥3,700</strong></td>
 </tr>
 <tr>
