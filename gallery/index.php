@@ -119,7 +119,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </tr>
 <tr>
 <td style="background-color: #eee; width: 20%;">催行人数</td>
-<td style="text-align: left;">1名～</td>
+<td style="text-align: left;">1名～（そば打ち・吉田のうどん・ラーメン作り体験は1団体最大20名様まで）</td>
 </tr>
 <tr>
 <td style="background-color: #eee; width: 20%;">最寄駅</td>

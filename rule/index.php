@@ -51,7 +51,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <p>体験の時間は<strong>全体で1時間半～2時間</strong>を予定しております。</p>
 <p>10:00～17:00の時間帯が受付時間となります。</p>
 <h3>催行人数・会場</h3>
-<p>一度の体験の催行人数は<b>１～１２０名様</b>です。（ほうとう作り体験の場合）</p>
+<p>一度の体験の催行人数は<b>１～１２０名様</b>です。（ほうとう作り体験の場合）そば打ち・吉田のうどん・ラーメン作り体験は1団体最大20名様までです。</p>
 <p>富士家の店舗の道路を挟んで向かい側にも店舗がございます。</p>
 <p>80名様以上のご予約の場合や、お店の状況、予約の状況によりこちらの店舗を使用する場合がございます。</p>
 <p>予めご了承ください。</p>
@@ -157,7 +157,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </tr>
 <tr>
 <td style="background-color: #eee; width: 20%;">催行人数</td>
-<td style="text-align: left;">1名～</td>
+<td style="text-align: left;">1名～（そば打ち・吉田のうどん・ラーメン作り体験は1団体最大20名様まで）</td>
 </tr>
 <tr>
 <td style="background-color: #eee; width: 20%;">最寄駅</td>
