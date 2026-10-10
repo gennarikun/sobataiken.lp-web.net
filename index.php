@@ -708,16 +708,23 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </tbody>
 </table>
 <p> </p>
+<div class="cap20-summary" style="max-width:600px;margin:20px auto;text-align:left;border:1px solid rgba(181,134,42,.4);border-radius:6px;padding:16px 18px;background:#fffdf8;color:#2c1f0e;line-height:1.8;"><p style="font-weight:700;margin:0 0 8px;">体験の受け入れ人数</p><p style="margin:0 0 4px;"><strong style="color:#b5862a;">1〜200名様</strong>　郷土料理ほうとう作り体験</p><p style="margin:0 0 10px;"><strong style="color:#b5862a;">1〜20名様</strong>　吉田のうどん作り・忍野八海そば打ち・二郎系ラーメン作り・豚骨ラーメン作り体験</p><p style="font-size:.85rem;margin:0;">ほうとう作り体験で80名様を超える場合は、別の施設でご案内します。<br>ただし麺作り＋染め物体験セットは、染め物をお店で行うため、別の施設ではご案内できません。<br>セットメニューで麺を選ぶ場合も、選んだ麺の人数になります。</p></div>
 <h3>単品・オプションメニュー</h3>
 <p>単品メニューはグループ内で組み合わせることも可能ですが、お待たせする可能性がございます。皆様同じ体験ですとスムーズです。</p>
 <table style="width: 100%;">
 <tbody>
 <tr>
-<th style="color: #ffffff; background-color: #440000; font-size: 14px; width: 81.2579%;">単品麺作り体験（そば・吉田のうどん・ラーメンは1団体最大20名様まで）</th>
+<th style="color: #ffffff; background-color: #440000; font-size: 14px; width: 81.2579%;">単品麺作り体験</th>
+</tr>
+<tr>
+<th colspan="2" style="background-color: #f3e9d6; font-size: 12px; font-weight: 700;">受け入れ 1〜200名様</th>
 </tr>
 <tr>
 <th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">郷土料理ほうとう作り</th>
 <td style="text-align: right; width: 18.6164%;"><strong>￥3,700</strong></td>
+</tr>
+<tr>
+<th colspan="2" style="background-color: #f3e9d6; font-size: 12px; font-weight: 700;">受け入れ 1〜20名様</th>
 </tr>
 <tr>
 <th style="background-color: #f5f5f5; font-size: 12px; width: 81.2579%;">二郎系ラーメン作り体験</th>
@@ -1183,7 +1190,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </tr>
 <tr>
 <td style="background-color: #eee; width: 20%;">催行人数</td>
-<td style="text-align: left;">1名～（そば打ち・吉田のうどん・ラーメン作り体験は1団体最大20名様まで）</td>
+<td style="text-align: left;">ほうとう作り体験は1〜200名様、そば打ち・吉田のうどん・ラーメン作り体験は1〜20名様</td>
 </tr>
 <tr>
 <td style="background-color: #eee; width: 20%;">最寄駅</td>

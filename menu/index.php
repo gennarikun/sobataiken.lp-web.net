@@ -223,6 +223,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 
 	<div class="entry-body">
 
+<div class="cap20-summary" style="max-width:600px;margin:20px auto;text-align:left;border:1px solid rgba(181,134,42,.4);border-radius:6px;padding:16px 18px;background:#fffdf8;color:#2c1f0e;line-height:1.8;"><p style="font-weight:700;margin:0 0 8px;">体験の受け入れ人数</p><p style="margin:0 0 4px;"><strong style="color:#b5862a;">1〜200名様</strong>　郷土料理ほうとう作り体験</p><p style="margin:0 0 10px;"><strong style="color:#b5862a;">1〜20名様</strong>　吉田のうどん作り・忍野八海そば打ち・二郎系ラーメン作り・豚骨ラーメン作り体験</p><p style="font-size:.85rem;margin:0;">ほうとう作り体験で80名様を超える場合は、別の施設でご案内します。<br>ただし麺作り＋染め物体験セットは、染め物をお店で行うため、別の施設ではご案内できません。<br>セットメニューで麺を選ぶ場合も、選んだ麺の人数になります。</p></div>
 <!-- ===== 1. そば打ち体験（主役） ===== -->
 <div class="sbm-section">
 <div class="sbm-cat-header">
@@ -305,16 +306,13 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="sbm-section">
 <div class="sbm-cat-header">
 <h2>スタンダード麺作り体験</h2>
-<p class="sbm-cat-desc">山梨の郷土料理を粉から手作り。こねる・のばす・切る・食べるの達成感。そば・吉田のうどん・ラーメン作り体験は1団体最大20名様まで（ほうとうは最大200名様）</p>
+<p class="sbm-cat-desc">山梨の郷土料理を粉から手作り。こねる・のばす・切る・食べるの達成感</p>
 </div>
 <div class="sbm-body">
 <div class="sbm-rows">
+<div class="sbm-row" style="background:rgba(181,134,42,.12);"><span class="sbm-row-name" style="font-weight:700;">受け入れ 1〜20名様</span></div>
 <div class="sbm-row">
 <span class="sbm-row-name">忍野八海 そば打ち体験<span class="sbm-row-note">富士山の湧き水で打つ手打ちそば。冷たいそば＋温かいつけ汁</span></span>
-<span class="sbm-row-price">¥3,700</span>
-</div>
-<div class="sbm-row">
-<span class="sbm-row-name">郷土料理ほうとう作り<span class="sbm-row-note">山梨を代表する郷土料理。かぼちゃ・野菜7種入り味噌仕立て</span></span>
 <span class="sbm-row-price">¥3,700</span>
 </div>
 <div class="sbm-row">
@@ -328,6 +326,11 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="sbm-row">
 <span class="sbm-row-name">豚骨ラーメン作り体験<span class="sbm-row-note">本格豚骨スープをじっくり煮込んで手作り麺と合わせる</span></span>
 <span class="sbm-row-price">¥3,500</span>
+</div>
+<div class="sbm-row" style="background:rgba(181,134,42,.12);"><span class="sbm-row-name" style="font-weight:700;">受け入れ 1〜200名様</span></div>
+<div class="sbm-row">
+<span class="sbm-row-name">郷土料理ほうとう作り<span class="sbm-row-note">山梨を代表する郷土料理。かぼちゃ・野菜7種入り味噌仕立て</span></span>
+<span class="sbm-row-price">¥3,700</span>
 </div>
 </div>
 </div>
@@ -522,7 +525,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </tr>
 <tr>
 <td style="background-color: #eee; width: 20%;">催行人数</td>
-<td style="text-align: left;">1名～（そば打ち・吉田のうどん・ラーメン作り体験は1団体最大20名様まで）</td>
+<td style="text-align: left;">ほうとう作り体験は1〜200名様、そば打ち・吉田のうどん・ラーメン作り体験は1〜20名様</td>
 </tr>
 <tr>
 <td style="background-color: #eee; width: 20%;">最寄駅</td>

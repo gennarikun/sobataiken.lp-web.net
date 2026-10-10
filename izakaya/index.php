@@ -379,7 +379,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
     <div style="flex: 1; min-width: 200px;">
       <p style="font-size: .6rem; letter-spacing: .38em; text-transform: uppercase; color: rgba(244,200,117,.6); margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">Option</p>
       <h3 style="font-family: 'Noto Serif JP',serif; font-size: .96rem; font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none;">麺打ち体験（①〜⑦に追加可）</h3>
-      <p style="font-size: .72rem; color: rgba(240,232,216,.5); margin-top: 6px; line-height: 1.8;">ほうとう または うどん（うどんは1団体最大20名様まで）。所要時間＋40分。<br>※⑧コースは最初から含まれます。</p>
+      <p style="font-size: .72rem; color: rgba(240,232,216,.5); margin-top: 6px; line-height: 1.8;">ほうとう または うどん。うどんは1〜20名様です。所要時間＋40分。<br>※⑧コースは最初から含まれます。</p>
     </div>
     <div style="flex-shrink: 0;"><p style="font-family: 'Noto Serif JP',serif; font-size: 1.3rem; font-weight: 900; color: #f4c875; white-space: nowrap;">+¥2,200</p></div>
   </div>
