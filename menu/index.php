@@ -223,7 +223,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 
 	<div class="entry-body">
 
-<div class="cap20-summary" style="max-width:600px;margin:20px auto;text-align:left;border:1px solid rgba(181,134,42,.4);border-radius:6px;padding:16px 18px;background:#fffdf8;color:#2c1f0e;line-height:1.8;"><p style="font-weight:700;margin:0 0 8px;">体験の受け入れ人数</p><p style="margin:0 0 4px;"><strong style="color:#b5862a;">1〜200名様</strong>　郷土料理ほうとう作り体験</p><p style="margin:0 0 10px;"><strong style="color:#b5862a;">1〜20名様</strong>　吉田のうどん作り・忍野八海そば打ち・二郎系ラーメン作り・豚骨ラーメン作り体験</p><p style="font-size:.85rem;margin:0;">ほうとう作り体験で80名様を超える場合は、別の施設でご案内します。<br>ただし麺作り＋染め物体験セットは、染め物をお店で行うため、別の施設ではご案内できません。<br>セットメニューで麺を選ぶ場合も、選んだ麺の人数になります。</p></div>
+<div class="cap20-summary" style="max-width:600px;margin:20px auto;text-align:left;border:1px solid rgba(181,134,42,.4);border-radius:6px;padding:16px 18px;background:#fffdf8;color:#2c1f0e;line-height:1.8;"><p style="font-weight:700;margin:0 0 8px;">体験の受け入れ人数</p><p style="margin:0 0 4px;"><strong style="color:#b5862a;">1〜200名様</strong>　郷土料理ほうとう作り体験</p><p style="margin:0 0 10px;"><strong style="color:#b5862a;">1〜20名様</strong>　吉田のうどん作り・忍野八海そば打ち・二郎系ラーメン作り・豚骨ラーメン作り体験</p><p style="font-size:.85rem;margin:0;">ほうとう作り体験で80名様を超える場合は、別の施設でご案内します。<br>※ただし麺作り＋染め物体験セットは、染め物をお店で行うため、別の施設ではご案内できません。<br>セットメニューで麺を選ぶ場合も、選んだ麺の人数になります。</p></div>
 <!-- ===== 1. そば打ち体験（主役） ===== -->
 <div class="sbm-section">
 <div class="sbm-cat-header">
