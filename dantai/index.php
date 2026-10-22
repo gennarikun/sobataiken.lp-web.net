@@ -588,7 +588,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
     <div class="lch-genre-inner">
       <div class="lch-genre-head">
         <h2 id="lch-genre-udon">吉田のうどんランチ</h2>
-        <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ 黒蜜きなこ餅。<strong>15名様まで</strong>承ります。</p>
+        <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ 黒蜜きなこ餅。<strong>20名様まで</strong>承ります。</p>
         <p class="lch-genre-note">たかにゃんチキンの追加（1名様 ¥300）もできます。</p>
       </div>
 
@@ -784,9 +784,9 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"/></svg>
         </div>
         <div class="lch-cond-body">
-          <h3>うどん：最大 <strong>15 名</strong></h3>
+          <h3>うどん：最大 <strong>20 名</strong></h3>
           <ul>
-            <li>最大 <strong>15 名</strong>までご受付可能</li>
+            <li>最大 <strong>20 名</strong>までご受付可能</li>
             <li><strong>温かい</strong>汁うどんでご提供</li>
           </ul>
         </div>
@@ -893,7 +893,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
         <summary>同じ団体で複数のメニューを選べますか？</summary>
         <div>
           <p>はい。ほうとう・吉田のうどん・山梨ジビエ焼肉を組み合わせてご注文いただけます。</p>
-          <p>ただしメニューごとに上限があり、吉田のうどんは15名様まで、焼肉は20名様までとなります。ご予約時に品目ごとの人数をお知らせください。</p>
+          <p>ただしメニューごとに上限があり、吉田のうどんは20名様まで、焼肉は20名様までとなります。ご予約時に品目ごとの人数をお知らせください。</p>
         </div>
       </details>
 
