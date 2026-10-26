@@ -628,7 +628,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
                  data-plan-includes='["<strong>たかにゃんチキンうどん（吉田のうどん）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・さば・いわし／詳細は事前にお問合せください"]'
                  data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="たかにゃんチキンうどん 詳細を見る">
               <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_fj_udon_takanyan_202610261200.webp" alt="たかにゃんチキンうどん" loading="lazy">
+                <img src="../assets/dantai_fj_udon_takanyan_202610261330.webp" alt="たかにゃんチキンうどん" loading="lazy">
                 </div>
               <div class="lch-plan-body">
                 <h3 class="lch-plan-name">たかにゃんチキンうどん</h3>
