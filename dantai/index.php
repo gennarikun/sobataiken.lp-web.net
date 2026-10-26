@@ -424,7 +424,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
     <img src="../assets/dantai_takanyan_topping_202610201700.webp" alt="たかにゃんチキン（信玄鶏）" width="1000" height="707" loading="lazy">
     <div>
       <span class="lch-plan-common-title">どのランチにも追加できます</span>
-      <p>信玄鶏のたかにゃんチキン（高菜先生特製スパイスソース付き）を<strong>1名様 ¥300</strong>で追加できます。</p>
+      <p>たかにゃんチキンは、山梨の銘柄鶏「信玄鶏」約120gを揚げて、高菜先生特製のスパイスソースをかけた、お店のオリジナルのチキンです。どのランチにも<strong>1名様 ¥300</strong>で追加できます。</p>
       <p class="lch-plan-common-sub">ご予約時に追加する人数をお知らせください。</p>
     </div>
   </div>
