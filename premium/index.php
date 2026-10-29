@@ -254,7 +254,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 												<div class="lp-story-content">
 													<h3 class="lp-story-head">歴史と誕生</h3>
 													<p class="lp-story-text">
-														「甲州ワインビーフ」は、山梨県の畜産農家が「ワインの副産物を活用して、持続可能で高品質な牛肉を作りたい」という思いから誕生しました。40年以上の歴史を持ち、山梨県内外で高く評価されているブランド牛です。
+														「甲州ワインビーフ」は、ワインづくりで出るぶどうの搾りかす（ワイン粕）をえさに混ぜて育てる、山梨のブランド牛です。1986年ごろに取り組みが始まりました。
 													</p>
 												</div>
 											</div>
@@ -264,7 +264,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 												<div class="lp-story-content">
 													<h3 class="lp-story-head">味の特徴</h3>
 													<p class="lp-story-text">
-														最大の特徴は、きめ細やかな肉質とほんのりとした甘み。ぶどうかす由来のポリフェノールが脂に移ることで、脂身がすっきりとして胃もたれしにくいのが特徴です。旨味成分（アミノ酸）が豊富で、赤身本来の深い味わいをご堪能いただけます。
+														きめ細かい柔らかさと、ほんのりとした甘みのある牛肉です。
 													</p>
 												</div>
 											</div>
@@ -275,7 +275,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 												<div class="lp-story-content">
 													<h3 class="lp-story-head">サステナビリティ</h3>
 													<p class="lp-story-text">
-														ワイン産業の副産物を飼料に活用する「循環型畜産」により、環境負荷を軽減。食べることで地域の伝統と自然を守る、SDGsの観点からも注目されている「未来につなぐ牛肉」です。
+														ワインづくりで出るぶどうの搾りかすを、牛のえさとして使っています。
 													</p>
 												</div>
 											</div>
