@@ -546,7 +546,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </div>
 <h2 id="price" style="text-align: center;">料金表</h2>
 <div class="back" style="text-align: center; margin: 20px auto 32px; max-width: 480px;"><strong>※すべて税込み価格</strong><br>
-<strong>4歳以下のお子様無料</strong></div>
+<strong>4歳以下のお子様無料（ご自身の分を作る場合は小人料金）</strong></div>
 
 
 <!-- ===== そば打ち体験（主役・menuページ準拠 2026-09-03） ===== -->
