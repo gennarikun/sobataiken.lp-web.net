@@ -958,7 +958,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       <div class="flat-row">
         <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
         <div class="txt">
-          <span class="l">営業時間 <strong>9:30〜20:00（最終入店18:00）</strong></span>
+          <span class="l">営業時間 <strong><span style="white-space:nowrap">平日 10:00〜16:00</span>・<span style="white-space:nowrap">土日祝 9:00〜18:00</span><span style="white-space:nowrap">（最終受付16:00）</span></strong></span>
           <span class="sub">不定休</span>
         </div>
       </div>
