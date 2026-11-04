@@ -1182,7 +1182,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </tr>
 <tr>
 <td style="background-color: #eee; width: 20%;">予約可能時間</td>
-<td style="text-align: left;">AM 10:00〜18:00</td>
+<td style="text-align: left;">平日・・・AM 10:00~16:00<br>土日祝・・・AM 9:00~18:00</td>
 </tr>
 <tr>
 <td style="background-color: #eee; width: 20%;">定休日</td>
