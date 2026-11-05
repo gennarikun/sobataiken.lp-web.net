@@ -48,15 +48,15 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 ご不明な点がある方はお問い合わせよりお願いいたします。</p>
 <dl class="veu_qaItem">
 <dt>所要時間はどのくらいですか？</dt>
-<dd>60分～90分となります。お客様の人数やセットメニューによって前後いたします。</dd>
+<dd>目安は次のとおりです。<br>・ほうとう・吉田のうどん・そば作り体験：お食事を含めて約90〜120分<br>・染め物体験：約60〜90分<br>・麺作りと染め物のセット：お食事を含めて約120〜150分<br>・すりだね作り体験：約30分</dd>
 </dl>
 <dl class="veu_qaItem">
 <dt>英語での対応は可能ですか？</dt>
-<dd>はい。スタッフは英語での対応もできますので外国からのお客さまもお気軽にご利用ください。</dd>
+<dd>はい。英語・中国語での対応をしており、海外からのお客様にも多くご参加いただいています。ただし、英語をネイティブのように話せるスタッフはほとんどいないため、通訳の方がいらっしゃると大変助かります。</dd>
 </dl>
 <dl class="veu_qaItem">
 <dt>最大何人まで同時に体験できますか？</dt>
-<dd>120名様前後まで対応可能です。まずはご相談ください。（ほうとう体験に限ります。）</dd>
+<dd>ほうとう作り体験は、最大200名様まで対応しています。80名様を超える場合は、向かいの姉妹店もあわせてご案内します。100名様を超える場合は、別の施設をお借りしてご案内します。<br>吉田のうどん・そば・ラーメン作り体験は、1団体20名様までです。</dd>
 </dl>
 <dl class="veu_qaItem">
 <dt>ネイルをしていても体験はできますか？</dt>
@@ -64,7 +64,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </dl>
 <dl class="veu_qaItem">
 <dt>クレジットカードは使えますか？</dt>
-<dd>はい。クレジットカードもご利用いただけます。（VISA/Mastercard/AmericanExpressに限らせていただきます）</dd>
+<dd>お支払いは現地でお願いしております。現金・クレジットカード（VISA・Mastercard・American Express）・QR決済（PayPay など）・クーポンがご利用いただけます。旅行会社様・企業様は請求書払いもご相談ください。</dd>
 </dl>
 <dl class="veu_qaItem">
 <dt>富士吉田河口湖店は河口湖からはどのくらい時間がかかりますか？</dt>
@@ -76,15 +76,15 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </dl>
 <dl class="veu_qaItem">
 <dt>富士吉田河口湖店に駐車場はありますか？</dt>
-<dd>はい。店舗前に無料駐車場がございますのでご利用下さい。</dd>
+<dd>はい。無料の駐車場があり、普通車は約25台、大型バスは3台程度まで止められます。</dd>
 </dl>
 <dl class="veu_qaItem">
 <dt>富士吉田河口湖店には観光バスも駐車できますか</dt>
-<dd>観光バスも店舗前の駐車場をご利用頂けます。</dd>
+<dd>はい。無料の駐車場があり、普通車は約25台、大型バスは3台程度まで止められます。</dd>
 </dl>
 <dl class="veu_qaItem">
 <dt>予約は必須ですか？</dt>
-<dd>はい。お手数ですが、お問い合わせページから電話またはLINEにてご連絡ください。</dd>
+<dd>予約優先制です。ご予約なしでもご利用いただけますが、満席や準備の都合でご案内できない場合がありますので、事前のご予約をおすすめしています。<br>当日のご予約は、営業開始（平日10:00・土日祝9:00）までは予約フォームから受け付けています。営業開始より後は、お電話（050-6882-5580・受付 9:30〜17:00）でお問い合わせください。</dd>
 </dl>
 <dl class="veu_qaItem">
 <dt>夜中や早朝でも予約できますか？</dt>
@@ -100,11 +100,11 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </dl>
 <dl class="veu_qaItem">
 <dt>用意するものや持ち物は何が必要ですか？</dt>
-<dd>材料、道具はすべてこちらで用意してあります。お客様にお持ちいただく物は特にございません。ただ、小さなお子様用のエプロンはありませんので、必要であればお客さまでご持参ください。</dd>
+<dd>特別な持ち物は必要ありません。料理の体験に使う食材やエプロンは、すべてこちらでご用意しています。染め物の体験では、染めたいTシャツなどをお持ち込みいただくこともできます（<a href="https://houtoutaiken.lp-web.net/faq/#q39">よくある質問 Q39</a>）。</dd>
 </dl>
 <dl class="veu_qaItem">
 <dt>ヴィーガン・ベジタリアンでもたべれますか？</dt>
-<dd>はい。ほうとうはダシなしで味噌のみでスープを作っておりますのでご安心ください。</dd>
+<dd>はい、対応しています。ほうとう作り体験には、動物性の食材を一切使っていません。そば・うどん・ラーメンの体験には、動物性の食材を一部使っています。食卓の調味料にも動物性の食材を使っているものがありますので、ご注意ください。食べられない食材は、ご予約時にお知らせください。</dd>
 </dl>
 <dl class="veu_qaItem">
 <dt>どんな方が参加されますか？料理が得意な方ばかりでしょうか・・・？</dt>
@@ -112,15 +112,15 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </dl>
 <dl class="veu_qaItem">
 <dt>初心者でも参加できますか？</dt>
-<dd>はい。料理未経験の方でも楽しんでいただけます。一部包丁や油を使う工程がありますがスタッフがついていますのでご安心ください。</dd>
+<dd>はい、もちろんです。スタッフが作り方をご案内しますので、料理が初めての方やお子様も安心してご参加いただけます。</dd>
 </dl>
 <dl class="veu_qaItem">
 <dt>小さな子供が一緒でも大丈夫ですか？</dt>
-<dd>はい。お子様と一緒に体験されるお客さまも多くいらっしゃいます。火や包丁を使いますのでその時だけ注意してください。</dd>
+<dd>大人の方が手伝っていただければ、3歳のお子様からご参加いただけます。保護者の方と一緒に、麺をこねたり伸ばしたりする工程をお楽しみいただけます。</dd>
 </dl>
 <dl class="veu_qaItem">
 <dt>スマホやビデオで撮影しても構いませんか？</dt>
-<dd>はい。ぜひ思い出を映像や画像に残してください。SNSやブログなどへのUPも歓迎しております。</dd>
+<dd>はい、撮影していただけます。旅の思い出に、ぜひお楽しみください。</dd>
 </dl>
 <h2 style="text-align: center;">予約までの流れ</h2>
 <div class="veu_flowBox" style="text-align: center;">
@@ -146,6 +146,8 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <dt>≪現地にてお支払い≫</dt>
 <dt>お支払は現金またはカードにて承っております。</dt>
 </dl>
+<!-- 2026-11-05 富士家のよくある質問へ（引き継ぎ 手順3-2） -->
+<div style="text-align:center;margin:28px 0;"><a href="https://houtoutaiken.lp-web.net/faq/" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:10px 22px;border:2px solid currentColor;border-radius:6px;color:inherit;font-weight:700;text-decoration:none;line-height:1.5;">運営店舗：高菜先生の郷土料理体験教室 富士家のよくある質問 →</a></div>
 </div>
 <div class="widget widget_vkexunit_contact_section">
 <div class="veu_contact">

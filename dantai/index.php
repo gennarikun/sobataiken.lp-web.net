@@ -833,14 +833,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       <details>
         <summary>ご予約方法を教えてください</summary>
         <div>
-          <p>下記いずれかの方法でご予約・お問い合わせを承っております。</p>
-          <ul>
-            <li>公式LINE</li>
-            <li>メール</li>
-            <li>WhatsApp</li>
-            <li>お電話（050-6882-5580）</li>
-          </ul>
-          <p>ご希望のプラン・人数・日時をお知らせいただければ、こちらから空き状況・お見積りをご連絡します。</p>
+          <p>団体ランチ（1名様から）・旅行会社・学校・企業のご予約は、団体予約フォームから承ります。修学旅行・教育旅行・校外学習・社員旅行など、さまざまな団体様を受け入れています。<br><a href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" target="_blank" rel="noopener">団体予約フォームを開く</a></p>
         </div>
       </details>
 
@@ -868,8 +861,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       <details>
         <summary>大型バスの駐車は可能ですか？</summary>
         <div>
-          <p>無料駐車場をご用意しております（観光バス駐車可）。</p>
-          <p>台数のご相談は事前にご連絡ください。中央自動車道「河口湖IC」より約5分の立地です。</p>
+          <p>はい。無料の駐車場があり、普通車は約25台、大型バスは3台程度まで止められます。中央自動車道「河口湖IC」より約5分の立地です。</p>
         </div>
       </details>
 
@@ -901,8 +893,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       <details>
         <summary>お支払い方法・請求書対応について</summary>
         <div>
-          <p>現金・クレジットカードに対応しております。</p>
-          <p>旅行会社様・企業様向けに請求書によるお支払いも対応可能です。ご予約時にお申し出ください。</p>
+          <p>お支払いは現地でお願いしております。現金・クレジットカード（VISA・Mastercard・American Express）・QR決済（PayPay など）・クーポンがご利用いただけます。旅行会社様・企業様は請求書払いもご相談ください。</p>
         </div>
       </details>
 
@@ -920,6 +911,8 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
         </div>
       </details>
     </div>
+    <!-- 2026-11-05 富士家のよくある質問へ（引き継ぎ 手順3-2） -->
+    <div style="text-align:center;margin-top:28px;"><a href="https://houtoutaiken.lp-web.net/faq/" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:10px 22px;border:2px solid currentColor;border-radius:6px;color:inherit;font-weight:700;text-decoration:none;line-height:1.5;">運営店舗：高菜先生の郷土料理体験教室 富士家のよくある質問 →</a></div>
   </div>
 </section>
 
