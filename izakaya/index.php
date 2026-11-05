@@ -491,7 +491,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
         <p class="ms-aname">河口湖本店</p>
         <div class="ms-arow"><span style="color: #c0392b; font-weight: 500; min-width: 46px; flex-shrink: 0;">住所</span><span style="color: #5a3e2b;">山梨県南都留郡富士河口湖町船津3376-3</span></div>
         <div class="ms-arow"><span style="color: #c0392b; font-weight: 500; min-width: 46px; flex-shrink: 0;">営業</span><span style="color: #5a3e2b;">10:00〜22:00（ランチ宴会も大歓迎）</span></div>
-        <div class="ms-arow"><span style="color: #c0392b; font-weight: 500; min-width: 46px; flex-shrink: 0;">交通</span><span style="color: #5a3e2b;">河口湖駅から徒歩15分 / 駐車場あり</span></div>
+        <div class="ms-arow"><span style="color: #c0392b; font-weight: 500; min-width: 46px; flex-shrink: 0;">交通</span><span style="color: #5a3e2b;">河口湖駅から徒歩12分 / 駐車場あり</span></div>
       </div>
     </div>
   </div>
