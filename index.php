@@ -546,7 +546,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </div>
 <h2 id="price" style="text-align: center;">料金表</h2>
 <div class="back" style="text-align: center; margin: 20px auto 32px; max-width: 480px;"><strong>※すべて税込み価格</strong><br>
-<strong>4歳以下のお子様無料（ご自身の分を作る場合は小人料金）</strong></div>
+<strong>4歳以下のお子様無料（ご自身の分を作る場合は大人と同じ料金）</strong></div>
 
 
 <!-- ===== そば打ち体験（主役・menuページ準拠 2026-09-03） ===== -->
@@ -708,7 +708,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </tbody>
 </table>
 <p> </p>
-<div class="cap20-summary" style="max-width:600px;margin:20px auto;text-align:left;border:1px solid rgba(181,134,42,.4);border-radius:6px;padding:16px 18px;background:#fffdf8;color:#2c1f0e;line-height:1.8;"><p style="font-weight:700;margin:0 0 8px;">体験の受け入れ人数</p><p style="margin:0 0 4px;"><strong style="color:#b5862a;">1〜200名様</strong>　郷土料理ほうとう作り体験</p><p style="margin:0 0 10px;"><strong style="color:#b5862a;">1〜20名様</strong>　吉田のうどん作り・忍野八海そば打ち・二郎系ラーメン作り・豚骨ラーメン作り体験</p><p style="font-size:.85rem;margin:0;">ほうとう作り体験で80名様を超える場合は、別の施設でご案内します。<br>※ただし麺作り＋染め物体験セットは、染め物をお店で行うため、別の施設ではご案内できません。<br>セットメニューで麺を選ぶ場合も、選んだ麺の人数になります。</p></div>
+<div class="cap20-summary" style="max-width:600px;margin:20px auto;text-align:left;border:1px solid rgba(181,134,42,.4);border-radius:6px;padding:16px 18px;background:#fffdf8;color:#2c1f0e;line-height:1.8;"><p style="font-weight:700;margin:0 0 8px;">体験の受け入れ人数</p><p style="margin:0 0 4px;"><strong style="color:#b5862a;">1〜200名様</strong>　郷土料理ほうとう作り体験</p><p style="margin:0 0 10px;"><strong style="color:#b5862a;">1〜20名様</strong>　吉田のうどん作り・忍野八海そば打ち・二郎系ラーメン作り・豚骨ラーメン作り体験</p><p style="font-size:.85rem;margin:0;">ほうとう作り体験で80名様を超える場合は向かいの姉妹店もあわせて、100名様を超える場合は別の施設をお借りしてご案内します。<br>※ただし麺作り＋染め物体験セットは、染め物をお店で行うため、別の施設ではご案内できません。<br>セットメニューで麺を選ぶ場合も、選んだ麺の人数になります。</p></div>
 <h3>単品・オプションメニュー</h3>
 <p>単品メニューはグループ内で組み合わせることも可能ですが、お待たせする可能性がございます。皆様同じ体験ですとスムーズです。</p>
 <table style="width: 100%;">
@@ -1160,7 +1160,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 </div>
 </div>
 <h2 style="text-align: center;">体験の開催場所・アクセス</h2>
-<p>80名様以上のご予約の場合や、お店が混雑している場合は別の会場に別れてご案内させて頂く場合がございます。</p>
+<p>80名様を超えるご予約の場合は向かいの姉妹店もあわせて、100名様を超える場合は別の施設をお借りしてご案内します。お店が混雑している場合は、別の会場に分かれてご案内させて頂く場合がございます。</p>
 <p>予めご了承くださいませ。</p>
 <h3>富士家 富士吉田河口湖店</h3>
 <p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2954" src="assets/DSC04855-1024x683.jpg" alt="ほうとう体験教室" width="1024" height="683"></p>

@@ -438,7 +438,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </div>
 </div>
 <h2 style="text-align: center;">体験の開催場所・アクセス</h2>
-<p>80名様以上のご予約の場合や、お店が混雑している場合は別の会場に別れてご案内させて頂く場合がございます。</p>
+<p>80名様を超えるご予約の場合は向かいの姉妹店もあわせて、100名様を超える場合は別の施設をお借りしてご案内します。お店が混雑している場合は、別の会場に分かれてご案内させて頂く場合がございます。</p>
 <p>予めご了承くださいませ。</p>
 <h3>富士家 富士吉田河口湖店</h3>
 <p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-2954" src="../assets/DSC04855-1024x683.jpg" alt="ほうとう体験教室" width="1024" height="683"></p>
