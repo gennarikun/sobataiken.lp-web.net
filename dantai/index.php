@@ -623,15 +623,15 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
               </div>
             </div>
           <div class="lch-plan plan-card"
-                 data-plan-name="高菜先生のとり天" data-plan-price="¥1,750（税込）/ 1名"
+                 data-plan-name="高菜先生のとり天うどん" data-plan-price="¥1,750（税込）/ 1名"
                  data-plan-badge="単品" data-plan-badge-class="takeout"
-                 data-plan-includes='["<strong>高菜先生のとり天（吉田のうどん）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・さば・いわし／詳細は事前にお問合せください"]'
-                 data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="高菜先生のとり天 詳細を見る">
+                 data-plan-includes='["<strong>高菜先生のとり天うどん（吉田のうどん）</strong>","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：小麦・大豆・さば・いわし／詳細は事前にお問合せください"]'
+                 data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="高菜先生のとり天うどん 詳細を見る">
               <div class="lch-plan-img-wrap">
-                <img src="../assets/dantai_fj_udon_takanyan_202610261330.webp" alt="高菜先生のとり天" loading="lazy">
+                <img src="../assets/dantai_fj_udon_takanyan_202610261330.webp" alt="高菜先生のとり天うどん" loading="lazy">
                 </div>
               <div class="lch-plan-body">
-                <h3 class="lch-plan-name">高菜先生のとり天</h3>
+                <h3 class="lch-plan-name"><span style="display:inline-block">高菜先生の</span><span style="display:inline-block">とり天うどん</span></h3>
                 <div class="lch-plan-price"><strong>¥1,750</strong><small>（税込）/ 1名</small></div>
                 <div class="lch-plan-hint">タップで詳細</div>
               </div>
