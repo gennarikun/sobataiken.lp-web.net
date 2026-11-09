@@ -140,9 +140,17 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 								<section class="lp-section lp-menu lp-goukaplan">
 									<div class="lp-container">
 										<h2 class="lp-section-title">豪華食材トッピング</h2>
-										<p class="lp-gouka-lead">各種ほうとう・そば・うどんへの追加トッピング。複数追加も可能。<br>
+										<p class="lp-gouka-lead">ほうとう・そば・うどん・ラーメン全てにトッピングできます。複数追加も可能。<br>
 											お肉のご注文で鉄板・お野菜無料（カセットコンロ）。煮ても焼いてもお楽しみいただけます。</p>
 										<div class="lp-gouka-grid">
+											<!-- 2026-11-09 Canva「最新体験メニュー2026.7」p1 体験トッピングメニューに合わせる（オーナー 11/9） -->
+											<div class="lp-gouka-card lp-gouka-featured">
+												<div class="lp-gouka-card-inner">
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-label-badge">一番人気</span><span class="lp-gouka-price-badge">+900円</span></div>
+													<h3 class="lp-gouka-title">ワインビーフ＆鹿肉盛り合わせ（各50g）</h3>
+													<p class="lp-gouka-desc">山梨が誇るワインビーフと、旨み豊かな鹿肉を一度に楽しめる食べ比べです。</p>
+												</div>
+											</div>
 											<div class="lp-gouka-card">
 												<div class="lp-gouka-card-inner">
 													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+550円</span></div>
@@ -152,44 +160,37 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 											</div>
 											<div class="lp-gouka-card">
 												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+400円</span></div>
-													<h3 class="lp-gouka-title">シカ（50g）</h3>
-													<p class="lp-gouka-desc">山梨の山で育ったジビエ鹿肉を使用。野性味あふれる深い旨みが、スープに溶け込みます。</p>
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+500円</span></div>
+													<h3 class="lp-gouka-title">ジビエ鹿肉（100g）</h3>
+													<p class="lp-gouka-desc">高たんぱくでヘルシー。クセが少なく、旨みのある味わいです。</p>
+												</div>
+											</div>
+											<div class="lp-gouka-card">
+												<div class="lp-gouka-card-inner">
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+680円</span></div>
+													<h3 class="lp-gouka-title">スパイスとり天（BIG）</h3>
+													<p class="lp-gouka-desc">特製スパイスとタレで仕上げた当店名物のとり天です。</p>
+												</div>
+											</div>
+											<div class="lp-gouka-card">
+												<div class="lp-gouka-card-inner">
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+250円</span></div>
+													<h3 class="lp-gouka-title">特製チャーシュー（50g）</h3>
+													<p class="lp-gouka-desc">秘伝のタレでじっくりと煮込んだチャーシューです。</p>
+												</div>
+											</div>
+											<div class="lp-gouka-card">
+												<div class="lp-gouka-card-inner">
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+600円</span></div>
+													<h3 class="lp-gouka-title">本日のおすすめ：鹿肉の煮込み</h3>
+													<p class="lp-gouka-desc">鹿肉をじっくり煮込んだ一品です。どの麺料理にもよく合います。</p>
 												</div>
 											</div>
 											<div class="lp-gouka-card">
 												<div class="lp-gouka-card-inner">
 													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+400円</span></div>
-													<h3 class="lp-gouka-title">富士桜ポーク（50g）</h3>
-													<p class="lp-gouka-desc">山梨県のブランド豚。煮ても焼いても楽しめます。</p>
-												</div>
-											</div>
-											<div class="lp-gouka-card">
-												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+400円</span></div>
-													<h3 class="lp-gouka-title">信玄どり（50g）</h3>
-													<p class="lp-gouka-desc">山梨県のブランド鶏。煮ても焼いても楽しめます。</p>
-												</div>
-											</div>
-											<div class="lp-gouka-card">
-												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+400円</span></div>
-													<h3 class="lp-gouka-title">大人の本気ガチャ</h3>
-													<p class="lp-gouka-desc">カンガルー・海鮮・馬など、何が出るかはお楽しみのトッピングガチャ。</p>
-												</div>
-											</div>
-											<div class="lp-gouka-card">
-												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">1,180円</span></div>
-													<h3 class="lp-gouka-title">タン3種食べ比べ</h3>
-													<p class="lp-gouka-desc">牛・馬・ワニのタンを食べ比べできる一品です。</p>
-												</div>
-											</div>
-											<div class="lp-gouka-card lp-gouka-featured">
-												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-label-badge">贅沢</span><span class="lp-gouka-price-badge">1,180円</span></div>
-													<h3 class="lp-gouka-title">山梨名物盛り合わせ</h3>
-													<p class="lp-gouka-desc">甲州ワインビーフ・富士桜ポーク・信玄どりの山梨ブランド肉3種盛り合わせです。</p>
+													<h3 class="lp-gouka-title">肉ガチャ</h3>
+													<p class="lp-gouka-desc">カンガルー・馬・ワニタンなど、珍しいお肉が当たるかも。何が出るかはお楽しみです。</p>
 												</div>
 											</div>
 										</div>
