@@ -160,9 +160,9 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 											</div>
 											<div class="lp-gouka-card">
 												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+500円</span></div>
+													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-label-badge">キャンペーン中</span><span class="lp-gouka-price-badge">+500円</span></div>
 													<h3 class="lp-gouka-title">ジビエ鹿肉（50g）</h3>
-													<p class="lp-gouka-desc">高たんぱくでヘルシー。クセが少なく、旨みのある味わいです。キャンペーン中は50g増量でお出しします。</p>
+													<p class="lp-gouka-desc">今ならキャンペーンで50g増量、100gでお出しします。高たんぱくでヘルシー。クセが少なく、旨みのある味わいです。</p>
 												</div>
 											</div>
 											<div class="lp-gouka-card">
