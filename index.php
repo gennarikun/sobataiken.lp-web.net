@@ -431,7 +431,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 <p><img loading="lazy" decoding="async" class="aligncenter size-large wp-image-3074" src="assets/DSC09327-1536x1024_0-1024x683.jpg" alt="" width="1024" height="683"></p>
 <div class="caption">
 <h5>➃充実の一品料理をご用意</h5>
-<p>富士家では、体験メニュー以外にも当日ご注文頂ける食事やドリンクメニューをご用意しております。甲州ワインビーフ・ジビエ鹿・富士桜ポーク・信玄どりなど山梨ならではの贅沢なトッピングもございますのでお気軽にご注文ください。</p>
+<p>富士家では、体験メニュー以外にも当日ご注文頂ける食事やドリンクメニューをご用意しております。甲州ワインビーフ・ジビエ鹿など山梨ならではの贅沢なトッピングもございますのでお気軽にご注文ください。</p>
 </div>
 </div>
 </div>

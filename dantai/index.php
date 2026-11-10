@@ -421,10 +421,10 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
 
   <!-- たかにゃんチキン追加の案内（2026-10-20） -->
   <div class="lch-plan-common lch-addon">
-    <img src="../assets/dantai_takanyan_topping_202610201700.webp" alt="たかにゃんチキン（信玄鶏）" width="1000" height="707" loading="lazy">
+    <img src="../assets/dantai_takanyan_topping_202610201700.webp" alt="たかにゃんチキン" width="1000" height="707" loading="lazy">
     <div>
       <span class="lch-plan-common-title">どのランチにも追加できます</span>
-      <p>たかにゃんチキンは、山梨の銘柄鶏「信玄鶏」120gを揚げて、高菜先生特製のスパイスソースをかけた、お店のオリジナルのチキンです。どのランチにも<strong>1名様 ¥300</strong>で追加できます。</p>
+      <p>たかにゃんチキンは、鶏肉120gを揚げて、高菜先生特製のスパイスソースをかけた、お店のオリジナルのチキンです。どのランチにも<strong>1名様 ¥300</strong>で追加できます。</p>
       <p class="lch-plan-common-sub">ご予約時に追加する人数をお知らせください。</p>
     </div>
   </div>
@@ -457,37 +457,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
             </div>
           </div>
 
-          <div class="lch-plan plan-card"
-               data-plan-name="鶏ほうとう（信玄どり）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
-               data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>鶏ほうとう（信玄どり）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="鶏ほうとう（信玄どり） 詳細を見る">
-            <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_hoto_tori_202610021827.webp" alt="鶏ほうとう 信玄どり" loading="lazy">
-            </div>
-            <div class="lch-plan-body">
-              <h3 class="lch-plan-name">鶏ほうとう（信玄どり）</h3>
-              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,000</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,200</strong></span></div>
-              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥1,900<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
-              <div class="lch-plan-hint">タップで詳細</div>
-            </div>
-          </div>
 
-          <div class="lch-plan plan-card"
-               data-plan-name="豚ほうとう（富士桜ポーク）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
-               data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>豚ほうとう（富士桜ポーク）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="豚ほうとう（富士桜ポーク） 詳細を見る">
-            <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_hoto_buta_202610021827.webp" alt="豚ほうとう 富士桜ポーク" loading="lazy">
-            </div>
-            <div class="lch-plan-body">
-              <h3 class="lch-plan-name">豚ほうとう（富士桜ポーク）</h3>
-              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,000</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,200</strong></span></div>
-              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥1,900<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
-              <div class="lch-plan-hint">タップで詳細</div>
-            </div>
-          </div>
 
           <div class="lch-plan plan-card"
                data-plan-name="鹿ほうとう（ジビエ）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
@@ -521,21 +491,6 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
             </div>
           </div>
 
-          <div class="lch-plan plan-card"
-               data-plan-name="山梨名物3種盛りほうとう" data-plan-price="平日¥2,700／土日祝¥2,900（税込）/ 1名"
-               data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>山梨名物3種盛りほうとう</strong>（甲州ワインビーフ・富士桜ポーク・信玄どり）","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥2,600","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
-               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="山梨名物3種盛りほうとう 詳細を見る">
-            <div class="lch-plan-img-wrap contain">
-              <img src="../assets/dantai_fj_hoto_3shu_202610021827.webp" alt="山梨名物3種盛りほうとう ワインビーフ・豚・鶏" loading="lazy">
-            </div>
-            <div class="lch-plan-body">
-              <h3 class="lch-plan-name">山梨名物3種盛りほうとう</h3>
-              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,700</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,900</strong></span></div>
-              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥2,600<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
-              <div class="lch-plan-hint">タップで詳細</div>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -563,11 +518,8 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           </thead>
           <tbody>
             <tr><td>野菜ほうとう</td><td class="price-val">¥1,300<span class="gakusei">学生平日 ¥1,200</span></td><td class="price-val">¥1,500</td></tr>
-            <tr><td>鶏ほうとう（信玄どり）</td><td class="price-val">¥1,600<span class="gakusei">学生平日 ¥1,500</span></td><td class="price-val">¥1,800</td></tr>
-            <tr><td>豚ほうとう（富士桜ポーク）</td><td class="price-val">¥1,600<span class="gakusei">学生平日 ¥1,500</span></td><td class="price-val">¥1,800</td></tr>
             <tr><td>鹿ほうとう（ジビエ）</td><td class="price-val">¥1,600<span class="gakusei">学生平日 ¥1,500</span></td><td class="price-val">¥1,800</td></tr>
             <tr><td>ワインビーフほうとう</td><td class="price-val">¥1,900<span class="gakusei">学生平日 ¥1,800</span></td><td class="price-val">¥2,100</td></tr>
-            <tr><td>山梨名物3種盛りほうとう<br><span style="font-size:11px;color:var(--text-light);">ワインビーフ・豚・鶏</span></td><td class="price-val">¥2,300<span class="gakusei">学生平日 ¥2,200</span></td><td class="price-val">¥2,500</td></tr>
           </tbody>
         </table>
       </div>
@@ -659,20 +611,6 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
 
       <div class="lch-tier">
         <div class="lch-plan-grid lch-plan-grid--quad2">
-          <div class="lch-plan plan-card"
-               data-plan-name="山梨名物3種盛り定食" data-plan-price="¥2,200（税込）/ 1名"
-               data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>山梨名物3種盛り（甲州ワインビーフ・富士桜ポーク・信玄どり／計200g）</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
-               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="山梨名物3種盛り定食 詳細を見る">
-            <div class="lch-plan-img-wrap">
-              <img src="../assets/dantai_fj_yakiniku_3shu_202609200500.webp" alt="山梨名物3種盛り定食" loading="lazy">
-            </div>
-            <div class="lch-plan-body">
-              <h3 class="lch-plan-name">山梨名物3種盛り定食</h3>
-              <div class="lch-plan-price"><strong>¥2,200</strong><small>（税込）/ 1名</small></div>
-              <div class="lch-plan-hint">タップで詳細</div>
-            </div>
-          </div>
 
           <div class="lch-plan plan-card"
                data-plan-name="ワインビーフ定食" data-plan-price="¥2,600（税込）/ 1名"
@@ -704,35 +642,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
             </div>
           </div>
 
-          <div class="lch-plan plan-card"
-               data-plan-name="MIX信玄どり定食" data-plan-price="¥1,700（税込）/ 1名"
-               data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>信玄どり 200g（ムネ・モモMIX）</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
-               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="MIX信玄どり定食 詳細を見る">
-            <div class="lch-plan-img-wrap">
-              <img src="../assets/dantai_fj_yakiniku_shingen_202609200500.webp" alt="MIX信玄どり定食" loading="lazy">
-            </div>
-            <div class="lch-plan-body">
-              <h3 class="lch-plan-name">MIX信玄どり定食</h3>
-              <div class="lch-plan-price"><strong>¥1,700</strong><small>（税込）/ 1名</small></div>
-              <div class="lch-plan-hint">タップで詳細</div>
-            </div>
-          </div>
 
-          <div class="lch-plan plan-card"
-               data-plan-name="富士桜ポーク定食" data-plan-price="¥1,700（税込）/ 1名"
-               data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>富士桜ポーク 200g</strong>","<strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます（4名様以下は個別盛りも可）","ミニ吉田のうどん","白ごはん","お漬物","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","※アレルギー：焼肉のタレ・ミニうどんの内容は事前にお問合せください"]'
-               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="富士桜ポーク定食 詳細を見る">
-            <div class="lch-plan-img-wrap">
-              <img src="../assets/dantai_fj_yakiniku_pork_202609200500.webp" alt="富士桜ポーク定食" loading="lazy">
-            </div>
-            <div class="lch-plan-body">
-              <h3 class="lch-plan-name">富士桜ポーク定食</h3>
-              <div class="lch-plan-price"><strong>¥1,700</strong><small>（税込）/ 1名</small></div>
-              <div class="lch-plan-hint">タップで詳細</div>
-            </div>
-          </div>
         </div>
       </div>
 
