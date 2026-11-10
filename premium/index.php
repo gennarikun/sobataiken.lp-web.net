@@ -143,7 +143,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 										<p class="lp-gouka-lead">ほうとう・そば・うどん・ラーメン全てにトッピングできます。複数追加も可能。<br>
 											お肉のご注文で鉄板・お野菜無料（カセットコンロ）。煮ても焼いてもお楽しみいただけます。</p>
 										<div class="lp-gouka-grid">
-											<!-- 2026-11-09 Canva「最新体験メニュー2026.7」p1 体験トッピングメニューに合わせる（オーナー 11/9） -->
+											<!-- 2026-11-09 Canva「最新体験メニュー2026.7」p1 体験トッピングメニューに合わせる（オーナー 11/9）。とり天・鹿肉の煮込みは載せない（じゅんさん 11/9「鹿肉価格変更、鹿肉煮込みととり天は一旦掲載せず、信玄鶏と富士桜ポークは削除」「500円50g+キャンペーンで50g増量というみせ方」） -->
 											<div class="lp-gouka-card lp-gouka-featured">
 												<div class="lp-gouka-card-inner">
 													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-label-badge">一番人気</span><span class="lp-gouka-price-badge">+900円</span></div>
@@ -161,15 +161,8 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 											<div class="lp-gouka-card">
 												<div class="lp-gouka-card-inner">
 													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+500円</span></div>
-													<h3 class="lp-gouka-title">ジビエ鹿肉（100g）</h3>
-													<p class="lp-gouka-desc">高たんぱくでヘルシー。クセが少なく、旨みのある味わいです。</p>
-												</div>
-											</div>
-											<div class="lp-gouka-card">
-												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+680円</span></div>
-													<h3 class="lp-gouka-title">スパイスとり天（BIG）</h3>
-													<p class="lp-gouka-desc">特製スパイスとタレで仕上げた当店名物のとり天です。</p>
+													<h3 class="lp-gouka-title">ジビエ鹿肉（50g）</h3>
+													<p class="lp-gouka-desc">高たんぱくでヘルシー。クセが少なく、旨みのある味わいです。キャンペーン中は50g増量でお出しします。</p>
 												</div>
 											</div>
 											<div class="lp-gouka-card">
@@ -177,13 +170,6 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+250円</span></div>
 													<h3 class="lp-gouka-title">特製チャーシュー（50g）</h3>
 													<p class="lp-gouka-desc">秘伝のタレでじっくりと煮込んだチャーシューです。</p>
-												</div>
-											</div>
-											<div class="lp-gouka-card">
-												<div class="lp-gouka-card-inner">
-													<div class="lp-gouka-badge-wrap"><span class="lp-gouka-price-badge">+600円</span></div>
-													<h3 class="lp-gouka-title">本日のおすすめ：鹿肉の煮込み</h3>
-													<p class="lp-gouka-desc">鹿肉をじっくり煮込んだ一品です。どの麺料理にもよく合います。</p>
 												</div>
 											</div>
 											<div class="lp-gouka-card">
