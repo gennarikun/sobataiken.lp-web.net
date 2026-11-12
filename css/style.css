@@ -11625,3 +11625,9 @@ dt {
   white-space: nowrap;
 }
 
+
+/* 2026-11-13 PC でスクロールするとメニューが上に固定され、ヘッダーの高さが縮んで中身が上に跳ねていた（check_deep の跳び 0.05）。
+   固定される前のヘッダーの高さを js/script.js が --sb-head-h に入れ、固定中もその高さを保つ */
+@media (min-width: 992px) {
+  body.header_scrolled .siteHeader { height: var(--sb-head-h, auto); }
+}

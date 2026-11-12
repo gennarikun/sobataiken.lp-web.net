@@ -17,7 +17,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 
 
 <link rel="stylesheet" href="../css/lib.min.css" type="text/css" media="all">
-<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="../css/style.css?v=202611130146" type="text/css" media="all">
 
 <!-- ===== メニュー刷新 2026-09（和風・黒×金トーン＝トップページ準拠） ===== -->
 <style>
@@ -578,6 +578,6 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 /* ]]> */
 </script>
 <script type="text/javascript" src="../js/lib.min.js"></script>
-<script type="text/javascript" src="../js/script.js"></script>
+<script type="text/javascript" src="../js/script.js?v=202611130146"></script>
 </body>
 </html>

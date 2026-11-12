@@ -249,7 +249,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 <meta name="msapplication-TileImage" content="assets/cropped-389258-270x270.jpg">
 
 <link rel="stylesheet" href="css/lib.min.css" type="text/css" media="all">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css?v=202611130146" type="text/css" media="all">
 </head>
 <body class="home wp-singular page-template-default page page-id-12 custom-background wp-theme-lightning fa_v7_css bootstrap4 device-pc">
 <a class="skip-link screen-reader-text" href="#main">コンテンツへスキップ</a>
@@ -1220,6 +1220,6 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 
 <?php include "footer.php"; ?>
 <script type="text/javascript" src="js/lib.min.js"></script>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/script.js?v=202611130146"></script>
 </body>
 </html>

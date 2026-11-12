@@ -11,7 +11,7 @@
 <link rel="icon" href="../assets/cropped-389258-192x192.jpg" sizes="192x192">
 <link rel="apple-touch-icon" href="../assets/cropped-389258-180x180.jpg">
 <link rel="stylesheet" href="../css/lib.min.css" type="text/css" media="all">
-<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="../css/style.css?v=202611130146" type="text/css" media="all">
 <link rel="stylesheet" href="../assets/dantai-page.css?v=202609031830">
 <style>
 /* ============ launch/ 団体ランチページ 専用スタイル ============ */
@@ -941,7 +941,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
 
 <?php include "../footer.php"; ?>
 <script type="text/javascript" src="../js/lib.min.js"></script>
-<script type="text/javascript" src="../js/script.js"></script>
+<script type="text/javascript" src="../js/script.js?v=202611130146"></script>
 <script src="../assets/dantai-page.js?v=202609031830"></script>
 </body>
 </html>

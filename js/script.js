@@ -85,3 +85,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 })();
+/* 2026-11-13 PC でメニューが上に固定された時に中身が跳ねないよう、固定前のヘッダーの高さを覚える（css/style.css の --sb-head-h） */
+(function(){
+  function m(){
+    var h=document.querySelector('.siteHeader');
+    if(!h||document.body.classList.contains('header_scrolled'))return;
+    document.documentElement.style.setProperty('--sb-head-h',h.offsetHeight+'px');
+  }
+  window.addEventListener('DOMContentLoaded',m);
+  window.addEventListener('load',m);
+  window.addEventListener('resize',m);
+})();

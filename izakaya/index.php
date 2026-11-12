@@ -20,7 +20,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 		
 		
 <link rel="stylesheet" href="../css/lib.min.css" type="text/css" media="all">
-<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="../css/style.css?v=202611130146" type="text/css" media="all">
 </head>
 <body class="wp-singular page-template-default page page-id-3338 custom-background wp-theme-lightning fa_v7_css bootstrap4 device-pc">
 <a class="skip-link screen-reader-text" href="#main">コンテンツへスキップ</a>
@@ -507,6 +507,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 </div>
 
 </div><!-- /.ms -->
+</div><!-- [ /.entry-body ] 2026-11-13 閉じ忘れを足す（check_deep の閉じタグの検査） -->
 
 
 					</article><!-- [ /#post-3543 ] -->
@@ -526,13 +527,12 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <p><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1996" src="../assets/ad5f2a54.jpg" alt="" width="960" height="720" srcset="../assets/ad5f2a54.jpg 960w, ../assets/620f94a7.jpg 300w, ../assets/64795774.jpg 768w" sizes="auto, (max-width: 960px) 100vw, 960px"></p>
 </div>
 			</aside>			</div>
-			</div>
 		</div>
 	</div>
 </div>
 
 <?php include "../footer.php"; ?>
 <script type="text/javascript" src="../js/lib.min.js"></script>
-<script type="text/javascript" src="../js/script.js"></script>
+<script type="text/javascript" src="../js/script.js?v=202611130146"></script>
 </body>
 </html>

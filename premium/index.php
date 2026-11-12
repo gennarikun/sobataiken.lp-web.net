@@ -17,7 +17,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 		
 		
 <link rel="stylesheet" href="../css/lib.min.css" type="text/css" media="all">
-<link rel="stylesheet" href="../css/style.css" type="text/css" media="all">
+<link rel="stylesheet" href="../css/style.css?v=202611130146" type="text/css" media="all">
 <style>
 /* 9/1版コース画像は正方形・名称帯焼き込みのため、16/10クロップを解除して全体表示（このページのみ） */
 .lp-premium-wrapper .lp-grid-2col .lp-card-image { aspect-ratio: auto; }
@@ -135,6 +135,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 											</div>
 										</div>
 										<!-- ▲ おすすめコース ここまで -->
+									</div><!-- /.lp-container 2026-11-13 閉じ忘れを足す -->
 								</section>
 								<!-- ▼ 豪華プラン -->
 								<section class="lp-section lp-menu lp-goukaplan">
@@ -491,6 +492,6 @@ const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(
 /* ]]> */
 </script>
 <script type="text/javascript" src="../js/lib.min.js"></script>
-<script type="text/javascript" src="../js/script.js"></script>
+<script type="text/javascript" src="../js/script.js?v=202611130146"></script>
 </body>
 </html>
