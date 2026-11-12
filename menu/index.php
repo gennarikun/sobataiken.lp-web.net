@@ -199,6 +199,20 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
   .sbm-spice-item { flex: 1 1 100%; }
 }
 </style>
+<style>/* 2026-11-11 体験の鹿肉の追加の案内（設計書_体験_鹿肉ほうとう.md・オーナー 11/11 案A） */
+.shika-add{--sa-red:#c0392b;--sa-ink:#1a1209;--sa-sub:#6b5a45;display:grid;grid-template-columns:1fr;border:1px solid rgba(0,0,0,.08);background:#fef9f0;border-radius:10px;overflow:hidden;margin:8px 0 24px;text-align:left;}
+.shika-add .sa-ph{aspect-ratio:4/3;background:#fff;}
+.shika-add .sa-ph img{display:block;width:100%;height:100%;object-fit:cover;}
+.shika-add .sa-bd{padding:20px;}
+.shika-add .sa-badge{display:inline-block;background:var(--sa-red);color:#fff;font-size:.78rem;font-weight:700;padding:3px 12px;border-radius:9999px;letter-spacing:.04em;}
+.shika-add .sa-h{font-family:var(--serif,inherit);font-size:1.2rem;font-weight:700;line-height:1.5;margin:10px 0 6px;color:var(--sa-ink);}
+.shika-add .sa-for{font-size:.9rem;color:var(--sa-sub);margin:0 0 10px;}
+.shika-add .sa-price{font-size:1.05rem;font-weight:700;color:var(--sa-ink);margin:0;}
+.shika-add .sa-price s{color:var(--sa-sub);font-weight:400;}
+.shika-add .sa-price b{color:var(--sa-red);font-size:1.25rem;}
+.shika-add .sa-note{font-size:.85rem;color:var(--sa-sub);line-height:1.8;margin:8px 0 0;}
+@media(min-width:768px){.shika-add{grid-template-columns:42% 1fr;}.shika-add .sa-bd{padding:24px 28px;align-self:center;}}
+</style>
 </head>
 <body class="wp-singular page-template-default page page-id-1970 custom-background wp-theme-lightning fa_v7_css bootstrap4 device-pc">
 <a class="skip-link screen-reader-text" href="#main">コンテンツへスキップ</a>
@@ -333,6 +347,16 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <span class="sbm-row-price">¥3,700</span>
 </div>
 </div>
+</div>
+<div class="shika-add" style="margin-top:24px;">
+  <div class="sa-ph"><img src="../assets/shika_addon_hoto_202611121945.webp" alt="ジビエ鹿肉を入れたほうとう" loading="lazy" width="656" height="491"></div>
+  <div class="sa-bd">
+    <span class="sa-badge">キャンペーン中</span>
+    <p class="sa-h">どの麺作りにも、ジビエ鹿肉を足せます</p>
+    <p class="sa-for">ほうとう・うどん・そば・ラーメン</p>
+    <p class="sa-price">＋¥500　<span style="white-space:nowrap"><s>50g</s> → 今なら<b>100g</b></span></p>
+    <p class="sa-note">ご予約の際にお申し付けください。当日、お店でも追加できます。</p>
+  </div>
 </div>
 </div>
 
