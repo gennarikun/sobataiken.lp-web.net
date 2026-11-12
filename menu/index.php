@@ -338,7 +338,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <span class="sbm-row-price">¥3,500</span>
 </div>
 <div class="sbm-row">
-<span class="sbm-row-name">豚骨ラーメン作り体験<span class="sbm-row-note">本格豚骨スープをじっくり煮込んで手作り麺と合わせる</span></span>
+<span class="sbm-row-name">豚骨ラーメン作り体験<span class="sbm-row-note">手作りの麺を、お店で仕込んだ本格豚骨スープで味わう</span></span>
 <span class="sbm-row-price">¥3,500</span>
 </div>
 <div class="sbm-row" style="background:rgba(181,134,42,.12);"><span class="sbm-row-name" style="font-weight:700;">受け入れ 1〜200名様</span></div>
