@@ -430,10 +430,10 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
 
   <!-- たかにゃんチキン追加の案内（2026-10-20） -->
   <div class="lch-plan-common lch-addon">
-    <img src="../assets/dantai_takanyan_topping_202610201700.webp" alt="たかにゃんチキン" width="1000" height="707" loading="lazy">
+    <img src="../assets/dantai_takanyan_topping_202610201700.webp" alt="スパイスとり天" width="1000" height="707" loading="lazy">
     <div>
       <span class="lch-plan-common-title">どのランチにも追加できます</span>
-      <p>たかにゃんチキンは、鶏肉120gを揚げて、高菜先生特製のスパイスソースをかけた、お店のオリジナルのチキンです。どのランチにも<strong>1名様 ¥300</strong>で追加できます。</p>
+      <p>スパイスとり天は、鶏肉120gを揚げて、高菜先生特製のスパイスソースをかけた、お店のオリジナルのとり天です。どのランチにも<strong>1名様 ¥300</strong>で追加できます。</p>
       <p class="lch-plan-common-sub">ご予約時に追加する人数をお知らせください。</p>
     </div>
   </div>
@@ -445,7 +445,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
         <h2 id="lch-genre-hoto">山梨郷土料理ほうとうランチ</h2>
         <p class="lch-genre-note"><strong>4名様ごとに1つの鍋でご提供します。</strong>ご到着後、鍋に麺・お野菜・お肉を入れて、お客様ご自身で仕上げてお召し上がりいただきます（約10分）。4名様以下は個別盛りでのご提供も承ります。</p>
         <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ 黒蜜きなこ餅</p>
-        <p class="lch-genre-note">たかにゃんチキンの追加（1名様 ¥300）もできます。</p>
+        <p class="lch-genre-note">スパイスとり天の追加（1名様 ¥300）もできます。</p>
       </div>
 
       <div class="lch-tier">
@@ -520,7 +520,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       <div class="lch-genre-head">
         <h2 id="lch-genre-tanpin">ほうとう単品ランチ</h2>
         <p class="lch-genre-note">小鉢・黒蜜きなこ餅なしの単品プランです。平日・土日祝ともご利用いただけます（平日は200円引き）。<strong>4名様以上は鍋でのご提供</strong>となります。<br class="br-pc">学生プランは平日限定・要予約です。</p>
-        <p class="lch-genre-note">たかにゃんチキンの追加（1名様 ¥300）もできます。</p>
+        <p class="lch-genre-note">スパイスとり天の追加（1名様 ¥300）もできます。</p>
       </div>
 
       <div class="price-table-wrap" style="max-width:720px;margin:28px auto 0;">
@@ -553,7 +553,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       <div class="lch-genre-head">
         <h2 id="lch-genre-udon">吉田のうどんランチ</h2>
         <p class="lch-genre-note"><strong>セット内容</strong>：小鉢（ひじきの煮物）＋ 黒蜜きなこ餅。<strong>20名様まで</strong>承ります。</p>
-        <p class="lch-genre-note">たかにゃんチキンの追加（1名様 ¥300）もできます。</p>
+        <p class="lch-genre-note">スパイスとり天の追加（1名様 ¥300）もできます。</p>
       </div>
 
       <div class="lch-tier">
@@ -618,7 +618,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
         <h2 id="lch-genre-yakiniku">山梨ジビエ焼肉ランチ</h2>
         <p class="lch-genre-note"><strong>4名様ごとに1台の卓上コンロ</strong>で焼いてお召し上がりいただきます。お肉はお皿に盛ってご提供します。<strong>20名様まで</strong>承ります。4名様以下は個別盛りでのご提供も承ります。</p>
         <p class="lch-genre-note"><strong>セット内容</strong>：ミニ吉田のうどん ＋ 白ごはん ＋ お漬物 ＋ 小鉢（ひじきの煮物）＋ 黒蜜きなこ餅</p>
-        <p class="lch-genre-note">たかにゃんチキンの追加（1名様 ¥300）もできます。</p>
+        <p class="lch-genre-note">スパイスとり天の追加（1名様 ¥300）もできます。</p>
       </div>
 
       <div class="lch-tier">
