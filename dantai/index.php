@@ -451,9 +451,9 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       <div class="lch-tier">
         <div class="lch-course-grid">
           <div class="lch-plan plan-card shika-feat"
-               data-plan-name="鹿ほうとう（ジビエ）" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
+               data-plan-name="鹿ほうとう（ジビエ）" data-plan-price="平日¥2,100／土日祝¥2,300（税込）/ 1名"
                data-plan-badge="定食" data-plan-badge-class="takeout"
-               data-plan-includes='["<strong>鹿ほうとう（ジビエ）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-includes='["<strong>鹿ほうとう（ジビエ）</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥2,000","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
                data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="鹿ほうとう（ジビエ） 詳細を見る">
             <div class="lch-plan-img-wrap contain">
               <img src="../assets/dantai_fj_hoto_shika_202610021827.webp" alt="鹿ほうとう ジビエ" loading="lazy">
@@ -461,8 +461,8 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
             <div class="lch-plan-body">
               <span class="shika-tag">おすすめ</span>
               <h3 class="lch-plan-name">鹿ほうとう（ジビエ）</h3>
-              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,000</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,200</strong></span></div>
-              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥1,900<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
+              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,100</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,300</strong></span></div>
+              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥2,000<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
               <p class="shika-line">高たんぱくでクセが少ない鹿肉を、かぼちゃと野菜の味噌のほうとうで。</p>
               <p class="shika-alt">鹿が苦手な方の分だけ、野菜ほうとう・ワインビーフほうとうにもできます。</p>
               <div class="lch-plan-hint">タップで詳細</div>
@@ -529,7 +529,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
             <tr><th>プラン</th><th style="text-align:right;">平日</th><th style="text-align:right;">土日祝</th></tr>
           </thead>
           <tbody>
-            <tr><td>鹿ほうとう（ジビエ）</td><td class="price-val">¥1,600<span class="gakusei">学生平日 ¥1,500</span></td><td class="price-val">¥1,800</td></tr>
+            <tr><td>鹿ほうとう（ジビエ）</td><td class="price-val">¥1,700<span class="gakusei">学生平日 ¥1,600</span></td><td class="price-val">¥1,900</td></tr>
             <tr><td>野菜ほうとう</td><td class="price-val">¥1,300<span class="gakusei">学生平日 ¥1,200</span></td><td class="price-val">¥1,500</td></tr>
             <tr><td>ワインビーフほうとう</td><td class="price-val">¥1,900<span class="gakusei">学生平日 ¥1,800</span></td><td class="price-val">¥2,100</td></tr>
           </tbody>
