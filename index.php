@@ -1072,7 +1072,7 @@ body.custom-background { background-image: url("assets/1111-1.jpg"); background-
 <dd>はい、撮影していただけます。旅の思い出に、ぜひお楽しみください。</dd>
 </dl>
 <!-- 2026-11-06 富士家のよくある質問へ（引き継ぎ 手順3-2・トップの欄の見落としを直す） -->
-<div style="text-align:center;margin:28px 0;"><a href="https://houtoutaiken.lp-web.net/faq/" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:10px 22px;border:2px solid currentColor;border-radius:6px;color:inherit;font-weight:700;text-decoration:none;line-height:1.5;">運営店舗：高菜先生の郷土料理体験教室 富士家のよくある質問 →</a></div>
+<div style="text-align:center;margin:28px 0;"><a href="https://houtoutaiken.lp-web.net/faq/" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:10px 22px;border:2px solid currentColor;border-radius:6px;color:inherit;font-weight:700;text-decoration:none;line-height:1.5;">よくある質問をもっと見る</a></div>
 <h2 style="text-align: center;">予約までの流れ</h2>
 <div class="veu_flowBox" style="text-align: center;">
 <dl>

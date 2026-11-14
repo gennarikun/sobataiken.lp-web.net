@@ -834,7 +834,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
       </details>
     </div>
     <!-- 2026-11-05 富士家のよくある質問へ（引き継ぎ 手順3-2） -->
-    <div style="text-align:center;margin-top:28px;"><a href="https://houtoutaiken.lp-web.net/faq/" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:10px 22px;border:2px solid currentColor;border-radius:6px;color:inherit;font-weight:700;text-decoration:none;line-height:1.5;">運営店舗：高菜先生の郷土料理体験教室 富士家のよくある質問 →</a></div>
+    <div style="text-align:center;margin-top:28px;"><a href="https://houtoutaiken.lp-web.net/faq/" style="display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:10px 22px;border:2px solid currentColor;border-radius:6px;color:inherit;font-weight:700;text-decoration:none;line-height:1.5;">よくある質問をもっと見る</a></div>
   </div>
 </section>
 

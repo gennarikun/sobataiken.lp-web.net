@@ -116,7 +116,7 @@ LINEで問い合わせ<br>
 			<div class="col-md-12 ">
 			<aside class="widget widget_text" id="text-7">			<div class="textwidget"><p><a class="btn-lg btn btn-block btn-primary" href="../question/">よくある質問</a></p>
 <!-- 2026-11-05 富士家のよくある質問へ（引き継ぎ 手順3-2） -->
-<p><a class="btn-lg btn btn-block btn-primary" href="https://houtoutaiken.lp-web.net/faq/">運営店舗：高菜先生の郷土料理体験教室 富士家のよくある質問</a></p>
+<p><a class="btn-lg btn btn-block btn-primary" href="https://houtoutaiken.lp-web.net/faq/">よくある質問をもっと見る</a></p>
 <p><a class="btn-lg btn btn-block btn-primary" href="/voice">お客様の声を見る</a></p>
 <p><a class="btn-lg btn btn-block btn-primary" href="/gallery">お客様の体験の様子を見る</a></p>
 <div class="widget widget_vkexunit_contact_section">
