@@ -393,12 +393,11 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
 }
 </style>
 <style>/* 2026-11-10 鹿ほうとうを目立たせる（じゅんさん 11/9「鹿肉ほうとう的なものを目立つように販売したい」・オーナー 11/10「おすすめのやつでいいよ」＝案A・設計書_団体ランチ_鹿ほうとう.md） */
-.shika-feat{grid-column:1/-1;}
+.shika-feat{grid-column:1/-1;}/* 2026-11-16 鶏ほうとうを戻してカードが3枚になった＝PC は3枚を1列・2列の時は余った1枚を真ん中に */@media(min-width:768px){.lch-course-grid:has(.shika-feat){grid-template-columns:repeat(3,1fr);}}@media(max-width:767px){.lch-course-grid:has(.shika-feat)>.lch-plan:last-child:nth-child(even){grid-column:1/-1;justify-self:center;width:calc(50% - 6px);}}
 .shika-feat .lch-plan-img-wrap.contain{aspect-ratio:16/9;}
 .shika-tag{display:inline-block;align-self:flex-start;background:var(--lch-persimmon);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.06em;padding:3px 10px;border-radius:999px;}
 .shika-feat .lch-plan-name{font-size:1.25rem;}
 .shika-line{margin:0;font-size:.9rem;line-height:1.8;color:var(--lch-ink);}
-.shika-alt{margin:0;font-size:.8rem;line-height:1.7;color:var(--lch-ink-2);}
 @media(min-width:768px){.shika-feat .lch-plan-body{padding:18px 22px 20px;}}
 </style>
 </head>
@@ -464,7 +463,6 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
               <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,100</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,300</strong></span></div>
               <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥2,000<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
               <p class="shika-line">高たんぱくでクセが少ない鹿肉を、かぼちゃと野菜の味噌のほうとうで。</p>
-              <p class="shika-alt">鹿が苦手な方の分だけ、野菜ほうとう・ワインビーフほうとうにもできます。</p>
               <div class="lch-plan-hint">タップで詳細</div>
             </div>
           </div>
@@ -480,6 +478,22 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
               <h3 class="lch-plan-name">野菜ほうとう</h3>
               <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥1,700</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥1,900</strong></span></div>
               <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥1,600<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
+              <div class="lch-plan-hint">タップで詳細</div>
+            </div>
+          </div>
+          <!-- 2026-11-16 鶏ほうとうを戻す（じゅんさん 11/16「鳥ほうとうがかなり予約入るので、やはり残す」「信玄鶏はやめる」「料金も変わらない」） -->
+          <div class="lch-plan plan-card"
+               data-plan-name="鶏ほうとう" data-plan-price="平日¥2,000／土日祝¥2,200（税込）/ 1名"
+               data-plan-badge="定食" data-plan-badge-class="takeout"
+               data-plan-includes='["<strong>鶏ほうとう</strong>","<strong>4名様ごとに1つの鍋でご提供</strong>（鍋に麺・お野菜・お肉を入れてご自身で仕上げます／約10分・4名様以下は個別盛りも可）","<strong>小鉢：ひじきの煮物</strong> — 山梨郷土の家庭料理・富士登山の縁起物","<strong>デザート：黒蜜きなこ餅</strong>","学生（高校生以下）平日 ¥1,900","※アレルギー：小麦・大豆・かぼちゃ／詳細は事前にお問合せください"]'
+               data-plan-href="https://fujiyoshida-houtou.lp-web.net/group-reservation/" tabindex="0" role="button" aria-label="鶏ほうとう 詳細を見る">
+            <div class="lch-plan-img-wrap contain">
+              <img src="../assets/dantai_fj_hoto_tori_202610021827.webp" alt="鶏ほうとう" loading="lazy">
+            </div>
+            <div class="lch-plan-body">
+              <h3 class="lch-plan-name">鶏ほうとう</h3>
+              <div class="lch-plan-price wt"><span class="pr"><span class="lbl">平日</span><strong>¥2,000</strong></span><span class="pr"><span class="lbl">土日祝</span><strong>¥2,200</strong></span></div>
+              <div style="font-size:11px;color:var(--navy);font-weight:600;line-height:1.5;margin-top:2px;">学生平日 ¥1,900<span style="font-weight:400;color:var(--text-light);">（土日祝は一般と同額）</span></div>
               <div class="lch-plan-hint">タップで詳細</div>
             </div>
           </div>
@@ -531,6 +545,7 @@ main.lch-main :where(h1,h2,h3){font-family:"Noto Serif JP","Hiragino Mincho ProN
           <tbody>
             <tr><td>鹿ほうとう（ジビエ）</td><td class="price-val">¥1,700<span class="gakusei">学生平日 ¥1,600</span></td><td class="price-val">¥1,900</td></tr>
             <tr><td>野菜ほうとう</td><td class="price-val">¥1,300<span class="gakusei">学生平日 ¥1,200</span></td><td class="price-val">¥1,500</td></tr>
+            <tr><td>鶏ほうとう</td><td class="price-val">¥1,600<span class="gakusei">学生平日 ¥1,500</span></td><td class="price-val">¥1,800</td></tr>
             <tr><td>ワインビーフほうとう</td><td class="price-val">¥1,900<span class="gakusei">学生平日 ¥1,800</span></td><td class="price-val">¥2,100</td></tr>
           </tbody>
         </table>
