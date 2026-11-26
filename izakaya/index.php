@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>宴会・貸切 | そば打ち＆染物体験教室｜山梨県河口湖・山中湖・忍野八海の本格そば作り｜プライベート・家族連れに人気</title>
-	<meta name="description" content="全8コース・10品・飲み放題2.5時間込み。最大80名様の宴会・貸切は河口湖の体験教室富士家へ。"/>
+	<meta name="description" content="全3コース・10品・飲み放題2.5時間込み。最大80名様の宴会・貸切は河口湖の体験教室富士家へ。"/>
 <meta name="robots" content="max-image-preview:large">
 <link rel="canonical" href="./">
 <style type="text/css" id="custom-background-css">
@@ -109,12 +109,10 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
   <h2 class="ms-h2 ms-rv">全コース共通・10品構成</h2>
   <p class="ms-lead ms-rv">メイン鍋・締め・一部料理がコースによって変わります。</p>
 
-  <!-- ①②③④ -->
   <div class="ms-rv" style="display:grid;grid-template-columns:1fr 1fr;gap:3px;margin-top:28px;">
     <img src="../assets/izakaya-dish-02.jpg" style="width:100%;height:160px;object-fit:cover;display:block;opacity:.82;" alt="" />
     <img src="../assets/izakaya-sub-01.png" style="width:100%;height:160px;object-fit:cover;display:block;opacity:.82;" alt="" />
   </div>
-  <p style="font-size: .68rem; letter-spacing: .28em; color: #c0392b; font-weight: 500; margin: 14px 0 10px; font-family: 'Noto Sans JP',sans-serif;">コース①②③④（鮑の煮貝・炊き込みご飯）</p>
   <div class="ms-rv" style="display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 3px; margin-bottom: 3px;">
     <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">1</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">枝豆</p><p style="font-size: .7rem; color: #5a3e2b;">スピードメニュー</p></div></div>
     <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">2</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">彩り野菜のサラダ</p><p style="font-size: .7rem; color: #5a3e2b;">季節の野菜</p></div></div>
@@ -128,24 +126,6 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
     <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">10</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">わらび餅</p><p style="font-size: .7rem; color: #5a3e2b;">デザート</p></div></div>
   </div>
 
-  <!-- ⑤⑥⑦⑧ -->
-  <div class="ms-rv" style="display:grid;grid-template-columns:1fr 1fr;gap:3px;margin-top:20px;">
-    <img src="../assets/izakaya-dish-04.png" style="width:100%;height:160px;object-fit:cover;display:block;opacity:.82;" alt="" />
-    <img src="../assets/izakaya-dish-05.jpg" style="width:100%;height:160px;object-fit:cover;display:block;opacity:.82;" alt="" />
-  </div>
-  <p style="font-size: .68rem; letter-spacing: .28em; color: #c0392b; font-weight: 500; margin: 14px 0 10px; font-family: 'Noto Sans JP',sans-serif;">コース⑤⑥⑦⑧（馬刺し・うな丼）</p>
-  <div class="ms-rv" style="display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 3px;">
-    <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">1</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">枝豆</p><p style="font-size: .7rem; color: #5a3e2b;">スピードメニュー</p></div></div>
-    <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">2</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">彩り野菜のサラダ</p><p style="font-size: .7rem; color: #5a3e2b;">季節の野菜</p></div></div>
-    <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">3</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">馬刺し</p><p style="font-size: .7rem; color: #5a3e2b;">赤身または盛り合わせ</p></div></div>
-    <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">4</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">揚げ物盛り合わせ</p><p style="font-size: .7rem; color: #5a3e2b;">鶏唐揚げ＆ポテトフライ</p></div></div>
-    <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">5</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">エビ塩焼き</p><p style="font-size: .7rem; color: #5a3e2b;">1本/人</p></div></div>
-    <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">6</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">キムチ</p><p style="font-size: .7rem; color: #5a3e2b;">漬物</p></div></div>
-    <div style="background: #c0392b; padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(255,255,255,.2); line-height: 1; flex-shrink: 0;">7</span><div><p style="font-size: .8rem; font-weight: bold; color: #fff; margin-bottom: 2px;">メインの鍋</p><p style="font-size: .7rem; color: rgba(255,255,255,.7);">コースごとに変動</p></div></div>
-    <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">8</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">うな丼</p><p style="font-size: .7rem; color: #5a3e2b;">ミニうな丼</p></div></div>
-    <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">9</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">締めの麺</p><p style="font-size: .7rem; color: #5a3e2b;">コースごとに変動</p></div></div>
-    <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">10</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">わらび餅</p><p style="font-size: .7rem; color: #5a3e2b;">デザート</p></div></div>
-  </div>
 </div>
 </div>
 
@@ -153,7 +133,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div class="ms-sec" style="background: var(--dark);">
 <div class="ms-w">
   <span class="ms-lbl ms-rv" style="color: #f4c875;">Course Menu</span>
-  <h2 class="ms-h2 ms-rv" style="color: #fff;">全8コース一覧</h2>
+  <h2 class="ms-h2 ms-rv" style="color: #fff;">全3コース一覧</h2>
   <p class="ms-lead ms-rv" style="color: rgba(240,232,216,.55);">全コース10品・飲み放題2.5時間込み。麺打ち体験は全コース＋¥2,200で追加可能。</p>
 
   <div style="display: flex; flex-direction: column; gap: 3px; margin-top: 38px;">
@@ -192,57 +172,6 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
       <div style="flex-shrink:0;width:clamp(180px,26vw,280px);"><img class="aligncenter size-large wp-image-1334" src="../assets/izakaya-pot-04.jpeg" alt="ジビエ鹿鍋河口湖" width="1024" height="576" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;" /></div>
     </div>
 
-    <!-- ③ 旨辛 -->
-    <div class="ms-rv" style="background: rgba(192,57,43,.08); border: 1px solid rgba(192,57,43,.25); padding: clamp(16px,3vw,26px); display: flex; flex-wrap: wrap; align-items: center; gap: 16px;">
-      <div style="flex-shrink: 0; width: 44px; height: 44px; background: rgba(192,57,43,.25); border: 1px solid rgba(192,57,43,.5); display: flex; align-items: center; justify-content: center;"><span style="font-family: 'Noto Serif JP',serif; font-size: .78rem; font-weight: 900; color: #f4a87a;">③</span></div>
-      <div style="flex: 1; min-width: 200px;">
-        <p style="font-size: .56rem; letter-spacing: .3em; color: rgba(244,200,117,.5); margin-bottom: 4px; font-family: 'Noto Sans JP',sans-serif;">Spicy — 旨辛系</p>
-        <h3 style="font-family: 'Noto Serif JP',serif; font-size: clamp(.88rem,2vw,1.05rem); font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none; line-height: 1.4;">鹿肉と大エビの旨辛鍋</h3>
-      </div>
-      <div style="flex: 1; min-width: 180px;">
-        <p style="font-size: .7rem; color: rgba(240,232,216,.6); line-height: 1.9;">メイン：鹿肉＆大エビ旨辛鍋<br>締め：ラーメン<br><span style="color: #f4a87a;">激辛高菜先生オリジナルスパイス　鮑の煮貝付き</span></p>
-      </div>
-      <div style="flex-shrink: 0; text-align: right;">
-        <p style="font-family: 'Noto Serif JP',serif; font-size: clamp(1.1rem,2.5vw,1.5rem); font-weight: 900; color: #f4c875; white-space: nowrap;">¥5,500</p>
-        <p style="font-size: .6rem; color: rgba(240,232,216,.4);">飲み放題込・税込</p>
-      </div>
-      <div style="flex-shrink:0;width:clamp(180px,26vw,280px);"><img class="aligncenter size-large wp-image-1350" src="../assets/izakaya-pot-01.jpeg" alt="海鮮ほうとう河口湖" width="1024" height="576" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;" /></div>
-    </div>
-
-    <!-- ④ 牡蠣 -->
-    <div class="ms-rv" style="background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.07); padding: clamp(16px,3vw,26px); display: flex; flex-wrap: wrap; align-items: center; gap: 16px;">
-      <div style="flex-shrink: 0; width: 44px; height: 44px; background: rgba(192,57,43,.2); border: 1px solid rgba(192,57,43,.4); display: flex; align-items: center; justify-content: center;"><span style="font-family: 'Noto Serif JP',serif; font-size: .78rem; font-weight: 900; color: #f4a87a;">④</span></div>
-      <div style="flex: 1; min-width: 200px;">
-        <p style="font-size: .56rem; letter-spacing: .3em; color: rgba(244,200,117,.5); margin-bottom: 4px; font-family: 'Noto Sans JP',sans-serif;">Seafood — 海鮮系</p>
-        <h3 style="font-family: 'Noto Serif JP',serif; font-size: clamp(.88rem,2vw,1.05rem); font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none; line-height: 1.4;">牡蠣と大エビの味噌鍋</h3>
-      </div>
-      <div style="flex: 1; min-width: 180px;">
-        <p style="font-size: .7rem; color: rgba(240,232,216,.6); line-height: 1.9;">メイン：牡蠣＆大エビ味噌鍋<br>締め：ほうとう<br><span style="color: rgba(244,200,117,.6);">馬刺し・うな丼付き</span></p>
-      </div>
-      <div style="flex-shrink: 0; text-align: right;">
-        <p style="font-family: 'Noto Serif JP',serif; font-size: clamp(1.1rem,2.5vw,1.5rem); font-weight: 900; color: #f4c875; white-space: nowrap;">¥6,000</p>
-        <p style="font-size: .6rem; color: rgba(240,232,216,.4);">飲み放題込・税込</p>
-      </div>
-      <div style="flex-shrink:0;width:clamp(180px,26vw,280px);"><img class="aligncenter size-large wp-image-1314" src="../assets/izakaya-pot-06.jpeg" alt="牡蠣鍋河口湖" width="1024" height="576" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;" /></div>
-    </div>
-
-    <!-- ⑤ 金目鯛 -->
-    <div class="ms-rv" style="background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.07); padding: clamp(16px,3vw,26px); display: flex; flex-wrap: wrap; align-items: center; gap: 16px;">
-      <div style="flex-shrink: 0; width: 44px; height: 44px; background: rgba(192,57,43,.2); border: 1px solid rgba(192,57,43,.4); display: flex; align-items: center; justify-content: center;"><span style="font-family: 'Noto Serif JP',serif; font-size: .78rem; font-weight: 900; color: #f4a87a;">⑤</span></div>
-      <div style="flex: 1; min-width: 200px;">
-        <p style="font-size: .56rem; letter-spacing: .3em; color: rgba(244,200,117,.5); margin-bottom: 4px; font-family: 'Noto Sans JP',sans-serif;">Seafood — 海鮮系</p>
-        <h3 style="font-family: 'Noto Serif JP',serif; font-size: clamp(.88rem,2vw,1.05rem); font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none; line-height: 1.4;">金目鯛と帆立の黄金寄せ鍋</h3>
-      </div>
-      <div style="flex: 1; min-width: 180px;">
-        <p style="font-size: .7rem; color: rgba(240,232,216,.6); line-height: 1.9;">メイン：金目鯛1匹姿＆帆立寄せ鍋<br>締め：うどん<br><span style="color: rgba(244,200,117,.6);">馬刺し・うな丼付き</span></p>
-      </div>
-      <div style="flex-shrink: 0; text-align: right;">
-        <p style="font-family: 'Noto Serif JP',serif; font-size: clamp(1.1rem,2.5vw,1.5rem); font-weight: 900; color: #f4c875; white-space: nowrap;">¥6,500</p>
-        <p style="font-size: .6rem; color: rgba(240,232,216,.4);">飲み放題込・税込</p>
-      </div>
-      <div style="flex-shrink:0;width:clamp(180px,26vw,280px);"><img class="aligncenter size-large wp-image-1344" src="../assets/izakaya-pot-02.jpeg" alt="金目鯛鍋" width="1024" height="576" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;" /></div>
-    </div>
-
     <!-- ⑥ ワインビーフ -->
     <div class="ms-rv" style="background: rgba(184,134,11,.06); border: 1px solid rgba(184,134,11,.2); padding: clamp(16px,3vw,26px); display: flex; flex-wrap: wrap; align-items: center; gap: 16px;">
       <div style="flex-shrink: 0; width: 44px; height: 44px; background: rgba(184,134,11,.2); border: 1px solid rgba(184,134,11,.4); display: flex; align-items: center; justify-content: center;"><span style="font-family: 'Noto Serif JP',serif; font-size: .78rem; font-weight: 900; color: #f4c875;">⑥</span></div>
@@ -251,60 +180,13 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
         <h3 style="font-family: 'Noto Serif JP',serif; font-size: clamp(.88rem,2vw,1.05rem); font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none; line-height: 1.4;">甲州ワインビーフと鶏の味噌ほうとう鍋</h3>
       </div>
       <div style="flex: 1; min-width: 180px;">
-        <p style="font-size: .7rem; color: rgba(240,232,216,.6); line-height: 1.9;">メイン：甲州ワインビーフと鶏の味噌ほうとう鍋<br>締め：ラーメン<br><span style="color: #f4c875;">馬刺し・うな丼付き</span></p>
+        <p style="font-size: .7rem; color: rgba(240,232,216,.6); line-height: 1.9;">メイン：甲州ワインビーフと鶏の味噌ほうとう鍋<br>締め：ラーメン</p>
       </div>
       <div style="flex-shrink: 0; text-align: right;">
         <p style="font-family: 'Noto Serif JP',serif; font-size: clamp(1.1rem,2.5vw,1.5rem); font-weight: 900; color: #f4c875; white-space: nowrap;">¥6,500</p>
         <p style="font-size: .6rem; color: rgba(240,232,216,.4);">飲み放題込・税込</p>
       </div>
       <div style="flex-shrink:0;width:clamp(180px,26vw,280px);"><img class="aligncenter size-large wp-image-1326" src="../assets/izakaya-pot-05.jpeg" alt="ワインビーフ鍋" width="1024" height="576" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;" /></div>
-    </div>
-
-    <!-- ⑦ 海鮮全部のせ -->
-    <div class="ms-rv" style="background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.07); padding: clamp(16px,3vw,26px); display: flex; flex-wrap: wrap; align-items: center; gap: 16px;">
-      <div style="flex-shrink: 0; width: 44px; height: 44px; background: rgba(192,57,43,.2); border: 1px solid rgba(192,57,43,.4); display: flex; align-items: center; justify-content: center;"><span style="font-family: 'Noto Serif JP',serif; font-size: .78rem; font-weight: 900; color: #f4a87a;">⑦</span></div>
-      <div style="flex: 1; min-width: 200px;">
-        <p style="font-size: .56rem; letter-spacing: .3em; color: rgba(244,200,117,.5); margin-bottom: 4px; font-family: 'Noto Sans JP',sans-serif;">Seafood Supreme — 海鮮全部のせ</p>
-        <h3 style="font-family: 'Noto Serif JP',serif; font-size: clamp(.88rem,2vw,1.05rem); font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none; line-height: 1.4;">海鮮全部のせ極み鍋</h3>
-      </div>
-      <div style="flex: 1; min-width: 180px;">
-        <p style="font-size: .7rem; color: rgba(240,232,216,.6); line-height: 1.9;">メイン：金目鯛・帆立・牡蠣・大エビ・鮑<br>締め：ほうとう<br><span style="color: rgba(244,200,117,.6);">馬刺し・うな丼付き</span></p>
-      </div>
-      <div style="flex-shrink: 0; text-align: right;">
-        <p style="font-family: 'Noto Serif JP',serif; font-size: clamp(1.1rem,2.5vw,1.5rem); font-weight: 900; color: #f4c875; white-space: nowrap;">¥7,000</p>
-        <p style="font-size: .6rem; color: rgba(240,232,216,.4);">飲み放題込・税込</p>
-      </div>
-      <div style="flex-shrink:0;width:clamp(180px,26vw,280px);"><img class="aligncenter size-large wp-image-1341" src="../assets/izakaya-pot-03.jpeg" alt="団体宴会" width="1024" height="576" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;" /></div>
-    </div>
-
-    <!-- ⑧ 体験付き -->
-    <div class="ms-rv" style="background: linear-gradient(135deg,rgba(44,24,16,.95) 0%,rgba(74,26,10,.95) 100%); border: 2px solid rgba(244,200,117,.45); padding: clamp(20px,3vw,32px); position: relative;">
-      <div style="position: absolute; inset: 0; background: rgba(184,134,11,.04); pointer-events: none; border-radius: inherit;"></div>
-      <div style="display: inline-block; background: linear-gradient(90deg,#b8860b,#f4c875); color: #2c1810; font-size: .6rem; padding: 4px 16px; letter-spacing: .12em; font-weight: bold; margin-bottom: 16px; position: relative;">体験付き山梨満喫コース</div>
-      <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 16px; position: relative;">
-        <div style="flex-shrink: 0; width: 44px; height: 44px; background: rgba(184,134,11,.3); border: 2px solid rgba(244,200,117,.6); display: flex; align-items: center; justify-content: center;"><span style="font-family: 'Noto Serif JP',serif; font-size: .78rem; font-weight: 900; color: #f4c875;">⑧</span></div>
-        <div style="flex: 1; min-width: 200px;">
-          <p style="font-size: .56rem; letter-spacing: .3em; color: rgba(244,200,117,.6); margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">Experience — 山梨を全部食べ尽くす</p>
-          <h3 style="font-family: 'Noto Serif JP',serif; font-size: clamp(.95rem,2vw,1.15rem); font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none; line-height: 1.4;">鮑・馬刺し・ほうとう・ワインビーフ<br><span style="font-size: .85em; color: #f4c875;">山梨の名物を一夜で全制覇</span></h3>
-        </div>
-        <div style="flex: 1; min-width: 200px;">
-          <p style="font-size: .7rem; color: rgba(240,232,216,.65); line-height: 2.1;">メイン：甲州ワインビーフ＆海鮮の特製ほうとう鍋<br>締め：<strong style="color: #f4a87a;">自作ほうとう or うどん体験（+40分）</strong><br><span style="color: #f4c875;">鮑の煮貝・馬刺し・うな丼　全部込み</span></p>
-        </div>
-        <div style="flex-shrink: 0; text-align: right;">
-          <p style="font-family: 'Noto Serif JP',serif; font-size: clamp(1.3rem,2.8vw,1.8rem); font-weight: 900; color: #f4c875; white-space: nowrap;">¥8,000</p>
-          <p style="font-size: .6rem; color: rgba(240,232,216,.4);">飲み放題込・体験込・税込</p>
-        </div>
-        <div style="flex-shrink:0;width:clamp(180px,26vw,280px);"><img class="aligncenter size-full wp-image-574" src="../assets/izakaya-dish-01.jpg" alt="ほうとう食べ放題" width="1024" height="683" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block;" /></div>
-      </div>
-      <div style="margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(244,200,117,.15); display: flex; flex-wrap: wrap; gap: 8px;">
-        <span style="font-size: .68rem; color: rgba(244,200,117,.8); border: 1px solid rgba(244,200,117,.3); padding: 3px 10px;">鮑の煮貝</span>
-        <span style="font-size: .68rem; color: rgba(244,200,117,.8); border: 1px solid rgba(244,200,117,.3); padding: 3px 10px;">馬刺し</span>
-        <span style="font-size: .68rem; color: rgba(244,200,117,.8); border: 1px solid rgba(244,200,117,.3); padding: 3px 10px;">甲州ワインビーフ</span>
-        <span style="font-size: .68rem; color: rgba(244,200,117,.8); border: 1px solid rgba(244,200,117,.3); padding: 3px 10px;">ほうとう鍋</span>
-        <span style="font-size: .68rem; color: rgba(244,200,117,.8); border: 1px solid rgba(244,200,117,.3); padding: 3px 10px;">うな丼</span>
-        <span style="font-size: .68rem; color: #f4a87a; border: 1px solid rgba(244,168,122,.4); padding: 3px 10px;">麺打ち体験込み</span>
-        <span style="font-size: .68rem; color: rgba(240,232,216,.5); border: 1px solid rgba(255,255,255,.1); padding: 3px 10px;">飲み放題込み</span>
-      </div>
     </div>
 
   </div>
@@ -356,16 +238,6 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
                 <span style="font-family:'Noto Serif JP',serif;font-size:.88rem;font-weight:bold;color:#2c1810;text-align:right;">¥4,300</span>
                 <span style="font-family:'Noto Serif JP',serif;font-size:.88rem;font-weight:bold;color:#5a3e2b;text-align:right;">¥3,500</span>
               </div>
-              <div style="display:grid;grid-template-columns:auto 1fr 1fr;gap:4px;align-items:center;">
-                <span style="font-size:.72rem;color:#5a3e2b;">⑤¥6,500</span>
-                <span style="font-family:'Noto Serif JP',serif;font-size:.88rem;font-weight:bold;color:#2c1810;text-align:right;">¥5,800</span>
-                <span style="font-family:'Noto Serif JP',serif;font-size:.88rem;font-weight:bold;color:#5a3e2b;text-align:right;">¥5,000</span>
-              </div>
-              <div style="display:grid;grid-template-columns:auto 1fr 1fr;gap:4px;align-items:center;">
-                <span style="font-size:.72rem;color:#5a3e2b;">⑧¥8,000</span>
-                <span style="font-family:'Noto Serif JP',serif;font-size:.88rem;font-weight:bold;color:#2c1810;text-align:right;">¥7,300</span>
-                <span style="font-family:'Noto Serif JP',serif;font-size:.88rem;font-weight:bold;color:#5a3e2b;text-align:right;">¥6,500</span>
-              </div>
             </div>
             <p style="font-size:.62rem;color:#aaa;margin-top:8px;">※飲み放題なしはさらに−¥800</p>
           </div>
@@ -378,8 +250,8 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
   <div class="ms-rv" style="margin-top: 12px; background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08); padding: 22px 26px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px;">
     <div style="flex: 1; min-width: 200px;">
       <p style="font-size: .6rem; letter-spacing: .38em; text-transform: uppercase; color: rgba(244,200,117,.6); margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">Option</p>
-      <h3 style="font-family: 'Noto Serif JP',serif; font-size: .96rem; font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none;">麺打ち体験（①〜⑦に追加可）</h3>
-      <p style="font-size: .72rem; color: rgba(240,232,216,.5); margin-top: 6px; line-height: 1.8;">ほうとう または うどん。うどんは1〜20名様です。所要時間＋40分。<br>※⑧コースは最初から含まれます。</p>
+      <h3 style="font-family: 'Noto Serif JP',serif; font-size: .96rem; font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none;">麺打ち体験（全コースに追加可）</h3>
+      <p style="font-size: .72rem; color: rgba(240,232,216,.5); margin-top: 6px; line-height: 1.8;">ほうとう または うどん。うどんは1〜20名様です。所要時間＋40分。</p>
     </div>
     <div style="flex-shrink: 0;"><p style="font-family: 'Noto Serif JP',serif; font-size: 1.3rem; font-weight: 900; color: #f4c875; white-space: nowrap;">+¥2,200</p></div>
   </div>
@@ -408,28 +280,8 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
       <p style="font-family: 'Noto Serif JP',serif; font-size: 1.2rem; font-weight: 900; color: #2c1810;">¥4,000</p>
     </div>
     <div class="ms-rv d3" style="background: var(--cream); border: 1px solid #f0e8d8; padding: 20px 22px;">
-      <p style="font-size: .62rem; letter-spacing: .22em; color: #c0392b; margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">③ 鹿肉と大エビの旨辛鍋</p>
-      <p style="font-family: 'Noto Serif JP',serif; font-size: 1.2rem; font-weight: 900; color: #2c1810;">¥4,000</p>
-    </div>
-    <div class="ms-rv d1" style="background: var(--cream); border: 1px solid #f0e8d8; padding: 20px 22px;">
-      <p style="font-size: .62rem; letter-spacing: .22em; color: #c0392b; margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">④ 牡蠣と大エビの味噌鍋</p>
-      <p style="font-family: 'Noto Serif JP',serif; font-size: 1.2rem; font-weight: 900; color: #2c1810;">¥4,500</p>
-    </div>
-    <div class="ms-rv d2" style="background: var(--cream); border: 1px solid #f0e8d8; padding: 20px 22px;">
-      <p style="font-size: .62rem; letter-spacing: .22em; color: #c0392b; margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">⑤ 金目鯛と帆立の黄金寄せ鍋</p>
-      <p style="font-family: 'Noto Serif JP',serif; font-size: 1.2rem; font-weight: 900; color: #2c1810;">¥5,000</p>
-    </div>
-    <div class="ms-rv d3" style="background: var(--cream); border: 1px solid #f0e8d8; padding: 20px 22px;">
       <p style="font-size: .62rem; letter-spacing: .22em; color: #c0392b; margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">⑥ 甲州ワインビーフと鶏の味噌ほうとう鍋</p>
       <p style="font-family: 'Noto Serif JP',serif; font-size: 1.2rem; font-weight: 900; color: #2c1810;">¥5,000</p>
-    </div>
-    <div class="ms-rv d1" style="background: var(--cream); border: 1px solid #f0e8d8; padding: 20px 22px;">
-      <p style="font-size: .62rem; letter-spacing: .22em; color: #c0392b; margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">⑦ 海鮮全部のせ極み鍋</p>
-      <p style="font-family: 'Noto Serif JP',serif; font-size: 1.2rem; font-weight: 900; color: #2c1810;">¥5,500</p>
-    </div>
-    <div class="ms-rv d2" style="background: #2c1810; border: 1px solid rgba(244,200,117,.3); padding: 20px 22px;">
-      <p style="font-size: .62rem; letter-spacing: .22em; color: rgba(244,200,117,.6); margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">⑧ 体験付き山梨満喫コース</p>
-      <p style="font-family: 'Noto Serif JP',serif; font-size: 1.2rem; font-weight: 900; color: #f4c875;">¥6,500</p>
     </div>
   </div>
 
@@ -448,12 +300,8 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
     <p style="font-size: .86rem; color: rgba(240,232,216,.65); line-height: 2.3; margin-bottom: 16px;">観光コースの目玉は、シメのうどん・ほうとうを粉から打つ本格体験。富士山の水で練り上げた生地を、ご自身で伸ばして切って、熱々の鍋へ！</p>
     <p style="font-size: .86rem; color: rgba(240,232,216,.65); line-height: 2.3; margin-bottom: 24px;">お子様から海外の方まで、笑顔が溢れる最高の思い出作りをお手伝いします。</p>
     <div style="display: flex; flex-wrap: wrap; gap: 12px;">
-      <div style="background: rgba(244,200,117,.1); border: 1px solid rgba(244,200,117,.25); padding: 12px 18px;">
-        <p style="font-size: .62rem; color: rgba(244,200,117,.6); margin-bottom: 4px;">⑧コース込み</p>
-        <p style="font-family: 'Noto Serif JP',serif; font-size: 1.1rem; font-weight: 900; color: #f4c875;">¥8,000</p>
-      </div>
       <div style="background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.08); padding: 12px 18px;">
-        <p style="font-size: .62rem; color: rgba(240,232,216,.4); margin-bottom: 4px;">①〜⑦に追加</p>
+        <p style="font-size: .62rem; color: rgba(240,232,216,.4); margin-bottom: 4px;">全コースに追加</p>
         <p style="font-family: 'Noto Serif JP',serif; font-size: 1.1rem; font-weight: 900; color: #fff;">+¥2,200</p>
       </div>
     </div>
