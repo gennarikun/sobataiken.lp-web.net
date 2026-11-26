@@ -106,7 +106,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 <div style="background: #fff; padding: clamp(36px,6vw,68px) 0;">
 <div class="ms-w">
   <span class="ms-lbl ms-rv">Full Course</span>
-  <h2 class="ms-h2 ms-rv">全コース共通・10品構成</h2>
+  <h2 class="ms-h2 ms-rv">コースの10品構成</h2>
   <p class="ms-lead ms-rv">メイン鍋・締め・一部料理がコースによって変わります。</p>
 
   <div class="ms-rv" style="display:grid;grid-template-columns:1fr;gap:3px;margin-top:28px;">
