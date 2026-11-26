@@ -109,10 +109,10 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
   <h2 class="ms-h2 ms-rv">全コース共通・10品構成</h2>
   <p class="ms-lead ms-rv">メイン鍋・締め・一部料理がコースによって変わります。</p>
 
-  <div class="ms-rv" style="display:grid;grid-template-columns:1fr 1fr;gap:3px;margin-top:28px;">
+  <div class="ms-rv" style="display:grid;grid-template-columns:1fr;gap:3px;margin-top:28px;">
     <img src="../assets/izakaya-dish-02.jpg" style="width:100%;height:160px;object-fit:cover;display:block;opacity:.82;" alt="" />
-    <img src="../assets/izakaya-sub-01.png" style="width:100%;height:160px;object-fit:cover;display:block;opacity:.82;" alt="" />
   </div>
+  <p style="font-size: .68rem; letter-spacing: .28em; color: #c0392b; font-weight: 500; margin: 14px 0 10px; font-family: 'Noto Sans JP',sans-serif;">コース①②（鮑の煮貝・炊き込みご飯）</p>
   <div class="ms-rv" style="display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 3px; margin-bottom: 3px;">
     <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">1</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">枝豆</p><p style="font-size: .7rem; color: #5a3e2b;">スピードメニュー</p></div></div>
     <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">2</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">彩り野菜のサラダ</p><p style="font-size: .7rem; color: #5a3e2b;">季節の野菜</p></div></div>
