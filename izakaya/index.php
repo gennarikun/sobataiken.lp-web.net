@@ -112,7 +112,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
   <div class="ms-rv" style="display:grid;grid-template-columns:1fr;gap:3px;margin-top:28px;">
     <img src="../assets/izakaya-dish-02.jpg" style="width:100%;height:160px;object-fit:cover;display:block;opacity:.82;" alt="" />
   </div>
-  <p style="font-size: .68rem; letter-spacing: .28em; color: #c0392b; font-weight: 500; margin: 14px 0 10px; font-family: 'Noto Sans JP',sans-serif;">コース①②（鮑の煮貝・炊き込みご飯）</p>
+  <p style="font-size: .68rem; letter-spacing: .28em; color: #c0392b; font-weight: 500; margin: 14px 0 10px; font-family: 'Noto Sans JP',sans-serif;">二郎系豚骨醤油鍋・鹿と鶏の具だくさん味噌ほうとう鍋のコース（鮑の煮貝・炊き込みご飯）</p>
   <div class="ms-rv" style="display: grid; grid-template-columns: repeat(auto-fit,minmax(180px,1fr)); gap: 3px; margin-bottom: 3px;">
     <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">1</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">枝豆</p><p style="font-size: .7rem; color: #5a3e2b;">スピードメニュー</p></div></div>
     <div style="background: var(--cream); padding: 16px 18px; display: flex; align-items: flex-start; gap: 12px;"><span style="font-family: 'Noto Serif JP',serif; font-size: 1.4rem; font-weight: 900; color: rgba(192,57,43,.15); line-height: 1; flex-shrink: 0;">2</span><div><p style="font-size: .8rem; font-weight: bold; color: #2c1810; margin-bottom: 2px;">彩り野菜のサラダ</p><p style="font-size: .7rem; color: #5a3e2b;">季節の野菜</p></div></div>
@@ -140,7 +140,6 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 
     <!-- ① 二郎系 -->
     <div class="ms-rv" style="background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.07); padding: clamp(16px,3vw,26px); display: flex; flex-wrap: wrap; align-items: center; gap: 16px;">
-      <div style="flex-shrink: 0; width: 44px; height: 44px; background: rgba(192,57,43,.2); border: 1px solid rgba(192,57,43,.4); display: flex; align-items: center; justify-content: center;"><span style="font-family: 'Noto Serif JP',serif; font-size: .78rem; font-weight: 900; color: #f4a87a;">①</span></div>
       <div style="flex: 1; min-width: 200px;">
         <p style="font-size: .56rem; letter-spacing: .3em; color: rgba(244,200,117,.5); margin-bottom: 4px; font-family: 'Noto Sans JP',sans-serif;">Jiro-style — 二郎系</p>
         <h3 style="font-family: 'Noto Serif JP',serif; font-size: clamp(.88rem,2vw,1.05rem); font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none; line-height: 1.4;">二郎系豚骨醤油鍋</h3>
@@ -157,7 +156,6 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 
     <!-- ② ジビエ -->
     <div class="ms-rv" style="background: rgba(255,255,255,.04); border: 1px solid rgba(255,255,255,.07); padding: clamp(16px,3vw,26px); display: flex; flex-wrap: wrap; align-items: center; gap: 16px;">
-      <div style="flex-shrink: 0; width: 44px; height: 44px; background: rgba(192,57,43,.2); border: 1px solid rgba(192,57,43,.4); display: flex; align-items: center; justify-content: center;"><span style="font-family: 'Noto Serif JP',serif; font-size: .78rem; font-weight: 900; color: #f4a87a;">②</span></div>
       <div style="flex: 1; min-width: 200px;">
         <p style="font-size: .56rem; letter-spacing: .3em; color: rgba(244,200,117,.5); margin-bottom: 4px; font-family: 'Noto Sans JP',sans-serif;">Gibier — ジビエ系</p>
         <h3 style="font-family: 'Noto Serif JP',serif; font-size: clamp(.88rem,2vw,1.05rem); font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none; line-height: 1.4;">鹿と鶏の具だくさん味噌ほうとう鍋</h3>
@@ -174,7 +172,6 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 
     <!-- ⑥ ワインビーフ -->
     <div class="ms-rv" style="background: rgba(184,134,11,.06); border: 1px solid rgba(184,134,11,.2); padding: clamp(16px,3vw,26px); display: flex; flex-wrap: wrap; align-items: center; gap: 16px;">
-      <div style="flex-shrink: 0; width: 44px; height: 44px; background: rgba(184,134,11,.2); border: 1px solid rgba(184,134,11,.4); display: flex; align-items: center; justify-content: center;"><span style="font-family: 'Noto Serif JP',serif; font-size: .78rem; font-weight: 900; color: #f4c875;">⑥</span></div>
       <div style="flex: 1; min-width: 200px;">
         <p style="font-size: .56rem; letter-spacing: .3em; color: rgba(244,200,117,.5); margin-bottom: 4px; font-family: 'Noto Sans JP',sans-serif;">Premium Meat — 肉系</p>
         <h3 style="font-family: 'Noto Serif JP',serif; font-size: clamp(.88rem,2vw,1.05rem); font-weight: bold; color: #fff; margin: 0; padding: 0; background: none; border: none; box-shadow: none; line-height: 1.4;">甲州ワインビーフと鶏の味噌ほうとう鍋</h3>
@@ -234,7 +231,7 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
             </div>
             <div style="display: flex; flex-direction: column; gap: 6px;">
               <div style="display:grid;grid-template-columns:auto 1fr 1fr;gap:4px;align-items:center;">
-                <span style="font-size:.72rem;color:#5a3e2b;">①¥5,000</span>
+                <span style="font-size:.72rem;color:#5a3e2b;">二郎系 ¥5,000</span>
                 <span style="font-family:'Noto Serif JP',serif;font-size:.88rem;font-weight:bold;color:#2c1810;text-align:right;">¥4,300</span>
                 <span style="font-family:'Noto Serif JP',serif;font-size:.88rem;font-weight:bold;color:#5a3e2b;text-align:right;">¥3,500</span>
               </div>
@@ -272,15 +269,15 @@ body.custom-background { background-image: url("../assets/1111-1.jpg"); backgrou
 
   <div style="display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 3px; margin-top: 32px;">
     <div class="ms-rv d1" style="background: var(--cream); border: 1px solid #f0e8d8; padding: 20px 22px;">
-      <p style="font-size: .62rem; letter-spacing: .22em; color: #c0392b; margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">① 二郎系豚骨醤油鍋</p>
+      <p style="font-size: .62rem; letter-spacing: .22em; color: #c0392b; margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">二郎系豚骨醤油鍋</p>
       <p style="font-family: 'Noto Serif JP',serif; font-size: 1.2rem; font-weight: 900; color: #2c1810;">¥3,500</p>
     </div>
     <div class="ms-rv d2" style="background: var(--cream); border: 1px solid #f0e8d8; padding: 20px 22px;">
-      <p style="font-size: .62rem; letter-spacing: .22em; color: #c0392b; margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">② 鹿と鶏の具だくさん味噌ほうとう鍋</p>
+      <p style="font-size: .62rem; letter-spacing: .22em; color: #c0392b; margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">鹿と鶏の具だくさん味噌ほうとう鍋</p>
       <p style="font-family: 'Noto Serif JP',serif; font-size: 1.2rem; font-weight: 900; color: #2c1810;">¥4,000</p>
     </div>
     <div class="ms-rv d3" style="background: var(--cream); border: 1px solid #f0e8d8; padding: 20px 22px;">
-      <p style="font-size: .62rem; letter-spacing: .22em; color: #c0392b; margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">⑥ 甲州ワインビーフと鶏の味噌ほうとう鍋</p>
+      <p style="font-size: .62rem; letter-spacing: .22em; color: #c0392b; margin-bottom: 6px; font-family: 'Noto Sans JP',sans-serif;">甲州ワインビーフと鶏の味噌ほうとう鍋</p>
       <p style="font-family: 'Noto Serif JP',serif; font-size: 1.2rem; font-weight: 900; color: #2c1810;">¥5,000</p>
     </div>
   </div>
